@@ -1,31 +1,4 @@
-# Install a GPU-compatible PyTorch build first when required by your CUDA version.
-sglang[all]
-curatorkit
-aligntune
-auditkit
-unsloth
-trl>=0.8.0
-peft>=0.10.0
-bitsandbytes>=0.43.0
-transformers>=4.40.0
-datasets>=2.18.0
-accelerate>=0.28.0
-tokenizers>=0.15.0
-lm-eval>=0.4.0
-rouge-score
-sacrebleu
-nltk
-pandas>=2.0.0
-numpy>=1.24.0
-pyarrow>=14.0.0
-jsonlines
-sentencepiece
-protobuf
-gradio>=4.0.0
-openai>=1.0.0
-requests
-pyyaml
-tqdm
-wandb
-huggingface-hub>=0.20.0
-safetensors
+# Linux training and GUI environment. SGLang has conflicting Torch/Transformers
+# constraints: install configs/requirements-serve.txt in a SEPARATE environment.
+# See scripts/setup_wsl.sh and README.md for the verified Windows/WSL workflow.
+-r configs/requirements-train.txt
