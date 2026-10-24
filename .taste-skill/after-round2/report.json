@@ -1,0 +1,1404 @@
+{
+ "url": "http://127.0.0.1:7860",
+ "at": "2026-10-24T20:50:28.506Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.81,
+    0.81
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 975,
+     "screens": 1.1,
+     "words": 145,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 1.7,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 122,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "What can I help with?",
+     "words": 5,
+     "lines": 1,
+     "size": 24,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      24
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 13,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.1
+     },
+     "measureChars": 120,
+     "max": {
+      "size": 24,
+      "vw": 1.7,
+      "font": "IBM Plex Sans",
+      "text": "What can I help with?"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f5f0",
+     "bodyBgHsl": {
+      "h": 96,
+      "s": 0.2,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#131512",
+       "top": 0,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#f2f5f0",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.2,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 86,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555e55",
+       "share": 0.41
+      },
+      {
+       "color": "#39433b",
+       "share": 0.26
+      },
+      {
+       "color": "#f0f2ee",
+       "share": 0.1
+      },
+      {
+       "color": "#727a72",
+       "share": 0.07
+      },
+      {
+       "color": "#191d19",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#202520",
+      "hsl": {
+       "h": 120,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "LocalLLM",
+       "ratio": 1,
+       "need": 4.5,
+       "size": 17,
+       "fg": "#f0f2ee",
+       "bg": "#f2f5f0"
+      },
+      {
+       "text": "Conversation",
+       "ratio": 1,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f0f2ee",
+       "bg": "#f2f5f0"
+      },
+      {
+       "text": "Fasal ke patton par daag aa rahe hain; p",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "ডেঙ্গুর সতর্ক লক্ষণগুলি কী?",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "प्रकाश संश्लेषण को सरल उदाहरण के साथ समझ",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "ரேஷன் கார்டுக்கு விண்ணப்பிக்கும் முன் எந",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Clear conversation",
+      "Send"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div#welcome.gr-group.svelte-1p9262q 1116px",
+      "button#prompt-1.lg.secondary 546px",
+      "button#prompt-2.lg.secondary 546px",
+      "button#prompt-3.lg.secondary 546px",
+      "button#prompt-4.lg.secondary 546px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 57,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 975,
+    "margins": {
+     "left": 34,
+     "right": 44
+    },
+    "sections": [],
+    "gaps": [
+     {
+      "top": 596,
+      "height": 284
+     }
+    ],
+    "h1s": [
+     {
+      "text": "What can I help with?",
+      "size": 24,
+      "top": 122,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 291,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.27,
+    "voidBox": {
+     "x": 0,
+     "y": 600,
+     "w": 1440,
+     "h": 240
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#f2f5f0",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 34,
+     "right": 43
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 1.7,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 122,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 5,
+     "radii": [
+      [
+       4,
+       2
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#424740 on #ffffff (9.52:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.3,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      24
+     ]
+    },
+    "title": {
+     "text": "What can I help with?",
+     "size": 24,
+     "top": 122
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.69,
+    0.69
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1099,
+     "screens": 1.1,
+     "words": 145,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 3.1,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 122,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "What can I help with?",
+     "words": 5,
+     "lines": 1,
+     "size": 24,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      24
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 13,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.1
+     },
+     "measureChars": 77,
+     "max": {
+      "size": 24,
+      "vw": 3.1,
+      "font": "IBM Plex Sans",
+      "text": "What can I help with?"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f5f0",
+     "bodyBgHsl": {
+      "h": 96,
+      "s": 0.2,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#131512",
+       "top": 0,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#f2f5f0",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.2,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 86,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555e55",
+       "share": 0.41
+      },
+      {
+       "color": "#39433b",
+       "share": 0.26
+      },
+      {
+       "color": "#f0f2ee",
+       "share": 0.1
+      },
+      {
+       "color": "#727a72",
+       "share": 0.07
+      },
+      {
+       "color": "#191d19",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#202520",
+      "hsl": {
+       "h": 120,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "LocalLLM",
+       "ratio": 1,
+       "need": 4.5,
+       "size": 17,
+       "fg": "#f0f2ee",
+       "bg": "#f2f5f0"
+      },
+      {
+       "text": "Conversation",
+       "ratio": 1,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f0f2ee",
+       "bg": "#f2f5f0"
+      },
+      {
+       "text": "Fasal ke patton par daag aa rahe hain; p",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "ডেঙ্গুর সতর্ক লক্ষণগুলি কী?",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "प्रकाश संश्लेषण को सरल उदाहरण के साथ समझ",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "ரேஷன் கார்டுக்கு விண்ணப்பிக்கும் முன் எந",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Clear conversation",
+      "Send"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div#welcome.gr-group.svelte-1p9262q 482px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 57,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1099,
+    "margins": {
+     "left": 34,
+     "right": 25
+    },
+    "sections": [
+     {
+      "sel": "div#suggestions.row.svelte-7xavid",
+      "tag": "div",
+      "top": 363,
+      "height": 135,
+      "words": 39,
+      "media": 0,
+      "middle": 24,
+      "heading": null,
+      "left": 261,
+      "right": 25,
+      "textLeft": 261,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 660,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "What can I help with?",
+      "size": 24,
+      "top": 122,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 272,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#f2f5f0",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 34,
+     "right": 24
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 3.1,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 122,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 6,
+     "radii": [
+      [
+       4,
+       3
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 2,
+     "borderSamples": [
+      "#424740 on #ffffff (9.52:1)",
+      "#424740 on #ffffff (9.52:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.3,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      24
+     ]
+    },
+    "title": {
+     "text": "What can I help with?",
+     "size": 24,
+     "top": 122
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.96,
+    0.93
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 913,
+     "screens": 1.1,
+     "words": 91,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "What can I help with?",
+     "words": 5,
+     "lines": 1,
+     "size": 24,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "What can I help with?",
+      "words": 5,
+      "chars": 21,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "IBM Plex Sans",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 113,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      24
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 12,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.7
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 24,
+      "vw": 6.2,
+      "font": "IBM Plex Sans",
+      "text": "What can I help with?"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 4
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f5f0",
+     "bodyBgHsl": {
+      "h": 96,
+      "s": 0.2,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#131512",
+       "top": 0,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#f2f5f0",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.2,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 80,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555e55",
+       "share": 0.37
+      },
+      {
+       "color": "#39433b",
+       "share": 0.19
+      },
+      {
+       "color": "#f0f2ee",
+       "share": 0.15
+      },
+      {
+       "color": "#727a72",
+       "share": 0.08
+      },
+      {
+       "color": "#191d19",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#202520",
+      "hsl": {
+       "h": 120,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Conversation",
+       "ratio": 1,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f0f2ee",
+       "bg": "#f2f5f0"
+      },
+      {
+       "text": "Fasal ke patton par daag aa rahe hain; p",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "ডেঙ্গুর সতর্ক লক্ষণগুলি কী?",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#39433b",
+       "bg": "#424740"
+      },
+      {
+       "text": "Enter to send · Shift + Enter for a new ",
+       "ratio": 1.1,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#f0f2ee",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Response language",
+       "ratio": 1.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#e2e5df",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Topic",
+       "ratio": 1.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#e2e5df",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 6,
+     "height": 30,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Clear conversation",
+      "Send"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "div#sheet.column.svelte-siq5d6 390px",
+      "div#welcome.gr-group.svelte-1p9262q 352px",
+      "button#prompt-1.lg.secondary 352px",
+      "button#prompt-2.lg.secondary 352px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 913,
+    "margins": {
+     "left": 18,
+     "right": 18
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "What can I help with?",
+      "size": 24,
+      "top": 113,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 30,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 12,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#f2f5f0",
+    "sidebar": null,
+    "topbar": {
+     "h": 80
+    },
+    "canvas": {
+     "left": 18,
+     "right": 18
+    },
+    "hero": {
+     "text": "What can I help with?",
+     "words": 5,
+     "chars": 21,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "IBM Plex Sans",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.25,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 5,
+     "radii": [
+      [
+       4,
+       3
+      ],
+      [
+       0,
+       2
+      ]
+     ],
+     "heavyBorders": 2,
+     "borderSamples": [
+      "#424740 on #ffffff (9.52:1)",
+      "#424740 on #ffffff (9.52:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.36,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      24
+     ]
+    },
+    "title": {
+     "text": "What can I help with?",
+     "size": 24,
+     "top": 113
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"LocalLLM\" 1:1 (#f0f2ee on #f2f5f0); \"Conversation\" 1:1 (#f0f2ee on #f2f5f0); \"Fasal ke patton par daag aa rahe hain; p\" 1.1:1 (#39433b on #424740); \"ডেঙ্গুর সতর্ক লক্ষণগুলি কী?\" 1.1:1 (#39433b on #424740)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Krish\\local-llm\\.taste-skill\\after-round2\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
