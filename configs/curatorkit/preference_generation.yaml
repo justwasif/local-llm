@@ -1,0 +1,12 @@
+dataset: {name: data/raw/seeds/all_seeds.jsonl, max_samples: null}
+hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
+generation_task: preference
+generator_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.8, max_tokens: 2048}
+judge_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.1}
+system_prompt: Create preference pairs in the source language. Chosen must be accurate and helpful; rejected must be clearly weaker.
+hallucination_threshold: 0.80
+reward_threshold: 0.75
+dedup: embedding
+enable_reward_refiner: false
+export_formats: [dpo]
+output_dir: data/curated/preference_generation

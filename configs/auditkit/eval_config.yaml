@@ -1,0 +1,7 @@
+model: {type: openai_compatible, base_url: http://localhost:30000/v1, api_key: EMPTY}
+benchmarks: [mmlu, flores200, indicxnli]
+datasets:
+  flores: data/eval/flores200.jsonl
+  indicxnli: data/eval
+generation: {temperature: 0.0, max_tokens: 512}
+report: {include_per_language: true, include_examples: true}

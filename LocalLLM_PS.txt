@@ -1,0 +1,149 @@
+and
+
+SYNTAX ERROR 2026
+
+OCT23-OCT25
+
+PROBLEM STATEMENT - LOCAL LLM TRACK
+Track Core Requirement:
+
+All submissions under the Local LLM Track must use SGLang as the core
+inference and serving engine for model deployment, evaluation, or
+benchmarking.
+
+
+
+Ecosystem Toolkits:
+
+For data curation, fine-tuning, and safety evaluations, participants are to
+use Lexsi Labs’ open-source alignment toolkits across the post-training
+pipeline.
+
+
+
+Participant Guideline:
+
+Teams competing in this track must select ONE problem statement from
+the options below to attempt.
+
+
+
+Problem Statements:
+
+Domain assistants for regulated industries: Adapt a model to a
+regulated domain such as banking, insurance, legal or healthcare,
+where answers must follow policy and stay accurate.
+
+Replacing a closed-model API: Take a high-volume business task that
+is usually sent to a large closed model (classification, extraction,
+summarization, drafting) and fine-tune a small open model to match it
+at a fraction of the cost.
+
+Grounded answers and fewer hallucinations: Build a training set from
+an organisation's own documents (manuals, policies, contracts,
+research) and train a model that answers only from them. It should
+say so when the answer is not there and make measurably fewer
+unsupported or false claims.
+PAGE 2
+PAGE 01
+
+and
+
+SYNTAX ERROR 2026
+
+OCT23-OCT25
+
+PROBLEM STATEMENT - LOCAL LLM TRACK
+Low-resource and multilingual languages: Improve a model for
+underserved languages, dialects or code-mixed text in a public-facing
+setting such as education, public services, agriculture or healthcare.
+
+Structured output and extraction: Turn unstructured text (forms,
+invoices, reports, clinical notes, support tickets) into reliable
+structured data that passes schema validation.
+
+Reasoning with verifiable answers: Improve step-by-step reasoning in
+areas where answers can be checked automatically, such as math,
+financial calculations, code or logic, using reward-based training.
+
+Preference and style alignment: Align a model with an organization's
+quality bar or house style (customer communication, technical
+writing, feedback on student work) using preference data.
+
+Data-scarce domains: Where little real data exists, generate, verify and
+filter synthetic training data, and show that curation measurably
+beats training on raw generated data.
+
+Long documents: Fine-tune for summarising and reasoning over long
+documents such as filings, contracts, transcripts or research papers
+through multi-stage fine tuning.
+
+
+
+Stages:
+
+Stage 1 : Data curation (CuratorKIT uses SGLang internally)
+
+Stage 2 : Finetuning (Aligntune uses unsloth/TRL)
+
+Stage 3 : Evals / Inference (AuditKIT can use SGLang for evals), SGLang for
+inference
+
+PAGE 2
+PAGE 02
+
+and
+
+SYNTAX ERROR 2026
+
+OCT23-OCT25
+
+PROBLEM STATEMENT - LOCAL LLM TRACK
+Developer Resources
+
+Tool/Library
+
+Documentation Link
+
+Source
+
+SGLang
+
+https://docs.sglang.io/
+
+https://github.com/sgl-
+
+project/sglang
+
+CuratorKit
+
+AlignTune
+
+https://curatorkit.lexsi.ai
+
+
+https://github.com/Lexs
+
+
+/latest/
+
+i-Labs/CuratorKIT
+
+https://aligntune.lexsi.ai
+
+https://github.com/Lexs
+
+i-Labs/aligntune
+
+AuditKit
+
+https://auditkit.lexsi.ai
+
+https://github.com/Lexs
+
+i-Labs/AuditKIT
+
+PAGE 2
+PAGE 03
+
+

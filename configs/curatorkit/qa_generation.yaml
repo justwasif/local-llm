@@ -1,0 +1,13 @@
+dataset: {name: data/raw/seeds/all_seeds.jsonl, max_samples: null}
+hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
+generation_task: qa
+num_questions: 5
+generator_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.7, max_tokens: 2048}
+judge_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.1}
+system_prompt: Generate accurate question-answer pairs grounded only in source text and in its original language.
+hallucination_threshold: 0.75
+reward_threshold: 0.70
+dedup: embedding
+enable_reward_refiner: true
+export_formats: [alpaca, sharegpt, messages]
+output_dir: data/curated/qa_generation

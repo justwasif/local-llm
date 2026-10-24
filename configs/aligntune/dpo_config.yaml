@@ -1,0 +1,8 @@
+algo: dpo
+model: {name_or_path: outputs/sft_model/final, backend: unsloth, max_seq_length: 2048, torch_dtype: bfloat16}
+peft: {use_lora: true, r: 32, lora_alpha: 64, target_modules: all-linear, lora_dropout: 0.05, bias: none, task_type: CAUSAL_LM}
+datasets:
+  - {name: data/preference/multilingual_pref.jsonl, format: dpo}
+dpo: {beta: 0.1, max_prompt_length: 1024, max_length: 2048}
+train: {num_epochs: 2, per_device_train_batch_size: 2, gradient_accumulation_steps: 8, learning_rate: 1.0e-5, lr_scheduler_type: cosine, warmup_ratio: 0.05, bf16: true, optim: adamw_8bit}
+logging: {output_dir: outputs/dpo_model, logging_steps: 10, save_strategy: steps, save_steps: 200, save_total_limit: 3, report_to: none, run_name: localllm-dpo-multilingual}

@@ -1,0 +1,40 @@
+project:
+  name: localllm-multilingual
+  version: "1.0.0"
+  problem_statement: "PS4 - Low-resource and multilingual languages"
+  hackathon: "SYNTAX ERROR 2026"
+model:
+  base_model: Qwen/Qwen2.5-7B-Instruct
+  model_family: qwen2
+  max_seq_length: 4096
+  quantization: 4bit
+target_languages:
+  primary:
+    - {code: hi, name: Hindi}
+    - {code: bn, name: Bengali}
+    - {code: ta, name: Tamil}
+    - {code: te, name: Telugu}
+    - {code: mr, name: Marathi}
+  secondary:
+    - {code: gu, name: Gujarati}
+    - {code: kn, name: Kannada}
+    - {code: ml, name: Malayalam}
+    - {code: pa, name: Punjabi}
+    - {code: or, name: Odia}
+  code_mixed:
+    - {code: hi-en, name: Hinglish}
+    - {code: bn-en, name: Banglish}
+domains: [education, healthcare, agriculture, public_services]
+sglang:
+  host: 0.0.0.0
+  port: 30000
+  mem_fraction_static: 0.85
+paths:
+  data_raw: data/raw
+  data_curated: data/curated
+  data_preference: data/preference
+  data_eval: data/eval
+  output_sft: outputs/sft_model
+  output_dpo: outputs/dpo_model
+  output_merged: outputs/merged_model
+  results: results

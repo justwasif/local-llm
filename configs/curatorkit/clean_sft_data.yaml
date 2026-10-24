@@ -1,0 +1,6 @@
+dataset: {name: data/raw/sft, max_samples: null}
+hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
+dedup: minhash
+clean: true
+export_formats: [alpaca, messages]
+output_dir: data/curated/cleaned_sft

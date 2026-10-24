@@ -1,0 +1,8 @@
+algo: sft
+model: {name_or_path: Qwen/Qwen2.5-7B-Instruct, backend: unsloth, max_seq_length: 2048, torch_dtype: bfloat16}
+peft: {use_lora: true, r: 32, lora_alpha: 64, target_modules: all-linear, lora_dropout: 0.05, bias: none, task_type: CAUSAL_LM}
+datasets:
+  - {name: data/curated/sft_messages_train.jsonl, format: messages}
+train: {num_epochs: 3, per_device_train_batch_size: 4, gradient_accumulation_steps: 4, learning_rate: 2.0e-4, lr_scheduler_type: cosine, warmup_ratio: 0.05, weight_decay: 0.01, max_grad_norm: 1.0, bf16: true, optim: adamw_8bit}
+logging: {output_dir: outputs/sft_model, logging_steps: 10, save_strategy: steps, save_steps: 200, save_total_limit: 3, report_to: none, run_name: localllm-sft-multilingual}
+eval: {eval_strategy: steps, eval_steps: 200, per_device_eval_batch_size: 4}
