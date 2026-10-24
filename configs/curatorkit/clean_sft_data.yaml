@@ -1,6 +1,14 @@
-dataset: {name: data/raw/sft, max_samples: null}
-hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
-dedup: minhash
-clean: true
-export_formats: [alpaca, messages]
-output_dir: data/curated/cleaned_sft
+name: indic_aya_clean
+readers:
+- type: jsonl
+  path: data/raw/sft/indic_aya_train.jsonl
+  format: alpaca
+gates:
+- type: schema
+  min_tokens: 2
+  max_tokens: 2048
+normalizers:
+- type: text_cleaner
+- type: exact_dedup
+exporters:
+- type: messages

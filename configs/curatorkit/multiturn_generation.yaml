@@ -1,13 +1,31 @@
-dataset: {name: data/raw/seeds/all_seeds.jsonl, max_samples: null}
-hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
-generation_task: multi_turn
-num_questions: 3
-generator_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.8, max_tokens: 2048}
-judge_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.1}
-system_prompt: Generate realistic, useful multi-turn public-service conversations in the source language.
-hallucination_threshold: 0.70
-reward_threshold: 0.65
-dedup: minhash
-enable_reward_refiner: true
-export_formats: [sharegpt, messages]
-output_dir: data/curated/multiturn_generation
+name: indic_multiturn
+readers:
+- type: jsonl
+  path: data/raw/seeds/all_seeds.jsonl
+  format: pretrain
+gates:
+- type: schema
+  min_tokens: 2
+  max_tokens: 2048
+  required_fields:
+  - output
+- type: hallucination
+  hallucination_threshold: 0.6
+  on_judge_error: reject
+normalizers:
+- type: text_cleaner
+- type: exact_dedup
+exporters:
+- type: messages
+llm:
+  model: openai/local-llm
+  api_base: http://127.0.0.1:30000/v1
+  api_key: EMPTY
+  temperature: 0.2
+  max_tokens: 768
+  concurrency: 1
+  timeout: 120
+  max_retries: 1
+generators:
+- type: multiturn
+  num_turns: 2

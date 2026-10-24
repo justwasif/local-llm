@@ -1,12 +1,36 @@
-dataset: {name: data/raw/seeds/all_seeds.jsonl, max_samples: null}
-hygiene: {secrets_detection: true, pii_masking: true, toxicity_filter: true}
-generation_task: preference
-generator_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.8, max_tokens: 2048}
-judge_llm: {model: openai/Qwen/Qwen2.5-7B-Instruct, api_base: http://localhost:30000/v1, api_key: EMPTY, temperature: 0.1}
-system_prompt: Create preference pairs in the source language. Chosen must be accurate and helpful; rejected must be clearly weaker.
-hallucination_threshold: 0.80
-reward_threshold: 0.75
-dedup: embedding
-enable_reward_refiner: false
-export_formats: [dpo]
-output_dir: data/curated/preference_generation
+name: indic_preferences
+readers:
+- type: jsonl
+  path: data/raw/seeds/preference_seeds.jsonl
+  format: alpaca
+gates:
+- type: schema
+  min_tokens: 2
+  max_tokens: 2048
+  required_fields:
+  - instruction
+  - output
+normalizers:
+- type: text_cleaner
+- type: exact_dedup
+exporters:
+- type: dpo
+llm:
+  model: openai/local-llm
+  api_base: http://127.0.0.1:30000/v1
+  api_key: EMPTY
+  temperature: 0.2
+  max_tokens: 768
+  concurrency: 1
+  timeout: 120
+  max_retries: 1
+generators:
+- type: preference
+  prompt_template: 'Create a preference pair. Use the SAME language or code mixing
+    as the instruction. The chosen answer must be specific, concise and supported
+    by the reference. The rejected answer must be vague or incomplete, while remaining
+    factually correct. Do not add facts. Instruction: {instruction}
+
+    Reference: {context_section}
+
+    Return ONLY JSON: {{"chosen":"...", "rejected":"..."}}'
