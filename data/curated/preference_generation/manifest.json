@@ -1,0 +1,79 @@
+{
+  "pipeline_config_hash": "15e50f433c1e622c",
+  "run_timestamp": "2026-10-24T19:34:22.592893Z",
+  "source_files": [],
+  "stage_counts": {
+    "JSONLReader": {
+      "output_count": 8,
+      "rejected_count": 0
+    },
+    "SchemaGate": {
+      "input_count": 8,
+      "output_count": 8,
+      "probe_recovered": 0,
+      "rejected_count": 0
+    },
+    "TextCleaner": {
+      "input_count": 8,
+      "output_count": 8
+    },
+    "ExactDeduplicator": {
+      "input_count": 8,
+      "output_count": 8
+    },
+    "PreferenceGenerationTask": {
+      "input_count": 8,
+      "output_count": 8,
+      "rejected_count": 0
+    },
+    "DPOExporter": {
+      "exported_count": 8
+    }
+  },
+  "rejected_breakdown": {},
+  "dedup_stats": {
+    "exact_duplicates_removed": 0
+  },
+  "minhash_threshold": null,
+  "sampler_stats": null,
+  "token_stats": {
+    "total_prompt_tokens": 2417,
+    "total_completion_tokens": 1775,
+    "total_tokens": 4192
+  },
+  "wall_clock_seconds": 51.521,
+  "tool_versions": {
+    "curatorkit": "0.1.22",
+    "python": "3.12.3"
+  },
+  "diversity_stats": null,
+  "diagnostic_stats": null,
+  "diagnostic_files": [],
+  "provenance": {
+    "schema": "lexsi.provenance/1",
+    "library": "curatorkit",
+    "version": "0.1.22",
+    "git_sha": null,
+    "created_at": "2026-10-24T19:34:22Z",
+    "base_model": null,
+    "method": "preference",
+    "inputs": [
+      {
+        "kind": "dataset",
+        "ref": "data/raw/seeds/preference_seeds.jsonl",
+        "config": null,
+        "provenance": null
+      }
+    ],
+    "params": {
+      "generator_model": "openai/local-llm",
+      "judge_model": null,
+      "grpo_scoring_model": null,
+      "export_formats": [
+        "dpo"
+      ],
+      "output_split": null,
+      "pipeline_config_hash": "15e50f433c1e622c"
+    }
+  }
+}
