@@ -1,0 +1,25 @@
+{
+  "reviewer": "coding agent; not independent native-speaker/domain-expert review",
+  "date": "2026-10-25",
+  "reviewed_export_sha256": {
+    "data/curated/qa_generation/sft_messages.jsonl": "26f52548738c610e47add2446a7f801cc8146e6804fe315f24c0ba1811c9c194",
+    "data/curated/multiturn_generation/sft_messages.jsonl": "b6c3f6e998649b796d36df97dd7a7b95b7ec5584847b6c83b032db4fbefa1683",
+    "data/curated/preference_generation/dpo.jsonl": "68c182223b0e141faf56db46c601f1f5cb6d0e93b69edea4769edca6a9772fce"
+  },
+  "excluded_prompt_fingerprints": {
+    "a9e8f808ded0a8b95937c960affd63b23ae2da6a39c3eeb216632c793bf14378": "Incorrectly says all sides of a right triangle have the same length",
+    "5da2a39c2f34f60d4b2c3b8b98344e70383d843ea83e1b41f3614a910746a139": "Misreads Tamil dengue source as a king's marriage; factual hallucination"
+  },
+  "conversation_policy": "Retain only complete alternating user/assistant exchanges; drop trailing unanswered user turns",
+  "preference_prompts_with_weaker_rejected": [
+    "प्रकाश संश्लेषण को सरल शब्दों में समझाइए।",
+    "ரேஷன் கார்டுக்கு விண்ணப்பிக்க முன் என்ன செய்ய வேண்டும்?",
+    "నేల పరీక్ష ఎందుకు ఉపయోగపడుతుంది?",
+    "Mere khet mein patton par daag hain, pehla safe step kya hai?",
+    "मधुमेह नियंत्रणासाठी कोणत्या सवयी उपयोगी आहेत?",
+    "સરકારી યોજનાની સાચી માહિતી ક્યાંથી મેળવવી?",
+    "ਫਸਲ ਲਈ ਮਿੱਟੀ ਦੀ ਜਾਂਚ ਕਿਉਂ ਕਰਵਾਈਏ?"
+  ],
+  "preference_policy": "Use repository reference as chosen; retain reviewed weaker model-generated rejected text. Exclude the Bengali pair because both generated responses already give the same adequate content as the reference.",
+  "limitations": "Small source-anchored preference construction; not independent expert annotation or proof of safety/quality."
+}

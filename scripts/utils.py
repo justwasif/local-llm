@@ -1,15 +1,24 @@
 """Shared utilities for the LocalLLM pipeline."""
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 import os
 import shutil
 import subprocess
+import unicodedata
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def prompt_fingerprint(text: str) -> str:
+    """Conservative identity for deduplication and cross-split leakage checks."""
+    canonical = " ".join(unicodedata.normalize("NFC", text).casefold().split())
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
 
 def setup_logging(name: str, log_file: str | None = None) -> logging.Logger:

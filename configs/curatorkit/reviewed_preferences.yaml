@@ -1,0 +1,9 @@
+name: source_anchored_preferences
+readers:
+  - {type: jsonl, path: data/preference/source_anchored_pairs.jsonl, format: preference}
+gates:
+  - {type: schema, required_fields: [instruction, chosen, rejected], min_tokens: 2, max_tokens: 2048}
+normalizers:
+  - {type: exact_dedup}
+exporters:
+  - {type: dpo}

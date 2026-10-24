@@ -1,0 +1,40 @@
+# 8 GB GPU proof-of-pipeline. Does not replace the 7B production target.
+model_name: Qwen/Qwen2.5-1.5B-Instruct
+backend: trl
+max_seq_length: 384
+num_epochs: 1
+batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 0.0001
+seed: 42
+precision: bf16
+bf16: true
+quantization:
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_compute_dtype: bfloat16
+  bnb_4bit_use_double_quant: true
+use_peft: true
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+attn_implementation: sdpa
+gradient_checkpointing: true
+use_gradient_checkpointing: true
+gradient_checkpointing_kwargs: {use_reentrant: false}
+dataset_num_proc: 1
+train_dataset_num_proc: 1
+group_by_length: false
+packing: false
+completion_only_loss: false
+load_best_model_at_end: false
+eval_strategy: 'no'
+save_strategy: 'no'
+report_to: none
+loggers: [none]
+logging_steps: 1
+compute_rouge: false
+compute_bleu: false
+compute_perplexity: false
+trust_remote_code: false

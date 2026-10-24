@@ -1,4 +1,6 @@
 .venv/
+.venv-wsl/
+tmp/
 __pycache__/
 *.py[cod]
 .env

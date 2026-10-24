@@ -1,0 +1,27 @@
+{
+  "schema": "lexsi.provenance/1",
+  "library": "curatorkit",
+  "version": "0.1.22",
+  "git_sha": null,
+  "created_at": "2026-10-24T19:42:36Z",
+  "base_model": null,
+  "method": "curate",
+  "inputs": [
+    {
+      "kind": "dataset",
+      "ref": "data/preference/source_anchored_pairs.jsonl",
+      "config": null,
+      "provenance": null
+    }
+  ],
+  "params": {
+    "generator_model": null,
+    "judge_model": null,
+    "grpo_scoring_model": null,
+    "export_formats": [
+      "dpo"
+    ],
+    "output_split": null,
+    "pipeline_config_hash": "e35040d856311b70"
+  }
+}
