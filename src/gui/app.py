@@ -1,4 +1,4 @@
-"""Shaktimaan.ai — Premium multilingual assistant powered by an SGLang endpoint."""
+"""Public-facing Shaktimaan.ai demo powered by an SGLang endpoint."""
 
 from __future__ import annotations
 
@@ -41,176 +41,6 @@ EXAMPLES = [
     ],
 ]
 CSS = Path(__file__).with_name("ui.css").read_text(encoding="utf-8")
-
-# Sidebar HTML
-SIDEBAR_HTML = """
-<div class="brand-lockup">
-  <div class="brand-orb">✦</div>
-  <div class="brand-text">
-    <span class="brand-name">Shaktimaan.ai</span>
-    <span class="brand-tag">Local AI Assistant</span>
-  </div>
-</div>
-<button class="new-chat-btn" onclick="location.reload()">
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-  New Chat
-</button>
-"""
-
-SIDEBAR_NAV_HTML = """
-<div class="sidebar-nav">
-  <a class="nav-item" href="#">
-    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    Explore
-  </a>
-  <a class="nav-item" href="#">
-    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-    Library
-  </a>
-</div>
-"""
-
-RECENT_CHATS_HTML = """
-<div class="recent-chats-header">
-  <span>Recent Chats</span>
-  <a class="see-all-link" href="#">See all</a>
-</div>
-<div class="chat-item active">
-  <svg class="chat-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-  <div class="chat-item-body">
-    <div class="chat-item-title">Explain LCM in maths</div>
-    <div class="chat-item-time">Just now</div>
-  </div>
-</div>
-<div class="chat-item">
-  <svg class="chat-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-  <div class="chat-item-body">
-    <div class="chat-item-title">Crop irrigation methods</div>
-    <div class="chat-item-time">1 hour ago</div>
-  </div>
-</div>
-<div class="chat-item">
-  <svg class="chat-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-  <div class="chat-item-body">
-    <div class="chat-item-title">Diabetes diet in Hindi</div>
-    <div class="chat-item-time">3 hours ago</div>
-  </div>
-</div>
-<div class="chat-item">
-  <svg class="chat-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-  <div class="chat-item-body">
-    <div class="chat-item-title">Travel plan Uttarakhand</div>
-    <div class="chat-item-time">1 day ago</div>
-  </div>
-</div>
-"""
-
-RUNNING_BADGE_HTML = """
-<div class="running-badge">
-  <div class="running-icon">🛡️</div>
-  <div class="running-text">
-    <div class="running-title">
-      Running locally
-      <span class="running-dot"></span>
-    </div>
-    <div class="running-sub">Completely private.<br>No internet required.</div>
-  </div>
-</div>
-"""
-
-RIGHT_PANEL_HTML = """
-<div class="right-topbar">
-  <div class="model-status">
-    <span class="status-dot"></span>
-    <span>Model Ready</span>
-    <span class="status-chevron">▾</span>
-  </div>
-  <div class="right-actions">
-    <button class="icon-btn" title="Options">⋮</button>
-    <button class="icon-btn" title="Profile">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    </button>
-  </div>
-</div>
-
-<div class="rpanel-section">
-  <div class="rpanel-label">
-    <svg class="rpanel-label-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-    Response language
-  </div>
-  <div class="lang-select-wrap">
-    <select class="lang-select" id="right-lang-select" aria-label="Response language">
-      <option>🌐  Hinglish</option>
-      <option>Hindi</option>
-      <option>Bengali</option>
-      <option>Tamil</option>
-      <option>Telugu</option>
-      <option>Marathi</option>
-      <option>Gujarati</option>
-      <option>Kannada</option>
-      <option>Malayalam</option>
-      <option>Punjabi</option>
-      <option>Odia</option>
-      <option>Banglish</option>
-    </select>
-  </div>
-  <div style="margin-top:14px">
-    <div class="other-langs-label">Other languages</div>
-    <div class="lang-chips">
-      <span class="lang-chip" lang="hi">हिन्दी</span>
-      <span class="lang-chip">English</span>
-      <span class="lang-chip" lang="gu">ગુજરાતી</span>
-      <span class="lang-chip" lang="bn">বাংলা</span>
-      <span class="lang-chip" lang="te">తెలుగు</span>
-      <span class="lang-chip" lang="ta">தமிழ்</span>
-      <span class="lang-chip" lang="mr">मराठी</span>
-      <span class="lang-chip more">+ 6 more</span>
-    </div>
-  </div>
-</div>
-
-<div class="rpanel-section">
-  <div class="rpanel-label">
-    <svg class="rpanel-label-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-    Model
-  </div>
-  <div class="model-badge">
-    <div class="model-badge-left">
-      <svg class="model-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-      <div>
-        <div class="model-badge-name">Shaktimaan.ai (Default)</div>
-        <div class="model-badge-sub">Fast, private and offline</div>
-      </div>
-    </div>
-    <span class="model-chevron">▾</span>
-  </div>
-</div>
-
-<div class="rpanel-section">
-  <div class="rpanel-label">
-    <svg class="rpanel-label-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-    Example prompts
-  </div>
-  <div>
-    <div class="example-prompt">
-      <span class="ep-text">Explain LCM in simple words</span>
-      <span class="ep-arrow">›</span>
-    </div>
-    <div class="example-prompt">
-      <span class="ep-text" lang="hi">भारत सरकार की छात्रवृति योजनाएँ</span>
-      <span class="ep-arrow">›</span>
-    </div>
-    <div class="example-prompt">
-      <span class="ep-text">Plan a trip to Mussoorie</span>
-      <span class="ep-arrow">›</span>
-    </div>
-    <div class="example-prompt">
-      <span class="ep-text">How to start kitchen gardening?</span>
-      <span class="ep-arrow">›</span>
-    </div>
-  </div>
-</div>
-"""
 
 
 def system_prompt(language: str, domain: str) -> str:
@@ -334,21 +164,26 @@ def build_app() -> gr.Blocks:
     with gr.Blocks(title="Shaktimaan.ai — Indic Assistant", elem_id="local-app") as app:
         prompt_buttons = []
         with gr.Row(elem_id="app-shell"):
+            with gr.Column(elem_id="sidebar", scale=0, min_width=220):
+                gr.HTML(
+                    """<div class="brand-lockup">
+                      <span class="brand-scripts" aria-hidden="true">अ&nbsp;অ&nbsp;அ</span>
+                      <span class="brand-name">Shaktimaan.ai</span>
+                    </div>
+                    <p class="rail-note">A local assistant for questions about learning, health, farming and public services.</p>
+                    <div class="rail-rule"></div>
+                    <p class="rail-detail">Choose a response language and topic. Ask in the words you use every day.</p>""",
+                    elem_id="brand-panel",
+                )
+                gr.HTML(
+                    '<div class="rail-caption">12 language options</div>',
+                    elem_id="rail-languages",
+                )
 
-            # ── Left Sidebar ──────────────────────────────────────────
-            with gr.Column(elem_id="sidebar", scale=0, min_width=256):
-                gr.HTML(SIDEBAR_HTML, elem_id="brand-panel")
-                gr.HTML(SIDEBAR_NAV_HTML, elem_id="sidebar-nav")
-                gr.HTML(RECENT_CHATS_HTML, elem_id="recent-chats")
-                gr.HTML(RUNNING_BADGE_HTML, elem_id="running-badge")
-
-            # ── Main Chat Column ──────────────────────────────────────
             with gr.Column(elem_id="main-column", scale=1, min_width=0):
                 with gr.Row(elem_id="topbar"):
                     gr.HTML(
-                        '<span class="crumb-muted">Shaktimaan.ai</span>'
-                        '<span class="crumb-slash">/</span>'
-                        '<span>Chat</span>',
+                        '<span class="crumb-muted">Shaktimaan.ai</span><span class="crumb-slash">/</span><span>Conversation</span>',
                         elem_id="breadcrumb",
                     )
                     clear = gr.Button(
@@ -386,10 +221,7 @@ def build_app() -> gr.Blocks:
                     welcome = gr.Group(elem_id="welcome")
                     with welcome:
                         gr.HTML(
-                            '<div class="suggestion-heading">'
-                            '<span>Start with a question</span>'
-                            '<span>Choose one to fill the message box</span>'
-                            '</div>',
+                            '<div class="suggestion-heading"><span>Start with a question</span><span>Choose one to fill the message box</span></div>',
                             elem_id="suggestion-heading",
                         )
                         with gr.Row(elem_id="suggestions"):
@@ -407,7 +239,7 @@ def build_app() -> gr.Blocks:
                         chatbot = gr.Chatbot(
                             label="Conversation",
                             show_label=False,
-                            height=240,
+                            height=220,
                             placeholder="Your conversation will appear here.",
                             elem_id="conversation",
                             autoscroll=True,
@@ -417,7 +249,7 @@ def build_app() -> gr.Blocks:
                     with gr.Row(elem_id="composer-row"):
                         textbox = gr.Textbox(
                             label="Your message",
-                            placeholder="Ask in Hinglish, Hindi, English or any Indian language…",
+                            placeholder="Write your question…",
                             lines=2,
                             max_lines=5,
                             elem_id="message-input",
@@ -428,28 +260,18 @@ def build_app() -> gr.Blocks:
                             variant="primary",
                             elem_id="send-message",
                             scale=0,
-                            min_width=100,
+                            min_width=92,
                         )
 
                     gr.HTML(
-                        '<div class="composer-meta">'
-                        '<span>Enter to send&nbsp; · &nbsp;Shift + Enter for a new line</span>'
-                        '<span class="local-mark">Local model</span>'
-                        '</div>',
+                        '<div class="composer-meta"><span>Enter to send&nbsp; · &nbsp;Shift + Enter for a new line</span><span class="local-mark">Local model</span></div>',
                         elem_id="composer-meta",
                     )
                     gr.HTML(
-                        '<p class="trust-note">Model replies can be wrong. '
-                        'Confirm medical advice with a qualified professional and '
-                        'government details with an official source.</p>',
+                        '<p class="trust-note">Model replies can be wrong. Confirm medical advice with a qualified professional and government details with an official source.</p>',
                         elem_id="trust-note",
                     )
 
-            # ── Right Panel ───────────────────────────────────────────
-            with gr.Column(elem_id="right-panel", scale=0, min_width=300):
-                gr.HTML(RIGHT_PANEL_HTML, elem_id="right-header")
-
-        # ── Events ───────────────────────────────────────────────────
         for button, (question, prompt_language, prompt_domain) in zip(
             prompt_buttons, EXAMPLES, strict=True
         ):
@@ -463,9 +285,14 @@ def build_app() -> gr.Blocks:
                 show_progress="hidden",
             )
 
+        def set_welcome_visibility(history: list[dict] | None) -> dict:
+            return gr.update(visible=not bool(history))
+
         outputs = [chatbot, textbox, welcome, conversation_panel, clear]
         inputs = [textbox, chatbot, language, domain]
-        textbox.submit(stream_chat_ui, inputs, outputs, show_progress="hidden")
+        textbox.submit(
+            stream_chat_ui, inputs, outputs, show_progress="hidden"
+        )
         send.click(stream_chat_ui, inputs, outputs, show_progress="hidden")
         clear.click(clear_chat, outputs=outputs, show_progress="hidden")
     return app
@@ -477,30 +304,30 @@ if __name__ == "__main__":
         server_port=int(os.getenv("GRADIO_SERVER_PORT", "7860")),
         theme=gr.themes.Base(
             primary_hue=gr.themes.Color(
-                c50="#f0edfb",
-                c100="#e2dcf7",
-                c200="#cdc5ee",
-                c300="#b0a5e4",
-                c400="#8a7fd6",
-                c500="#5547e0",
-                c600="#4035cc",
-                c700="#3028b8",
-                c800="#251da0",
-                c900="#1a1540",
-                c950="#110e2a",
+                c50="#eff5f1",
+                c100="#dce9df",
+                c200="#bfd5c5",
+                c300="#9ebba7",
+                c400="#71957f",
+                c500="#416e53",
+                c600="#315b43",
+                c700="#264a36",
+                c800="#203d2d",
+                c900="#193124",
+                c950="#102118",
             ),
             neutral_hue=gr.themes.Color(
-                c50="#f5f3fc",
-                c100="#ece9fb",
-                c200="#dcd7f5",
-                c300="#c5beed",
-                c400="#9993c0",
-                c500="#6b65a0",
-                c600="#524d80",
-                c700="#3d3960",
-                c800="#2d2860",
-                c900="#1e1850",
-                c950="#13103a",
+                c50="#f8f9f7",
+                c100="#f0f2ee",
+                c200="#e2e5df",
+                c300="#d0d4cc",
+                c400="#9da39a",
+                c500="#6e756b",
+                c600="#555b53",
+                c700="#424740",
+                c800="#30342f",
+                c900="#20231f",
+                c950="#131512",
             ),
         ),
         css=CSS,
