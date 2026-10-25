@@ -46,14 +46,16 @@ main,header,footer{position:relative;z-index:1}
 h1,h2,h3{color:var(--ink);margin:0;letter-spacing:-.02em}
 .hero h1{font-size:clamp(32px,3.9vw,52px);line-height:1.06;font-weight:800}
 .lede{margin:18px 0 0;font-size:clamp(16px,1.5vw,18.5px);color:var(--text);max-width:34em}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;position:relative;z-index:10}
 .btn{display:inline-flex;align-items:center;padding:12px 20px;border-radius:14px;font-weight:600;font-size:15px;text-decoration:none;color:var(--ink);background:rgba(255,255,255,.75);border:1.5px solid #fff;box-shadow:0 8px 18px -10px rgba(70,50,190,.5)}
+.btn{cursor:pointer;pointer-events:auto}
+.btn.primary#get-started{position:relative;z-index:11}
 .btn.primary{color:#fff;background:linear-gradient(145deg,#8f88f7,#5547e0);border-color:rgba(255,255,255,.6);box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 12px 24px -10px rgba(70,50,200,.8)}
 .btn:focus-visible,a:focus-visible{outline:3px solid #2a22c9;outline-offset:3px}
 .facts{list-style:none;display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;margin:30px 0 0}
 .facts li{font-size:13.5px;color:var(--muted)}
 .facts b{display:block;font-size:26px;line-height:1.1;color:var(--ink);font-weight:800;letter-spacing:-.02em}
-.stagecol{position:relative;z-index:1;min-width:0}
+.stagecol{position:relative;z-index:1;min-width:0;pointer-events:none}
 #stageWrap{position:relative;width:138%;margin-left:-22%;aspect-ratio:1000/657}
 .note{margin:-4px 0 0;text-align:center;font-size:12.5px;color:var(--muted)}
 
@@ -197,7 +199,21 @@ footer{padding:70px 0 44px}
    <p class="eyebrow">Local LLM Track · PS4 · Multilingual &amp; low-resource</p>
    <h1>Ask in your language. Read the answer in it, too.</h1>
    <p class="lede">Shaktimaan.ai is an AI assistant exploring how a small language model can make everyday information easier to ask for — and easier to read — across Indic languages and code-mixed text.</p>
-   <div class="cta"><a class="btn primary" href="http://localhost:7860" target="_blank" rel="noopener">See how it works</a></div>
+    <div class="cta"><a class="btn primary" id="get-started" href="http://172.30.196.30:7860/">Get Started</a></div>
+    <script>
+    (() => {
+      const link = document.getElementById("get-started");
+      if (!link || !["http:", "https:"].includes(location.protocol)) return;
+      const page = new URL(location.href);
+      if (!["localhost", "127.0.0.1", "::1"].includes(page.hostname)) {
+        page.port = "7860";
+        page.pathname = "/";
+        page.search = "";
+        page.hash = "";
+        link.href = page.toString();
+      }
+    })();
+    </script>
    <ul class="facts">
     <li><b>12</b>reply-language options</li>
     <li><b>4</b>everyday topics</li>

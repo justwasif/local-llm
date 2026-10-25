@@ -7,7 +7,7 @@ from src.gui import app
 
 
 def test_build_gui():
-    assert app.build_app().title.startswith("LocalLLM")
+    assert app.build_app().title.startswith("Shaktimaan.ai")
 
 
 def test_gradio_six_history_text_blocks_are_sent_as_plain_text():
