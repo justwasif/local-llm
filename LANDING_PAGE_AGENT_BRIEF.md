@@ -4,7 +4,7 @@
 
 ## 1. Project in one paragraph
 
-LocalLLM is a research prototype exploring how a small language model can make public-facing information easier to access across Indic languages and code-mixed text. A person should be able to ask an everyday question in the language they use, select the language they want a reply in, and explore a response in areas such as education, farming, health, and government services. The intent is to reduce the language barrier between people and useful information. The prototype is not yet validated as a reliable source of advice.
+Shaktimaan.ai is the current public-facing name for the LocalLLM project and its research prototype. It explores how a small language model can make public-facing information easier to access across Indic languages and code-mixed text. A person should be able to ask an everyday question in the language they use, select the language they want a reply in, and explore a response in areas such as education, farming, health, and government services. The intent is to reduce the language barrier between people and useful information. The prototype is not yet validated as a reliable source of advice.
 
 ## 2. Problem statement alignment
 
@@ -27,7 +27,7 @@ Treat these as intended audiences, not as claims that the model has been validat
 
 ## 4. Product facts to use
 
-- **Name:** LocalLLM.
+- **Public-facing name:** Shaktimaan.ai. **Project/repository and track context:** LocalLLM.
 - **Current model:** Qwen2.5-1.5B-Instruct, fine-tuned locally with SFT and DPO. Do not call it a 7B model.
 - **Serving:** SGLang. The current development server binds to loopback; it is not a public demo URL.
 - **Current interface language choices:** Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi, Odia, Hinglish, and Banglish.
