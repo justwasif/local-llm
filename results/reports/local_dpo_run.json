@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "toolkit": "aligntune",
+  "algorithm": "dpo",
+  "dataset_count": 7,
+  "duration_seconds": 50.69304609298706,
+  "peak_allocated_vram_bytes": 3652478464,
+  "global_steps": 2,
+  "history": [
+    {
+      "loss": 0.6931471824645996,
+      "grad_norm": 5.84375,
+      "learning_rate": 1e-05,
+      "entropy": 1.8413636982440948,
+      "num_tokens": 1307.0,
+      "logits/chosen": -0.9413690446434074,
+      "logits/rejected": -1.011139652610491,
+      "mean_token_accuracy": 0.5393307991325855,
+      "rewards/chosen": 0.0,
+      "rewards/rejected": 0.0,
+      "rewards/accuracies": 0.0,
+      "rewards/margins": 0.0,
+      "logps/chosen": -225.77458953857422,
+      "logps/rejected": -119.19722938537598,
+      "epoch": 0.5714285714285714,
+      "step": 1
+    },
+    {
+      "loss": 0.6860696077346802,
+      "grad_norm": 8.125,
+      "learning_rate": 5e-06,
+      "entropy": 1.3044281800587971,
+      "num_tokens": 2264.0,
+      "logits/chosen": -1.3351239765327048,
+      "logits/rejected": -1.5767584259255687,
+      "mean_token_accuracy": 0.5844694375991821,
+      "rewards/chosen": 0.0011393241584300995,
+      "rewards/rejected": -0.014145278992752234,
+      "rewards/accuracies": 0.6666666666666666,
+      "rewards/margins": 0.015284602840741476,
+      "logps/chosen": -253.6065928141276,
+      "logps/rejected": -42.23380470275879,
+      "epoch": 1.0,
+      "step": 2
+    },
+    {
+      "train_runtime": 8.081,
+      "train_samples_per_second": 0.866,
+      "train_steps_per_second": 0.247,
+      "total_flos": 23009593890816.0,
+      "train_loss": 0.6896083950996399,
+      "epoch": 1.0,
+      "step": 2
+    }
+  ],
+  "adapter_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_dpo",
+  "result": {
+    "training_time": 8.081,
+    "final_loss": 0.6896083950996399,
+    "model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_dpo",
+    "total_steps": 0
+  },
+  "limitations": "Tiny synthetic preference set; model-generated preferences require native-speaker review and do not establish safety."
+}

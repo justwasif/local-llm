@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "stage": "sft",
+  "vocabulary_identical": true,
+  "sample_languages_checked": 12,
+  "evaluation_prompts_checked": 86,
+  "chat_template_token_ids_identical": true,
+  "architecture_fields_checked": [
+    "model_type",
+    "hidden_size",
+    "intermediate_size",
+    "num_hidden_layers",
+    "num_attention_heads",
+    "num_key_value_heads",
+    "vocab_size",
+    "rope_theta",
+    "rms_norm_eps",
+    "tie_word_embeddings",
+    "torch_dtype"
+  ],
+  "rope_theta": 1000000.0
+}

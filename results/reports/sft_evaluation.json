@@ -1,0 +1,340 @@
+{
+  "label": "sft",
+  "served_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "local-llm",
+        "object": "model",
+        "created": 1792872052,
+        "owned_by": "sglang",
+        "root": "local-llm",
+        "parent": null,
+        "max_model_len": 2048
+      }
+    ]
+  },
+  "model_info": {
+    "model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_sft_merged",
+    "tokenizer_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_sft_merged",
+    "is_generation": true,
+    "preferred_sampling_params": null,
+    "weight_version": "default",
+    "has_image_understanding": false,
+    "has_audio_understanding": false,
+    "model_type": "qwen2",
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ]
+  },
+  "checkpoint_identity": {
+    "loaded_model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_sft_merged",
+    "weights_sha256": {
+      "model.safetensors": "9c02f4be6e93088016ae2b4d59439f9ac3e313a7f30bd2fd1139870b417466e4"
+    }
+  },
+  "suites": {
+    "aya": {
+      "count": 36,
+      "auditkit_metrics": {
+        "bleu": 0.004232002403791035,
+        "rouge_l": 0.073435753921906,
+        "chrf": 0.15085276284238802
+      },
+      "performance": {
+        "latency_ms": {
+          "count": 36,
+          "mean": 2872.3579424166646,
+          "min": 404.48474199999396,
+          "max": 4100.826188999974,
+          "p50": 3242.0209599999907,
+          "p95": 3833.901290999989,
+          "p99": 3976.969101000009,
+          "std": 1051.2751502987849
+        },
+        "throughput": {
+          "rps": 0.3481390415528873,
+          "total_requests": 36,
+          "total_time_ms": 103406.96016000002,
+          "output_tokens_per_sec": 36.61262253664531,
+          "total_tokens_per_sec": 88.09851857074452
+        }
+      },
+      "per_language": {
+        "bn": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 0.017515775418784296,
+            "rouge_l": 0.15358778943861404,
+            "chrf": 0.22062267138245953
+          }
+        },
+        "gu": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 1.807435204424939e-10,
+            "rouge_l": 0.030584363433200645,
+            "chrf": 0.0864029970563349
+          }
+        },
+        "hi": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 0.020545202579661654,
+            "rouge_l": 0.21543927648578812,
+            "chrf": 0.23422157534756186
+          }
+        },
+        "kn": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 2.804170474701935e-08,
+            "rouge_l": 0.05518018018018018,
+            "chrf": 0.15884474813409247
+          }
+        },
+        "ml": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 7.486327007354485e-12,
+            "rouge_l": 0.042270531400966184,
+            "chrf": 0.23826626470701284
+          }
+        },
+        "mr": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 7.269953296673205e-12,
+            "rouge_l": 0.007067137809187279,
+            "chrf": 0.05612169831130947
+          }
+        },
+        "pa": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 2.7015294098928355e-05,
+            "rouge_l": 0.13543789050090013,
+            "chrf": 0.15425206532315075
+          }
+        },
+        "ta": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 9.79579062855645e-11,
+            "rouge_l": 0.013157894736842105,
+            "chrf": 0.12761338272315165
+          }
+        },
+        "te": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 6.411981905132431e-12,
+            "rouge_l": 0.008196721311475409,
+            "chrf": 0.08132946259641854
+          }
+        }
+      }
+    },
+    "flores": {
+      "count": 50,
+      "auditkit_metrics": {
+        "bleu": 0.0036898534055534614,
+        "rouge_l": 0.05142339199205704,
+        "chrf": 0.14652393330637706
+      },
+      "performance": {
+        "latency_ms": {
+          "count": 50,
+          "mean": 3309.764265439997,
+          "min": 1301.6164989999766,
+          "max": 5550.912786999959,
+          "p50": 3264.9090909999927,
+          "p95": 3601.6484000000446,
+          "p99": 5031.306577999999,
+          "std": 539.6456174912479
+        },
+        "throughput": {
+          "rps": 0.302130864841909,
+          "total_requests": 50,
+          "total_time_ms": 165491.20205300002,
+          "output_tokens_per_sec": 37.66967622848921,
+          "total_tokens_per_sec": 62.56525949146251
+        }
+      },
+      "per_language": {
+        "ben_Beng": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 0.036878503978028235,
+            "rouge_l": 0.10848108474158895,
+            "chrf": 0.22481303633529395
+          },
+          "spBLEU": 2.430961936044117,
+          "chrF++": 14.885005549658015,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "guj_Gujr": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 3.3191913157184663e-13,
+            "rouge_l": 0.0,
+            "chrf": 0.11657916369614918
+          },
+          "spBLEU": 0.11330244224773037,
+          "chrF++": 6.1955276130021035,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "hin_Deva": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 2.0017770435104997e-05,
+            "rouge_l": 0.20092265547589902,
+            "chrf": 0.28034186240356107
+          },
+          "spBLEU": 3.9846916711185143,
+          "chrF++": 18.01495170490586,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "kan_Knda": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.6084417880376882e-10,
+            "rouge_l": 0.020460358056265983,
+            "chrf": 0.11844006853217406
+          },
+          "spBLEU": 0.1863578643606558,
+          "chrF++": 6.66761162948679,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "mal_Mlym": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 6.4108199244342e-13,
+            "rouge_l": 0.0,
+            "chrf": 0.09349748222452595
+          },
+          "spBLEU": 0.15328709741894142,
+          "chrF++": 5.192532691965085,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "mar_Deva": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 2.2381542634487436e-10,
+            "rouge_l": 0.06966539407748815,
+            "chrf": 0.16802196262787036
+          },
+          "spBLEU": 0.6366772480778162,
+          "chrF++": 11.73359039343951,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "ory_Orya": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 3.5294914411143717e-13,
+            "rouge_l": 0.0,
+            "chrf": 0.016358130324107698
+          },
+          "spBLEU": 0.1658596270243679,
+          "chrF++": 0.5859294347765569,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "pan_Guru": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.1749709433689171e-08,
+            "rouge_l": 0.0811517959903809,
+            "chrf": 0.16883569944143112
+          },
+          "spBLEU": 0.40581246424193895,
+          "chrF++": 9.07623996868805,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "tam_Taml": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 8.219302780648546e-11,
+            "rouge_l": 0.02105263157894737,
+            "chrf": 0.14951362520949568
+          },
+          "spBLEU": 0.09692254224942372,
+          "chrF++": 8.279998214038606,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "tel_Telu": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 8.918326005728238e-11,
+            "rouge_l": 0.0125,
+            "chrf": 0.1288383022691615
+          },
+          "spBLEU": 0.08079826533274101,
+          "chrF++": 6.917025608332886,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        }
+      }
+    }
+  },
+  "limitations": "Aya convenience holdout and first-five-per-language FLORES-200 pilot; neither establishes full benchmark performance. MMLU and full IndicXTREME remain unmeasured.",
+  "safety_count": 6,
+  "safety_keyword_screen": {
+    "referral_keyword_screen": 0.3333333333333333
+  },
+  "safety_limitations": "Lexical referral/refusal markers are a smoke screen only. They can false-pass unsafe responses and false-fail safe paraphrases. Human/native-speaker review, toxicity/bias and factual hallucination audits remain required.",
+  "generation": {
+    "num_fewshot": null,
+    "limit": null,
+    "seed": 42,
+    "trials": 1,
+    "batch_size": "auto",
+    "concurrency": 1,
+    "split": null,
+    "temperature": 0,
+    "top_p": null,
+    "top_k": null,
+    "max_tokens": 128,
+    "stop_sequences": null,
+    "presence_penalty": null,
+    "frequency_penalty": null,
+    "num_completions": null,
+    "best_of": null,
+    "timeout": 120,
+    "max_retries": 0,
+    "retry_delay": 1.0,
+    "judge_model": null,
+    "judge_prompt_version": null,
+    "track_performance": true,
+    "chat_template_kwargs": null,
+    "extra": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "CohereLabs/aya_dataset",
+  "revision": "f9ea04583f02a8f86404ff6c58bf75fe637df8a2",
+  "license": "apache-2.0",
+  "acquisition": "HF dataset viewer filtered by language_code; at most 100 rows examined per language",
+  "counts": {
+    "train": 216,
+    "validation": 36,
+    "test": 36
+  },
+  "train_languages": {
+    "hi": 24,
+    "te": 24,
+    "bn": 24,
+    "kn": 24,
+    "mr": 24,
+    "ml": 24,
+    "pa": 24,
+    "gu": 24,
+    "ta": 24
+  },
+  "failures": {
+    "ori": "Insufficient usable ori rows: 0"
+  },
+  "limitations": "Small convenience sample, not a representative benchmark. General instructions, not verified public-service advice. No Hinglish/Banglish coverage from Aya."
+}

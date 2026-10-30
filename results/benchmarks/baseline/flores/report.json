@@ -1,0 +1,2476 @@
+{
+  "run_id": "63ffce8b1ef53e53",
+  "fingerprint": "63ffce8b1ef53e53",
+  "headline": {
+    "bleu": 0.003550275454735971,
+    "rouge_l": 0.05715495612802418,
+    "chrf": 0.1631051492850159
+  },
+  "stats": {
+    "bleu": {
+      "name": "bleu",
+      "count": 50,
+      "mean": 0.003550275454735971,
+      "stderr": 0.0035127325732593113,
+      "std": 0.0248387702304653,
+      "min": 1.657267540176127e-14,
+      "max": 0.17742164397841095,
+      "values": [
+        3.4259537661594777e-07,
+        9.146659074389713e-05,
+        3.1921234577110814e-10,
+        8.094131950952374e-08,
+        2.3310947348025153e-07,
+        4.789736254435757e-10,
+        2.5951699987961474e-10,
+        2.5785389329151043e-10,
+        9.845583760209725e-11,
+        0.17742164397841095,
+        1.000000000000001e-12,
+        3.3088178632972576e-10,
+        6.270890852730568e-13,
+        1.0303080346176427e-13,
+        3.436446393954869e-10,
+        8.751733190429483e-13,
+        1.2110333239232985e-13,
+        2.1938936848339277e-10,
+        1.482150663375203e-13,
+        1.0539922456186444e-13,
+        3.0861946272099826e-10,
+        1.960599733412507e-10,
+        7.686205265937365e-13,
+        7.267217550217893e-11,
+        3.066416845334168e-10,
+        8.464817248906149e-13,
+        1.3447027841496668e-10,
+        1.5350071611990284e-10,
+        1.657267540176127e-14,
+        3.0288505647269424e-10,
+        3.4557324559222245e-10,
+        1.3533528323661284e-13,
+        1.684204074695283e-10,
+        3.7792437094167744e-11,
+        6.991904155647242e-11,
+        4.789736254435757e-10,
+        1.000000000000001e-12,
+        3.328710836980799e-13,
+        1.3533528323661284e-13,
+        3.011942119122023e-13,
+        7.316156289466425e-13,
+        1.8843048032235209e-10,
+        1.337442063910422e-10,
+        8.125268836875265e-11,
+        2.2481581921639076e-10,
+        6.514390575310562e-13,
+        6.227038648477507e-13,
+        1.826835240527348e-13,
+        1.9691167520419426e-13,
+        8.725252928694246e-13
+      ]
+    },
+    "rouge_l": {
+      "name": "rouge_l",
+      "count": 50,
+      "mean": 0.05715495612802418,
+      "stderr": 0.010546529967536798,
+      "std": 0.07457522858032409,
+      "min": 0.0,
+      "max": 0.3255813953488372,
+      "values": [
+        0.3255813953488372,
+        0.28571428571428575,
+        0.05714285714285714,
+        0.15584415584415584,
+        0.1875,
+        0.05714285714285714,
+        0.038461538461538464,
+        0.044444444444444446,
+        0.034482758620689655,
+        0.24999999999999994,
+        0.0,
+        0.13953488372093023,
+        0.0,
+        0.0,
+        0.052631578947368425,
+        0.0,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.07692307692307693,
+        0.09090909090909091,
+        0.0,
+        0.07407407407407408,
+        0.08888888888888889,
+        0.0,
+        0.043478260869565216,
+        0.044444444444444446,
+        0.0,
+        0.07999999999999999,
+        0.06896551724137931,
+        0.0,
+        0.05714285714285715,
+        0.0425531914893617,
+        0.05405405405405406,
+        0.07142857142857142,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.12244897959183675,
+        0.09523809523809525,
+        0.05333333333333334,
+        0.11538461538461539,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chrf": {
+      "name": "chrf",
+      "count": 50,
+      "mean": 0.1631051492850159,
+      "stderr": 0.010703541679415327,
+      "std": 0.07568546904227424,
+      "min": 0.01107011070110701,
+      "max": 0.33129162619787555,
+      "values": [
+        0.3228195497013214,
+        0.2720023656287959,
+        0.18219623812114696,
+        0.2613137396682034,
+        0.26665777755772274,
+        0.1495798975177504,
+        0.2143873260709301,
+        0.2209445865913832,
+        0.16529813513506628,
+        0.33129162619787555,
+        0.1702902252026349,
+        0.2967017499652153,
+        0.12634694303194127,
+        0.167247521730461,
+        0.21691205429225752,
+        0.09172458936132839,
+        0.13041248028729424,
+        0.1701235860250545,
+        0.13284890784348594,
+        0.18933774574867734,
+        0.25024840025578415,
+        0.2191454675518686,
+        0.15090026153502095,
+        0.18593895499481128,
+        0.23716140468508534,
+        0.12996202675534352,
+        0.151943908204479,
+        0.12731072875592303,
+        0.09511607136586694,
+        0.19822117660756788,
+        0.15620898977425446,
+        0.15561050987127958,
+        0.18488899301987846,
+        0.131740621143033,
+        0.18512467296151316,
+        0.08329947216778845,
+        0.020933489600340895,
+        0.17486590877138045,
+        0.1517958058892848,
+        0.16518721361427977,
+        0.14345104694189087,
+        0.167766054998343,
+        0.21152036811756203,
+        0.11613007636060414,
+        0.1877006039432777,
+        0.02053712480252765,
+        0.019391181634359204,
+        0.01107011070110701,
+        0.012911603388121421,
+        0.030738170159672666
+      ]
+    }
+  },
+  "predictions": [
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "hin_Deva",
+      "sample_id": "flores200-devtest-hin_Deva-0",
+      "prompt": "Translate the following English sentence into Hindi. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0939\u093e\u0901, \u0939\u092e \u0905\u092c 4 \u092e\u0939\u0940\u0928\u0947 \u092c\u093e\u0932\u0915\u094b\u0902 \u0915\u0940 \u091c\u093e\u0928\u092c\u0942\u091d\u0915\u0930 \u0935\u093e\u0932\u0947 \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947, \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947, \u091c\u094b \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947\u0964",
+      "parsed_answer": "\u0939\u093e\u0901, \u0939\u092e \u0905\u092c 4 \u092e\u0939\u0940\u0928\u0947 \u092c\u093e\u0932\u0915\u094b\u0902 \u0915\u0940 \u091c\u093e\u0928\u092c\u0942\u091d\u0915\u0930 \u0935\u093e\u0932\u0947 \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947, \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947, \u091c\u094b \u0926\u0942\u0930 \u0930\u0939\u0947 \u0925\u0947\u0964",
+      "expected": "\u0909\u0928\u094d\u0939\u094b\u0902\u0928\u0947 \u0915\u0939\u093e \u201c\u0915\u093f \u0905\u092c \u0939\u092e\u093e\u0930\u0947 \u092a\u093e\u0938 4 \u092e\u0939\u0940\u0928\u0947 \u0909\u092e\u094d\u0930 \u0935\u093e\u0932\u0947 \u091a\u0942\u0939\u0947 \u0939\u0948\u0902 \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u092e\u0927\u0941\u092e\u0947\u0939 \u0928\u0939\u0940\u0902 \u0939\u0948 \u091c\u094b \u092e\u0927\u0941\u092e\u0947\u0939 \u0915\u0947 \u0930\u094b\u0917\u0940 \u0925\u0947\u0964 \u201d",
+      "correct": false,
+      "score": 3.4259537661594777e-07,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.4259537661594777e-07,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.3255813953488372,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.3228195497013214,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "hin_Deva",
+      "sample_id": "flores200-devtest-hin_Deva-1",
+      "prompt": "Translate the following English sentence into Hindi. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0921\u0949. \u090f\u0939\u0941\u0921 \u0909\u0930, \u0921\u0949\u0932\u0939\u0949\u0938\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u0947 \u0932\u093f\u090f \u0921\u0949\u0932\u0939\u0949\u0938\u0940, \u0928\u094d\u092f\u0942\u091c\u093c\u093e\u0938\u094d\u091f\u0928 \u0914\u0930 \u0928\u094d\u092f\u0942\u091c\u093c\u093e\u0938\u094d\u091f\u0928 \u0915\u0947 \u0926\u094d\u0935\u093f\u0924\u0940\u092f \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u0947 \u0932\u093f\u090f \u0921\u0949\u0932\u0939\u0949\u0938\u0940 \u0915\u0947 \ufffd",
+      "parsed_answer": "\u0921\u0949. \u090f\u0939\u0941\u0921 \u0909\u0930, \u0921\u0949\u0932\u0939\u0949\u0938\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u0947 \u0932\u093f\u090f \u0921\u0949\u0932\u0939\u0949\u0938\u0940, \u0928\u094d\u092f\u0942\u091c\u093c\u093e\u0938\u094d\u091f\u0928 \u0914\u0930 \u0928\u094d\u092f\u0942\u091c\u093c\u093e\u0938\u094d\u091f\u0928 \u0915\u0947 \u0926\u094d\u0935\u093f\u0924\u0940\u092f \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u0947 \u0932\u093f\u090f \u0921\u0949\u0932\u0939\u0949\u0938\u0940 \u0915\u0947 \ufffd",
+      "expected": "\u0921\u0949. \u090f\u0939\u0941\u0921 \u0909\u0930, \u0928\u094b\u0935\u093e \u0938\u094d\u0915\u094b\u091f\u093f\u092f\u093e \u0915\u0947 \u0939\u0948\u0932\u093f\u092b\u093c\u0948\u0915\u094d\u0938 \u092e\u0947\u0902 \u0921\u0932\u0939\u094c\u091c\u093c\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092e\u0947\u0902 \u091a\u093f\u0915\u093f\u0924\u094d\u0938\u093e \u0915\u0947 \u092a\u094d\u0930\u094b\u092b\u093c\u0947\u0938\u0930 \u0914\u0930 \u0915\u0928\u093e\u0921\u093e\u0908 \u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c\u093c \u090f\u0938\u094b\u0938\u093f\u090f\u0936\u0928 \u0915\u0947 \u0928\u0948\u0926\u093e\u0928\u093f\u0915 \u200b\u200b\u0914\u0930 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915 \u0935\u093f\u092d\u093e\u0917 \u0915\u0947 \u0905\u0927\u094d\u092f\u0915\u094d\u0937 \u0928\u0947 \u0906\u0917\u093e\u0939 \u0915\u093f\u092f\u093e \u0915\u093f \u0936\u094b\u0927 \u0905\u092d\u0940 \u092d\u0940 \u0905\u092a\u0928\u0947 \u0936\u0941\u0930\u0941\u0906\u0924\u0940 \u0926\u093f\u0928\u094b\u0902 \u092e\u0947\u0902 \u0939\u0948.",
+      "correct": false,
+      "score": 9.146659074389713e-05,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 9.146659074389713e-05,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.28571428571428575,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2720023656287959,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "hin_Deva",
+      "sample_id": "flores200-devtest-hin_Deva-2",
+      "prompt": "Translate the following English sentence into Hindi. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0939\u093e\u0932 \u0939\u0940 \u092e\u0947\u0902 \u0905\u0928\u094d\u092f \u092a\u0930\u094d\u092f\u093e\u092f\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f, \u0935\u0939 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947",
+      "parsed_answer": "\u0939\u093e\u0932 \u0939\u0940 \u092e\u0947\u0902 \u0905\u0928\u094d\u092f \u092a\u0930\u094d\u092f\u093e\u092f\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f, \u0935\u0939 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0926\u0942\u0938\u0930\u0947",
+      "expected": "\u0915\u0941\u091b \u0905\u0928\u094d\u092f \u0935\u093f\u0936\u0947\u0937\u091c\u094d\u091e\u094b\u0902 \u0915\u0940 \u0924\u0930\u0939, \u0909\u0928\u094d\u0939\u0947\u0902 \u0907\u0938 \u092c\u093e\u0924 \u092a\u0930 \u0938\u0902\u0926\u0947\u0939 \u0939\u0948 \u0915\u093f \u0915\u094d\u092f\u093e \u092e\u0927\u0941\u092e\u0947\u0939 \u0915\u094b \u0920\u0940\u0915 \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948, \u092f\u0939 \u0926\u0947\u0916\u0924\u0947 \u0939\u0941\u090f \u0915\u093f \u0907\u0928 \u0928\u093f\u0937\u094d\u0915\u0930\u094d\u0937\u094b\u0902 \u0915\u0940 \u0909\u0928 \u0932\u094b\u0917\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0915\u094b\u0908 \u092a\u094d\u0930\u093e\u0938\u0902\u0917\u093f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948 \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u092a\u0939\u0932\u0947 \u0938\u0947 \u0939\u0940 \u091f\u093e\u0907\u092a 1 \u092e\u0927\u0941\u092e\u0947\u0939 \u0939\u0948.",
+      "correct": false,
+      "score": 3.1921234577110814e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.1921234577110814e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05714285714285714,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.18219623812114696,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "hin_Deva",
+      "sample_id": "flores200-devtest-hin_Deva-3",
+      "prompt": "Translate the following English sentence into Hindi. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0938\u094b\u092e\u0935\u093e\u0930, \u0938\u094d\u0935\u093f\u0938\u094d\u0915\u093f\u0902\u0917 \u0905\u0915\u093e\u0926\u092e\u0940 \u0915\u0947 \u0932\u0947\u0916\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0915\u0947 \u092a\u0930\u092e\u093e\u0930\u094d\u0924\u0940 \u0938\u0930 \u0921\u093e\u0928\u0948\u0938\u0941\u0938, \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0915\u0947 \u0932\u0947\u0916\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0930\u093f\u0937\u0926 \u0915\u0947 \u0935\u093f\u0938\u094d\u0924\u093e\u0930\u093f\u0924 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940 \u0915",
+      "parsed_answer": "\u0938\u094b\u092e\u0935\u093e\u0930, \u0938\u094d\u0935\u093f\u0938\u094d\u0915\u093f\u0902\u0917 \u0905\u0915\u093e\u0926\u092e\u0940 \u0915\u0947 \u0932\u0947\u0916\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0915\u0947 \u092a\u0930\u092e\u093e\u0930\u094d\u0924\u0940 \u0938\u0930 \u0921\u093e\u0928\u0948\u0938\u0941\u0938, \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0915\u0947 \u0932\u0947\u0916\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0930\u093f\u0937\u0926 \u0915\u0947 \u0935\u093f\u0938\u094d\u0924\u093e\u0930\u093f\u0924 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940 \u0915",
+      "expected": "\u0938\u094b\u092e\u0935\u093e\u0930 \u0915\u094b \u0938\u094d\u0935\u0940\u0921\u093f\u0936 \u0905\u0915\u093e\u0926\u092e\u0940 \u092e\u0947\u0902 \u0938\u093e\u0939\u093f\u0924\u094d\u092f \u0915\u0947 \u0932\u093f\u090f \u0928\u094b\u092c\u0947\u0932 \u0938\u092e\u093f\u0924\u093f \u0915\u0947 \u0938\u094d\u0925\u093e\u092f\u0940 \u0938\u091a\u093f\u0935, \u0938\u093e\u0930\u093e \u0921\u0947\u0928\u093f\u092f\u0938, \u0938\u094d\u0935\u0940\u0921\u0928 \u0938\u092e\u093f\u0924\u093f \u092e\u0947\u0902 \u0938\u0947\u0935\u0930\u093f\u091c \u0930\u0947\u0921\u093f\u092f\u094b \u092a\u0930 \u090f\u0915 \u0930\u0947\u0921\u093f\u092f\u094b \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u0915\u0947 \u0926\u094c\u0930\u093e\u0928 \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u0930\u0942\u092a \u0938\u0947 \u0918\u094b\u0937\u0923\u093e \u0915\u0940, \u0915\u093f \u0938\u093e\u0939\u093f\u0924\u094d\u092f \u092e\u0947\u0902 2016 \u0915\u0947 \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u091c\u0940\u0924\u0928\u0947 \u0915\u094b \u0932\u0947\u0915\u0930 \u0938\u0940\u0927\u0947 \u092c\u0949\u092c \u0921\u093e\u092f\u0932\u0928 \u0924\u0915 \u092a\u0939\u0941\u0901\u091a\u0928\u0947 \u092e\u0947\u0902 \u0905\u0938\u092e\u0930\u094d\u0925 \u0939\u094b\u0915\u0930, \u0905\u092a\u0928\u0947 \u092a\u094d\u0930\u092f\u093e\u0938\u094b\u0902 \u0915\u094b \u091b\u094b\u0921\u093c \u091a\u0941\u0915\u0947 \u0925\u0947.",
+      "correct": false,
+      "score": 8.094131950952374e-08,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 8.094131950952374e-08,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.15584415584415584,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2613137396682034,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "hin_Deva",
+      "sample_id": "flores200-devtest-hin_Deva-4",
+      "prompt": "Translate the following English sentence into Hindi. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0926ani \u0928\u0947 \u0915\u0939\u093e, \"\u0905\u092c \u0939\u092e \u0906\u0930\u093e\u092e \u0930\u0939\u0924\u0947 \u0939\u0948\u0902\u0964 \u092e\u0948\u0902\u0928\u0947 \u0909\u0938\u0915\u0947 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0947 \u0938\u0939\u092f\u094b\u0917\u0940 \u0915\u094b \u091c\u094b\u0921\u093c\u093e \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a",
+      "parsed_answer": "\u0926ani \u0928\u0947 \u0915\u0939\u093e, \"\u0905\u092c \u0939\u092e \u0906\u0930\u093e\u092e \u0930\u0939\u0924\u0947 \u0939\u0948\u0902\u0964 \u092e\u0948\u0902\u0928\u0947 \u0909\u0938\u0915\u0947 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0947 \u0938\u0939\u092f\u094b\u0917\u0940 \u0915\u094b \u091c\u094b\u0921\u093c\u093e \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a\u0928\u0947 \u0905\u092a",
+      "expected": "\u0921\u0947\u0928\u093f\u092f\u0938 \u0928\u0947 \u0915\u0939\u093e, \u201c\u092b\u093c\u093f\u0932\u0939\u093e\u0932 \u0939\u092e \u0915\u0941\u091b \u0928\u0939\u0940\u0902 \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902. \u092e\u0948\u0902\u0928\u0947 \u0905\u092a\u0928\u0947 \u0938\u093e\u0925 \u0915\u093e\u092e \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u0947 \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0908\u092e\u0947\u0932 \u092d\u0947\u091c\u0947 \u0939\u0948\u0902 \u0914\u0930 \u0909\u0938\u0928\u0947 \u0909\u0928\u0915\u0947 \u092b\u094d\u0930\u0947\u0902\u0921\u0932\u0940 \u091c\u0935\u093e\u092c \u092d\u0947\u091c\u0947 \u0939\u0948\u0902. \u0905\u092d\u0940 \u0915\u0947 \u0932\u093f\u090f, \u092c\u0938 \u0907\u0924\u0928\u093e \u0939\u0940 \u092c\u0924\u093e\u0928\u093e \u091a\u093e\u0939\u0942\u0901\u0917\u093e.\u201d ",
+      "correct": false,
+      "score": 2.3310947348025153e-07,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 2.3310947348025153e-07,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.1875,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.26665777755772274,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ben_Beng",
+      "sample_id": "flores200-devtest-ben_Beng-0",
+      "prompt": "Translate the following English sentence into Bengali. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u09aa\u09cd\u09b0\u0995\u09c3\u09a4\u09bf \u09ac\u09bf\u09b6\u09cd\u09ac\u09be\u09b8 \u0995\u09b0\u09c7\u09a8: \"\u0986\u09ae\u09b0\u09be \u098f\u0996\u09a8 \u09b8\u09be\u09a4 \u09ae\u09be\u09b8 \u09ac\u09af\u09bc\u09b8\u09c7\u09b0 \u09ac\u09bf\u09a8\u09bf\u09ae\u09af\u09bc \u09b9\u09af\u09bc\u09c7\u099b\u09bf\u09b2 \u098f\u09ac\u0982 \u09b8\u09c7\u0987 \u09b8\u09ae\u09af\u09bc \u09aa\u09b0\u09cd\u09af\u09a8\u09cd\u09a4 \u09b8\u09cd\u09ac\u09be\u09b8\u09cd\u09a5\u09cd\u09af\u0995\u09b0 \u099b\u09bf\u09b2 \u098f\u09ac\u0982 \u09b8\u09cd\u09ac\u09be\u09b8\u09cd\u09a5",
+      "parsed_answer": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u09aa\u09cd\u09b0\u0995\u09c3\u09a4\u09bf \u09ac\u09bf\u09b6\u09cd\u09ac\u09be\u09b8 \u0995\u09b0\u09c7\u09a8: \"\u0986\u09ae\u09b0\u09be \u098f\u0996\u09a8 \u09b8\u09be\u09a4 \u09ae\u09be\u09b8 \u09ac\u09af\u09bc\u09b8\u09c7\u09b0 \u09ac\u09bf\u09a8\u09bf\u09ae\u09af\u09bc \u09b9\u09af\u09bc\u09c7\u099b\u09bf\u09b2 \u098f\u09ac\u0982 \u09b8\u09c7\u0987 \u09b8\u09ae\u09af\u09bc \u09aa\u09b0\u09cd\u09af\u09a8\u09cd\u09a4 \u09b8\u09cd\u09ac\u09be\u09b8\u09cd\u09a5\u09cd\u09af\u0995\u09b0 \u099b\u09bf\u09b2 \u098f\u09ac\u0982 \u09b8\u09cd\u09ac\u09be\u09b8\u09cd\u09a5",
+      "expected": "\"\"\"\u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u098f\u0996\u09a8 \u09ea-\u09ae\u09be\u09b8-\u09ac\u09df\u09b8\u09c0 \u09a1\u09be\u09df\u09be\u09ac\u09c7\u099f\u09bf\u09b8 \u09b0\u09cb\u0997 \u099b\u09be\u09dc\u09be \u0987\u09a6\u09c1\u09b0 \u0986\u099b\u09c7 \u09af\u09c7\u0997\u09c1\u09b2\u09cb\u09b0 \u0986\u0997\u09c7 \u09a1\u09be\u09df\u09be\u09ac\u09c7\u099f\u09bf\u09b8 \u09b0\u09cb\u0997 \u099b\u09bf\u09b2,\"\" \u09a4\u09bf\u09a8\u09bf \u09af\u09cb\u0997 \u0995\u09b0\u09b2\u09c7\u09a8\u0964\"",
+      "correct": false,
+      "score": 4.789736254435757e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 4.789736254435757e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05714285714285714,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.1495798975177504,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ben_Beng",
+      "sample_id": "flores200-devtest-ben_Beng-1",
+      "prompt": "Translate the following English sentence into Bengali. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u098f\u0987 \u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u0986\u09ae\u09bf \u0986\u09ae\u09be\u09b0 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b7\u09cd\u09a0\u09be\u09a8 \u0993 \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995\u09c7 \u099c\u09be\u09a8\u09be\u09a8\u09cb\u09b0 \u099c\u09a8\u09cd\u09af \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af\u09bc\u09c7\u09b0 \u09a1\u09bf \u098f\u09b9\u09cb\u09a6 \u0989\u09b0 \u098f\u0995\u099c\u09a8 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u0995 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u09a8\u09bf\u0995 \u0993 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u09a8\u09bf\u0995 \u09ac",
+      "parsed_answer": "\u098f\u0987 \u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u0986\u09ae\u09bf \u0986\u09ae\u09be\u09b0 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b7\u09cd\u09a0\u09be\u09a8 \u0993 \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995\u09c7 \u099c\u09be\u09a8\u09be\u09a8\u09cb\u09b0 \u099c\u09a8\u09cd\u09af \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af\u09bc\u09c7\u09b0 \u09a1\u09bf \u098f\u09b9\u09cb\u09a6 \u0989\u09b0 \u098f\u0995\u099c\u09a8 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u0995 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u09a8\u09bf\u0995 \u0993 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u09a8\u09bf\u0995 \u09ac",
+      "expected": "\u09b9\u09c7\u09b2\u09bf\u09ab\u09cd\u09af\u09be\u0995\u09cd\u09b8\u09c7 \u09a1\u09be\u09b2\u09b9\u09cc\u09b8\u09bf \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09c7\u09b0 \u09ae\u09c7\u09a1\u09bf\u09b8\u09bf\u09a8 \u09ac\u09bf\u09ad\u09be\u0997\u09c7\u09b0 \u09aa\u09cd\u09b0\u09ab\u09c7\u09b8\u09b0 \u09a1\u0983 \u0987\u09b9\u09c1\u09a1 \u0986\u09b0, \u09a8\u09cb\u09ad\u09be \u09b8\u09cd\u0995\u099f\u09bf\u09df\u09be \u098f\u09ac\u0982 \u0995\u09be\u09a8\u09be\u09a1\u09bf\u09df\u09be\u09a8 \u09a1\u09be\u09df\u09be\u09ac\u09c7\u099f\u09bf\u09b8 \u098f\u09b8\u09cb\u09b8\u09bf\u09df\u09c7\u09b6\u09a8\u09c7\u09b0 \u0995\u09cd\u09b2\u09bf\u09a8\u09bf\u0995\u09cd\u09af\u09be\u09b2 \u0993 \u09ac\u09c8\u099c\u09cd\u099e\u09be\u09a8\u09bf\u0995 \u09ac\u09bf\u09ad\u09be\u0997\u09c7\u09b0 \u099a\u09c7\u09df\u09be\u09b0, \u0986\u0997\u09c7 \u09a5\u09c7\u0995\u09c7\u0987 \u09b8\u09a4\u09b0\u09cd\u0995 \u0995\u09b0\u09c7 \u09a6\u09bf\u09df\u09c7\u099b\u09bf\u09b2\u09c7\u09a8 \u09af\u09c7 \u0997\u09ac\u09c7\u09b7\u09a3\u09be \u098f\u0996\u09a8\u0993 \u09a4\u09be\u09b0 \u09b6\u09c1\u09b0\u09c1\u09b0 \u09a6\u09bf\u0995\u09c7 \u09b0\u09df\u09c7\u099b\u09c7\u0964",
+      "correct": false,
+      "score": 2.5951699987961474e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 2.5951699987961474e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.038461538461538464,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2143873260709301,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ben_Beng",
+      "sample_id": "flores200-devtest-ben_Beng-2",
+      "prompt": "Translate the following English sentence into Bengali. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09c1\u09a8\u0964\n\n\u098f\u0995\u099f\u09bf \u0985\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09af\u09c1\u0995\u09cd\u09a4\u09bf\u09b0 \u09ae\u09a4\u09c7, \u09a4\u09bf\u09a8\u09bf \u09a6\u09c1\u0983\u0996\u09bf\u09a4 \u09b9\u09af\u09bc\u09c7\u099b\u09c7\u09a8 \u09af\u09c7 \u09a1\u09bf\u09b8\u09cd\u099f\u09cd\u09b0\u09bf\u09ac\u09bf\u09af\u09bc\u09be\u09b0 \ufffd",
+      "parsed_answer": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09c1\u09a8\u0964\n\n\u098f\u0995\u099f\u09bf \u0985\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09af\u09c1\u0995\u09cd\u09a4\u09bf\u09b0 \u09ae\u09a4\u09c7, \u09a4\u09bf\u09a8\u09bf \u09a6\u09c1\u0983\u0996\u09bf\u09a4 \u09b9\u09af\u09bc\u09c7\u099b\u09c7\u09a8 \u09af\u09c7 \u09a1\u09bf\u09b8\u09cd\u099f\u09cd\u09b0\u09bf\u09ac\u09bf\u09af\u09bc\u09be\u09b0 \ufffd",
+      "expected": "\u09ac\u09b9\u09c1\u09ae\u09c2\u09a4\u09cd\u09b0 \u09a8\u09bf\u09b0\u09be\u09ae\u09af\u09bc\u09af\u09cb\u0997\u09cd\u09af \u0995\u09bf\u09a8\u09be \u09a4\u09be \u09a8\u09bf\u09af\u09bc\u09c7 \u0985\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09af \u09ac\u09bf\u09b6\u09c7\u09b7\u099c\u09cd\u099e\u09a6\u09c7\u09b0 \u09ae\u09a4\u09cb \u09a4\u09bf\u09a8\u09bf\u0993 \u09b8\u0982\u09b6\u09af\u09bc\u09c7 \u0986\u099b\u09c7\u09a8\u0964 \u098f\u09ae\u09a8 \u09b2\u09cb\u0995 \u09af\u09be\u09a6\u09c7\u09b0 \u0986\u0997\u09c7 \u09a5\u09c7\u0995\u09c7\u0987 \u099f\u09be\u0987\u09aa 1 \u09ac\u09b9\u09c1\u09ae\u09c2\u09a4\u09cd\u09b0 \u09b0\u09cb\u0997 \u0986\u099b\u09c7, \u09a4\u09be\u09a6\u09c7\u09b0 \u09b8\u09be\u09a5\u09c7 \u098f\u0987 \u0986\u09ac\u09bf\u09b8\u09cd\u0995\u09be\u09b0\u09c7\u09b0 \u0995\u09cb\u09a8\u0993 \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995 \u09a8\u09c7\u0987\u0964",
+      "correct": false,
+      "score": 2.5785389329151043e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 2.5785389329151043e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.044444444444444446,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2209445865913832,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ben_Beng",
+      "sample_id": "flores200-devtest-ben_Beng-3",
+      "prompt": "Translate the following English sentence into Bengali. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u09b8\u09cb\u09ae\u09ac\u09be\u09b0, \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5\u09be \u09a6\u09cd\u09ac\u09be\u09b0\u09be \u09b2\u09c7\u099f\u09c7\u09a8\u09cd\u09b8\u09c7\u099f \u09b8\u09cd\u099f\u09c7\u099f\u09ae\u09c7\u09a8\u09cd\u099f \u09b8\u09be\u09b0\u09be\u09a6\u09bf\u09af\u09bc\u09cb\u09b8 \u09b8\u09cd\u09aa\u09c7\u09a8\u09c7 \u09b8\u09cd\u09aa\u09c7\u09a8\u09c7 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b0\u09be\u09b6\u09bf\u09af\u09bc\u09be\u09a8 \u09b0\u09bf\u099a\u09be\u09b0\u09cd\u09a1 \u09a1\u09bf \u09b2\u09bf\ufffd",
+      "parsed_answer": "\u09b8\u09cb\u09ae\u09ac\u09be\u09b0, \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5\u09be \u09a6\u09cd\u09ac\u09be\u09b0\u09be \u09b2\u09c7\u099f\u09c7\u09a8\u09cd\u09b8\u09c7\u099f \u09b8\u09cd\u099f\u09c7\u099f\u09ae\u09c7\u09a8\u09cd\u099f \u09b8\u09be\u09b0\u09be\u09a6\u09bf\u09af\u09bc\u09cb\u09b8 \u09b8\u09cd\u09aa\u09c7\u09a8\u09c7 \u09b8\u09cd\u09aa\u09c7\u09a8\u09c7 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b0\u09be\u09b6\u09bf\u09af\u09bc\u09be\u09a8 \u09b0\u09bf\u099a\u09be\u09b0\u09cd\u09a1 \u09a1\u09bf \u09b2\u09bf\ufffd",
+      "expected": "\u09b8\u09cb\u09ae\u09ac\u09be\u09b0, \u09b8\u09c1\u0987\u09a1\u09c7\u09a8\u09c7\u09b0 \u09b8\u09c7\u09ad\u09bf\u09b0\u09b8 \u09b0\u09c7\u09a1\u09bf\u0993\u09a4\u09c7 \u098f\u0995\u099f\u09bf \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09be\u09a8\u09c7\u09b0 \u09b8\u09ae\u09df \u09b8\u09c1\u0987\u09a1\u09bf\u09b6 \u0985\u09cd\u09af\u09be\u0995\u09be\u09a1\u09c7\u09ae\u09bf\u09a4\u09c7 \u09b8\u09be\u09b9\u09bf\u09a4\u09cd\u09af\u09c7\u09b0 \u09a8\u09cb\u09ac\u09c7\u09b2 \u0995\u09ae\u09bf\u099f\u09bf\u09b0 \u09b8\u09cd\u09a5\u09be\u09df\u09c0 \u09b8\u099a\u09bf\u09ac, \u09b8\u09be\u09b0\u09be \u09a1\u09be\u09a8\u09bf\u09df\u09be\u09b8,  \u09aa\u09cd\u09b0\u0995\u09be\u09b6\u09cd\u09af\u09c7 \u0998\u09cb\u09b7\u09a3\u09be \u0995\u09b0\u09c7\u099b\u09bf\u09b2\u09c7\u09a8 \u09af\u09c7 \u0995\u09ae\u09bf\u099f\u09bf, \u09e8\u09e6\u09e7\u09ec \u09b8\u09be\u09b2\u09c7 \u09b8\u09be\u09b9\u09bf\u09a4\u09cd\u09af\u09c7 \u09a8\u09cb\u09ac\u09c7\u09b2 \u09aa\u09c1\u09b0\u09b8\u09cd\u0995\u09be\u09b0 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u09ac\u09bf\u09b7\u09df\u09c7 \u09ac\u09ac \u09a1\u09bf\u09b2\u09be\u09a8\u09c7\u09b0 \u09b8\u0999\u09cd\u0997\u09c7 \u09b8\u09b0\u09be\u09b8\u09b0\u09bf \u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0995\u09b0\u09a4\u09c7 \u09a8\u09be \u09aa\u09c7\u09b0\u09c7, \u09a4\u09be\u0981\u09b0 \u0995\u09be\u099b\u09c7 \u09aa\u09cc\u0981\u099b\u09be\u09a8\u09cb\u09b0 \u09aa\u09cd\u09b0\u099a\u09c7\u09b7\u09cd\u099f\u09be \u09a4\u09cd\u09af\u09be\u0997 \u0995\u09b0\u09c7\u099b\u09bf\u09b2\u0964",
+      "correct": false,
+      "score": 9.845583760209725e-11,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 9.845583760209725e-11,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.034482758620689655,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.16529813513506628,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ben_Beng",
+      "sample_id": "flores200-devtest-ben_Beng-4",
+      "prompt": "Translate the following English sentence into Bengali. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u09a6\u09be\u09a8\u09c0 \u09ac\u09b2\u09c7\u09a8, \"\u0986\u099c \u0986\u09ae\u09b0\u09be \u0995\u09bf\u099b\u09c1 \u0995\u09b0\u099b\u09bf \u09a8\u09be\u0964 \u0986\u09ae\u09bf \u09a4\u09be\u09b0 \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09b8\u09b9\u099c \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \u09b8\u09be\u09a5\u09c7 \u09ae\u09bf\u09b6\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u09ac\u09be\u09b0 \u09aa\u09b0 \u098f\u0995\u099f\u09bf \u0995\u09a8\u09ab\u09be\u09b0\u09c7\u09a8\u09cd\u09b8\u09c7 \u098f\u0995\u099f\u09bf \u0995\u09ae\u09bf\u099f\u09bf \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \ufffd",
+      "parsed_answer": "\u09a6\u09be\u09a8\u09c0 \u09ac\u09b2\u09c7\u09a8, \"\u0986\u099c \u0986\u09ae\u09b0\u09be \u0995\u09bf\u099b\u09c1 \u0995\u09b0\u099b\u09bf \u09a8\u09be\u0964 \u0986\u09ae\u09bf \u09a4\u09be\u09b0 \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09b8\u09b9\u099c \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \u09b8\u09be\u09a5\u09c7 \u09ae\u09bf\u09b6\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u09ac\u09be\u09b0 \u09aa\u09b0 \u098f\u0995\u099f\u09bf \u0995\u09a8\u09ab\u09be\u09b0\u09c7\u09a8\u09cd\u09b8\u09c7 \u098f\u0995\u099f\u09bf \u0995\u09ae\u09bf\u099f\u09bf \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \ufffd",
+      "expected": "\"\"\"\u09a6\u09be\u09a8\u09bf\u09af\u09bc\u09be\u09b8 \u09ac\u09b2\u09c7\u099b\u09bf\u09b2\u09c7\u09a8, \"\"\"\"\u098f\u0996\u09a8 \u0986\u09ae\u09b0\u09be \u0995\u09bf\u099b\u09c1 \u0995\u09b0\u099b\u09bf \u09a8\u09be\u0964 \u0986\u09ae\u09bf \u09a4\u09be\u09b0 \u09a8\u09bf\u0995\u099f\u09a4\u09ae \u09b8\u09b9\u09af\u09cb\u0997\u09c0\u0995\u09c7 \u0995\u09b2 \u0995\u09b0\u09c7\u099b\u09bf \u098f\u09ac\u0982 \u0987\u09ae\u09c7\u09b2 \u09aa\u09be\u09a0\u09bf\u09af\u09bc\u09c7\u099b\u09bf \u098f\u09ac\u0982 \u0996\u09c1\u09ac \u09ac\u09a8\u09cd\u09a7\u09c1\u09a4\u09cd\u09ac\u09aa\u09c2\u09b0\u09cd\u09a3 \u099c\u09ac\u09be\u09ac \u09aa\u09c7\u09af\u09bc\u09c7\u099b\u09bf\u0964 \u0986\u09aa\u09be\u09a4\u09a4, \u098f\u099f\u09bf \u09a8\u09bf\u09b6\u09cd\u099a\u0987 \u09af\u09a5\u09c7\u09b7\u09cd\u099f\u0964\"\"\"\" \"\"\"",
+      "correct": false,
+      "score": 0.17742164397841095,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 0.17742164397841095,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.24999999999999994,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.33129162619787555,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tam_Taml",
+      "sample_id": "flores200-devtest-tam_Taml-0",
+      "prompt": "Translate the following English sentence into Tamil. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0ba8\u0bbe\u0ba9\u0bcd \u0bae\u0bc1\u0ba9\u0bcd\u0bb5\u0bbf\u0bb3\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0bb5\u0bbf\u0b9f\u0bc8\u0baf\u0bbe\u0ba9 \u0bae\u0bc2\u0ba9\u0bcd\u0bb1\u0bc1 \u0bae\u0bbe\u0ba4 \u0bae\u0bc0\u0ba4\u0bc1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd",
+      "parsed_answer": "\u0ba8\u0bbe\u0ba9\u0bcd \u0bae\u0bc1\u0ba9\u0bcd\u0bb5\u0bbf\u0bb3\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0bb5\u0bbf\u0b9f\u0bc8\u0baf\u0bbe\u0ba9 \u0bae\u0bc2\u0ba9\u0bcd\u0bb1\u0bc1 \u0bae\u0bbe\u0ba4 \u0bae\u0bc0\u0ba4\u0bc1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd",
+      "expected": "\"\"\"\u0b8e\u0b99\u0bcd\u0b95\u0bb3\u0bbf\u0b9f\u0bae\u0bcd \u0b87\u0baa\u0bcd\u0baa\u0bcb\u0ba4\u0bc1  4-\u0bae\u0bbe\u0ba4-\u0bb5\u0baf\u0ba4\u0bc1\u0b9f\u0bc8\u0baf \u0b8e\u0bb2\u0bbf \u0b92\u0ba9\u0bcd\u0bb1\u0bc1 \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1, \u0bae\u0bc1\u0ba9\u0bcd\u0ba9\u0bb0\u0bcd \u0b85\u0ba4\u0bb1\u0bcd\u0b95\u0bc1 \u0ba8\u0bc0\u0bb0\u0bbf\u0bb4\u0bbf\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0ba4\u0bc1 \u0ba4\u0bb1\u0bcd\u0baa\u0bcb\u0ba4\u0bc1 \u0b87\u0bb2\u0bcd\u0bb2\u0bc8\"\" \u0b8e\u0ba9\u0bcd\u0bb1\u0bc1 \u0b85\u0bb5\u0bb0\u0bcd \u0bae\u0bc7\u0bb2\u0bc1\u0bae\u0bcd \u0b95\u0bc2\u0bb1\u0bbf\u0ba9\u0bbe\u0bb0\u0bcd.\"",
+      "correct": false,
+      "score": 1.000000000000001e-12,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.000000000000001e-12,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.1702902252026349,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tam_Taml",
+      "sample_id": "flores200-devtest-tam_Taml-1",
+      "prompt": "Translate the following English sentence into Tamil. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bbf\u0baf \u0b9a\u0bc6\u0ba9\u0bcd\u0bb1\u0bc1 \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0ba9\u0bcd \u0ba8\u0bbe\u0ba9\u0bcd\u0b95\u0bbe\u0bb5\u0ba4\u0bc1 \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0bb2\u0bcd \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0ba9\u0bcd \u0b9a\u0bc1\u0bb1\u0bcd\u0bb1\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0baf\u0ba3\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9a\u0bc1\u0bb1\u0bcd\u0bb1\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0baf\u0ba3\u0bbf \u0bae",
+      "parsed_answer": "\u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bbf\u0baf \u0b9a\u0bc6\u0ba9\u0bcd\u0bb1\u0bc1 \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0ba9\u0bcd \u0ba8\u0bbe\u0ba9\u0bcd\u0b95\u0bbe\u0bb5\u0ba4\u0bc1 \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0bb2\u0bcd \u0ba8\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0ba9\u0bcd \u0b9a\u0bc1\u0bb1\u0bcd\u0bb1\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0baf\u0ba3\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9a\u0bc1\u0bb1\u0bcd\u0bb1\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0baf\u0ba3\u0bbf \u0bae",
+      "expected": "\u0bb9\u0bbe\u0bb2\u0bbf\u0b83\u0baa\u0bbe\u0b95\u0bcd\u0bb8\u0bbf\u0bb2\u0bcd \u0b89\u0bb3\u0bcd\u0bb3 \u0b9f\u0bb2\u0bcd\u0bb9\u0bc6\u0bb3\u0b9a\u0bbf \u0baa\u0bb2\u0bcd\u0b95\u0bb2\u0bc8\u0b95\u0bcd\u0b95\u0bb4\u0b95\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0baa\u0bcd \u0baa\u0bc7\u0bb0\u0bbe\u0b9a\u0bbf\u0bb0\u0bbf\u0baf\u0bb0\u0bc1\u0bae\u0bcd, \u0ba8\u0bcb\u0bb5\u0bbe \u0bb8\u0bcd\u0b95\u0bcb\u0b9f\u0bcd\u0b9f\u0bbf\u0baf\u0bbe \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b95\u0ba9\u0bc7\u0b9f\u0bbf\u0baf \u0ba8\u0bc0\u0bb0\u0bbf\u0bb4\u0bbf\u0bb5\u0bc1 \u0b9a\u0b99\u0bcd\u0b95\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0bbf\u0bb0\u0bbf\u0bb5\u0bbf\u0ba9\u0bcd \u0ba4\u0bb2\u0bc8\u0bb5\u0bb0\u0bc1\u0bae\u0bbe\u0ba9 \u0b9f\u0bbe\u0b95\u0bcd\u0b9f\u0bb0\u0bcd \u0b87\u0bb9\u0bc1\u0ba4\u0bcd \u0b89\u0bb0\u0bcd, \u0b86\u0bb0\u0bbe\u0baf\u0bcd\u0b9a\u0bcd\u0b9a\u0bbf \u0b87\u0ba9\u0bcd\u0ba9\u0bc1\u0bae\u0bcd \u0b86\u0bb0\u0bae\u0bcd\u0baa \u0ba8\u0bbe\u0b9f\u0bcd\u0b95\u0bb3\u0bbf\u0bb2\u0bcd\u0ba4\u0bbe\u0ba9\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1 \u0b8e\u0ba9\u0bcd\u0bb1\u0bc1 \u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb3\u0bcd\u0bb3\u0bbe\u0bb0\u0bcd.",
+      "correct": false,
+      "score": 3.3088178632972576e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.3088178632972576e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.13953488372093023,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2967017499652153,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tam_Taml",
+      "sample_id": "flores200-devtest-tam_Taml-2",
+      "prompt": "Translate the following English sentence into Tamil. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0ba8\u0bbe\u0ba9\u0bcd \u0b87\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba9\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\ufffd",
+      "parsed_answer": "\u0ba8\u0bbe\u0ba9\u0bcd \u0b87\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba9\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0baa\u0bc6\u0bb1\u0bcd\u0bb1 \u0baa\u0bc6\u0bb0\u0bc1\u0bae\ufffd",
+      "expected": "\u0baa\u0bbf\u0bb1 \u0bb5\u0bb2\u0bcd\u0bb2\u0bc1\u0ba9\u0bb0\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bcb\u0bb2\u0bb5\u0bc7 \u0b85\u0bb5\u0bb0\u0bc1\u0bae\u0bcd, \u0b8f\u0bb1\u0bcd\u0b95\u0ba9\u0bb5\u0bc7 \u0b9f\u0bc8\u0baa\u0bcd 1 \u0b87\u0bb0\u0ba4\u0bcd\u0ba4 \u0b9a\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bb0\u0bc8 \u0ba8\u0bcb\u0baf\u0bc1\u0bb3\u0bcd\u0bb3\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bcd \u0baa\u0bca\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bbe\u0bb2\u0bcd \u0b87\u0bb0\u0ba4\u0bcd\u0ba4 \u0b9a\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bb0\u0bc8 \u0ba8\u0bcb\u0baf\u0bbf\u0bb1\u0bcd\u0b95\u0bc1 \u0ba8\u0bbf\u0bb5\u0bbe\u0bb0\u0ba3\u0bae\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bbe \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc1 \u0b95\u0bc1\u0bb1\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1 \u0b9a\u0ba8\u0bcd\u0ba4\u0bc7\u0b95\u0bae\u0b9f\u0bc8\u0b95\u0bbf\u0bb1\u0bbe\u0bb0\u0bcd.",
+      "correct": false,
+      "score": 6.270890852730568e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 6.270890852730568e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.12634694303194127,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tam_Taml",
+      "sample_id": "flores200-devtest-tam_Taml-3",
+      "prompt": "Translate the following English sentence into Tamil. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0ba8\u0bbe\u0bb3\u0bcd, \u0b9a\u0bc6\u0baa\u0bcd\u0b9f\u0bae\u0bcd\u0baa\u0bb0\u0bbf\u0baf \u0b9a\u0bc6\u0baa\u0bcd\u0b9f\u0bae\u0bcd\u0baa\u0bb0\u0bbf\u0baf \u0b85\u0bae\u0bc6\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bbe\u0bb5\u0bbf\u0bb2\u0bcd \u0ba8\u0bcb\u0bb2\u0bbf\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8 \u0ba8\u0bcb\u0bb2\u0bbf\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8\u0baf\u0bbf\u0ba9\u0bcd \ufffd",
+      "parsed_answer": "\u0ba8\u0bbe\u0bb3\u0bcd, \u0b9a\u0bc6\u0baa\u0bcd\u0b9f\u0bae\u0bcd\u0baa\u0bb0\u0bbf\u0baf \u0b9a\u0bc6\u0baa\u0bcd\u0b9f\u0bae\u0bcd\u0baa\u0bb0\u0bbf\u0baf \u0b85\u0bae\u0bc6\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bbe\u0bb5\u0bbf\u0bb2\u0bcd \u0ba8\u0bcb\u0bb2\u0bbf\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8 \u0ba8\u0bcb\u0bb2\u0bbf\u0baf\u0bbf\u0ba9\u0bcd \u0baa\u0bcb\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bca\u0b95\u0bc8\u0baf\u0bbf\u0ba9\u0bcd \ufffd",
+      "expected": "\u0ba4\u0bbf\u0b99\u0bcd\u0b95\u0b9f\u0bcd \u0b95\u0bbf\u0bb4\u0bae\u0bc8\u0baf\u0ba9\u0bcd\u0bb1\u0bc1 \u0bb8\u0bcd\u0bb5\u0bc0\u0b9f\u0bbf\u0bb7\u0bcd \u0b85\u0b95\u0bc7\u0b9f\u0bae\u0bbf\u0baf\u0bbf\u0bb2\u0bcd \u0b87\u0bb2\u0b95\u0bcd\u0b95\u0bbf\u0baf\u0ba4\u0bcd\u0ba4\u0bbf\u0bb1\u0bcd\u0b95\u0bbe\u0ba9 \u0ba8\u0bcb\u0baa\u0bb2\u0bcd \u0b95\u0bc1\u0bb4\u0bc1\u0bb5\u0bbf\u0ba9\u0bcd \u0b9a\u0bc6\u0baf\u0bb2\u0bbe\u0bb3\u0bb0\u0bcd, \u0b9a\u0bbe\u0bb0\u0bbe \u0b9f\u0bc7\u0ba9\u0bbf\u0baf\u0bb8\u0bcd \u0bb8\u0bcd\u0bb5\u0bc0\u0b9f\u0ba9\u0bbf\u0ba9\u0bcd \u0bb8\u0bcd\u0bb5\u0bc6\u0bb0\u0bbf\u0b9c\u0bc6\u0bb8\u0bcd \u0bb0\u0bc7\u0b9f\u0bbf\u0baf\u0bcb\u0bb5\u0bbf\u0ba9\u0bcd \u0b92\u0bb0\u0bc1 \u0bb0\u0bc7\u0b9f\u0bbf\u0baf\u0bcb \u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0b9a\u0bcd\u0b9a\u0bbf\u0baf\u0bbf\u0bb2\u0bcd, \u0baa\u0bbe\u0baa\u0bcd \u0b9f\u0bc8\u0bb2\u0ba9\u0bcd 2016\u0b86\u0bae\u0bcd \u0bb5\u0bb0\u0bc1\u0b9f \u0b87\u0bb2\u0b95\u0bcd\u0b95\u0bbf\u0baf\u0ba4\u0bcd\u0ba4\u0bbf\u0bb1\u0bcd\u0b95\u0bbe\u0ba9 \u0ba8\u0bcb\u0baa\u0bb2\u0bcd \u0baa\u0bb0\u0bbf\u0b9a\u0bc1 \u0bb5\u0bc6\u0ba9\u0bcd\u0bb1\u0ba4\u0bc8 \u0b85\u0bb5\u0bb0\u0bbf\u0b9f\u0bae\u0bcd \u0ba8\u0bc7\u0bb0\u0bbf\u0b9f\u0bc8\u0baf\u0bbe\u0b95 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0baf\u0bb2\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 \u0b8e\u0ba9\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b85\u0bb5\u0bb0\u0bc8 \u0b85\u0b9f\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0bae\u0bc1\u0baf\u0bb1\u0bcd\u0b9a\u0bbf \u0b95\u0bc8\u0bb5\u0bbf\u0b9f\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1 \u0b8e\u0ba9\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0baa\u0bca\u0ba4\u0bc1\u0bb5\u0bbe\u0b95 \u0b85\u0bb1\u0bbf\u0bb5\u0bbf\u0ba4\u0bcd\u0ba4\u0bbe\u0bb0\u0bcd.",
+      "correct": false,
+      "score": 1.0303080346176427e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.0303080346176427e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.167247521730461,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tam_Taml",
+      "sample_id": "flores200-devtest-tam_Taml-4",
+      "prompt": "Translate the following English sentence into Tamil. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0ba4\u0ba3\u0bbf\u0baf\u0bc1 \u0b85\u0ba4\u0bc1 \u0bae\u0bc7\u0bb1\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0baa\u0bc6\u0baf\u0bb0\u0bcd \u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bc6\u0bb1\u0bcd\u0bb1\u0bc1 \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b85\u0bb1\u0bbf\u0baf\u0bb5\u0bc8 \u0bae\u0bc7\u0bb1\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0baa\u0bc6\u0baf\u0bb0\u0bcd \u0bae\u0bc0\u0ba4\u0bc1 \u0bae\u0bc1\u0ba9\u0bcd\u0ba9\u0bc7\u0bb1\u0bcd\u0bb1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4 \u0baa\u0bc6",
+      "parsed_answer": "\u0ba4\u0ba3\u0bbf\u0baf\u0bc1 \u0b85\u0ba4\u0bc1 \u0bae\u0bc7\u0bb1\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0baa\u0bc6\u0baf\u0bb0\u0bcd \u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bc6\u0bb1\u0bcd\u0bb1\u0bc1 \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b85\u0bb1\u0bbf\u0baf\u0bb5\u0bc8 \u0bae\u0bc7\u0bb1\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0baa\u0bc6\u0baf\u0bb0\u0bcd \u0bae\u0bc0\u0ba4\u0bc1 \u0bae\u0bc1\u0ba9\u0bcd\u0ba9\u0bc7\u0bb1\u0bcd\u0bb1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4 \u0baa\u0bc6",
+      "expected": "\"\"\"\u0b87\u0baa\u0bcd\u0baa\u0bcb\u0ba4\u0bc1 \u0ba8\u0bbe\u0bae\u0bcd \u0b92\u0ba9\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8. \u0ba8\u0bbe\u0ba9\u0bcd \u0b85\u0bb5\u0bb0\u0ba4\u0bc1 \u0ba8\u0bc6\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0baf \u0b95\u0bc2\u0b9f\u0bcd\u0b9f\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0bb4\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bc1 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0b85\u0ba9\u0bc1\u0baa\u0bcd\u0baa\u0bbf, \u0bae\u0bbf\u0b95\u0bb5\u0bc1\u0bae\u0bcd \u0ba8\u0b9f\u0bcd\u0baa\u0bc1\u0b9f\u0ba9\u0bcd \u0baa\u0ba4\u0bbf\u0bb2\u0bcd\u0b95\u0bb3\u0bc8\u0baa\u0bcd \u0baa\u0bc6\u0bb1\u0bcd\u0bb1\u0bc1\u0bb3\u0bcd\u0bb3\u0bc7\u0ba9\u0bcd. \u0b87\u0baa\u0bcd\u0baa\u0bcb\u0ba4\u0bc8\u0b95\u0bcd\u0b95\u0bc1, \u0b85\u0ba4\u0bc1 \u0baa\u0bcb\u0ba4\u0bc1\u0bae\u0bbe\u0ba9\u0ba4\u0bc1.\"\" \u0b8e\u0ba9\u0bcd\u0bb1\u0bc1 \u0b9f\u0bbe\u0ba9\u0bbf\u0baf\u0bb8\u0bcd \u0b95\u0bc2\u0bb1\u0bbf\u0ba9\u0bbe\u0bb0\u0bcd.\"",
+      "correct": false,
+      "score": 3.436446393954869e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.436446393954869e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.052631578947368425,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.21691205429225752,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tel_Telu",
+      "sample_id": "flores200-devtest-tel_Telu-0",
+      "prompt": "Translate the following English sentence into Telugu. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0c2e\u0c40\u0c30\u0c41 \u0c05\u0c28\u0c4d\u0c28\u0c3f \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\ufffd",
+      "parsed_answer": "\u0c2e\u0c40\u0c30\u0c41 \u0c05\u0c28\u0c4d\u0c28\u0c3f \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2e\u0c41\ufffd",
+      "expected": "\"\"\"\"\"\"\"\u0c07\u0c2a\u0c4d\u0c2a\u0c41\u0c21\u0c41 \u0c2e\u0c3e\u0c35\u0c26\u0c4d\u0c26 4 \u0c28\u0c46\u0c32\u0c32 \u0c35\u0c2f\u0c38\u0c4d\u0c38\u0c41 \u0c17\u0c32 \u0c0e\u0c32\u0c41\u0c15\u0c32\u0c41 \u0c09\u0c28\u0c4d\u0c28\u0c3e\u0c2f\u0c3f, \u0c05\u0c35\u0c3f \u0c2e\u0c27\u0c41\u0c2e\u0c47\u0c39\u0c02 \u0c32\u0c47\u0c28\u0c3f\u0c35\u0c3f, \u0c05\u0c35\u0c3f \u0c2e\u0c27\u0c41\u0c2e\u0c47\u0c39\u0c35\u0c4d\u0c2f\u0c3e\u0c27\u0c3f\u0c17\u0c3e \u0c09\u0c28\u0c4d\u0c28\u0c3e\u0c2f\u0c3f,\"\"\"\" \u0c05\u0c28\u0c3f \u0c06\u0c2f\u0c28 \u0c05\u0c28\u0c4d\u0c28\u0c3e\u0c30\u0c41.\"\"\"",
+      "correct": false,
+      "score": 8.751733190429483e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 8.751733190429483e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.09172458936132839,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tel_Telu",
+      "sample_id": "flores200-devtest-tel_Telu-1",
+      "prompt": "Translate the following English sentence into Telugu. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0c05\u0c27\u0c4d\u0c2f\u0c15\u0c4d\u0c37\u0c41\u0c21\u0c41 \u0c26\u0c3e\u0c32\u0c4d\u0c39\u0c4b\u0c38\u0c40\u0c38\u0c41\u0c32\u0c4b \u0c39\u0c3e\u0c32\u0c4d\u0c35\u0c38\u0c4d\u0c15\u0c43\u0c24\u0c3f \u0c2e\u0c46\u0c27\u0c3e\u0c28\u0c41\u0c32\u0c4b \u0c21\u0c3e\u0c32\u0c4d\u0c39\u0c4b\u0c38\u0c40\u0c38\u0c41 \u0c28\u0c46\u0c02\u0c2c\u0c30\u0c4d\u0c32\u0c4b \u0c1a\u0c3f\u0c24\u0c4d\u0c24\u0c41 \u0c2e\u0c30\u0c3f\u0c2f\u0c41 \u0c2a\u0c4d\u0c30",
+      "parsed_answer": "\u0c05\u0c27\u0c4d\u0c2f\u0c15\u0c4d\u0c37\u0c41\u0c21\u0c41 \u0c26\u0c3e\u0c32\u0c4d\u0c39\u0c4b\u0c38\u0c40\u0c38\u0c41\u0c32\u0c4b \u0c39\u0c3e\u0c32\u0c4d\u0c35\u0c38\u0c4d\u0c15\u0c43\u0c24\u0c3f \u0c2e\u0c46\u0c27\u0c3e\u0c28\u0c41\u0c32\u0c4b \u0c21\u0c3e\u0c32\u0c4d\u0c39\u0c4b\u0c38\u0c40\u0c38\u0c41 \u0c28\u0c46\u0c02\u0c2c\u0c30\u0c4d\u0c32\u0c4b \u0c1a\u0c3f\u0c24\u0c4d\u0c24\u0c41 \u0c2e\u0c30\u0c3f\u0c2f\u0c41 \u0c2a\u0c4d\u0c30",
+      "expected": "\u0c39\u0c3e\u0c32\u0c3f\u0c2b\u0c3e\u0c15\u0c4d\u0c38\u0c4d, \u0c28\u0c4b\u0c35\u0c3e \u0c38\u0c4d\u0c15\u0c4b\u0c1f\u0c3f\u0c2f\u0c3e\u0c32\u0c4b\u0c28\u0c3f \u0c21\u0c32\u0c4d\u0c39\u0c4c\u0c38\u0c40 \u0c35\u0c3f\u0c36\u0c4d\u0c35\u0c35\u0c3f\u0c26\u0c4d\u0c2f\u0c3e\u0c32\u0c2f\u0c02\u0c32\u0c4b \u0c2e\u0c46\u0c21\u0c3f\u0c38\u0c3f\u0c28\u0c4d \u0c2a\u0c4d\u0c30\u0c4a\u0c2b\u0c46\u0c38\u0c30\u0c4d \u0c21\u0c3e\u0c15\u0c4d\u0c1f\u0c30\u0c4d \u0c0e\u0c39\u0c41\u0c26\u0c4d \u0c2e\u0c40 \u0c07\u0c02\u0c15\u0c3e \u0c15\u0c46\u0c28\u0c21\u0c3f\u0c2f\u0c28\u0c4d \u0c21\u0c2f\u0c3e\u0c2c\u0c46\u0c1f\u0c3f\u0c38\u0c4d \u0c05\u0c38\u0c4b\u0c38\u0c3f\u0c2f\u0c47\u0c37\u0c28\u0c4d \u0c2f\u0c4a\u0c15\u0c4d\u0c15 \u0c15\u0c4d\u0c32\u0c3f\u0c28\u0c3f\u0c15\u0c32\u0c4d \u0c38\u0c48\u0c02\u0c1f\u0c3f\u0c2b\u0c3f\u0c15\u0c4d \u0c35\u0c3f\u0c2d\u0c3e\u0c17\u0c3e\u0c28\u0c3f\u0c15\u0c3f \u0c1a\u0c46\u0c02\u0c26\u0c3f\u0c28 \u0c21\u0c3e\u0c15\u0c4d\u0c1f\u0c30\u0c4d \u0c0e\u0c39\u0c41\u0c26\u0c4d \u0c2e\u0c40, \u0c2a\u0c30\u0c3f\u0c36\u0c4b\u0c27\u0c28 \u0c07\u0c02\u0c15\u0c3e \u0c2a\u0c4d\u0c30\u0c3e\u0c30\u0c02\u0c2d \u0c30\u0c4b\u0c1c\u0c41\u0c32\u0c4d\u0c32\u0c4b \u0c09\u0c02\u0c26\u0c28\u0c3f \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c02\u0c1a\u0c3e\u0c30\u0c41.",
+      "correct": false,
+      "score": 1.2110333239232985e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.2110333239232985e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.13041248028729424,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tel_Telu",
+      "sample_id": "flores200-devtest-tel_Telu-2",
+      "prompt": "Translate the following English sentence into Telugu. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0c05\u0c26\u0c3f \u0c12\u0c15 \u0c05\u0c28\u0c4d\u0c28\u0c3f \u0c2a\u0c4d\u0c30\u0c15\u0c3e\u0c30\u0c02 \u0c38\u0c4d\u0c2a\u0c3e\u0c2f\u0c28\u0c41 \u0c05\u0c28\u0c41\u0c38\u0c30\u0c3f\u0c02\u0c1a\u0c3f \u0c09\u0c02\u0c26\u0c3f, \u0c15\u0c3e\u0c2c\u0c1f\u0c4d\u0c1f\u0c3f \u0c38\u0c4d\u0c25\u0c3e\u0c2f\u0c3f \u0c26\u0c47\u0c36\u0c3e\u0c32\u0c41 \u0c15\u0c41 \u0c38\u0c4d\u0c25\u0c3e\u0c2f\u0c3f \u0c26\u0c47\u0c36\u0c3e\u0c32\u0c41 \ufffd",
+      "parsed_answer": "\u0c05\u0c26\u0c3f \u0c12\u0c15 \u0c05\u0c28\u0c4d\u0c28\u0c3f \u0c2a\u0c4d\u0c30\u0c15\u0c3e\u0c30\u0c02 \u0c38\u0c4d\u0c2a\u0c3e\u0c2f\u0c28\u0c41 \u0c05\u0c28\u0c41\u0c38\u0c30\u0c3f\u0c02\u0c1a\u0c3f \u0c09\u0c02\u0c26\u0c3f, \u0c15\u0c3e\u0c2c\u0c1f\u0c4d\u0c1f\u0c3f \u0c38\u0c4d\u0c25\u0c3e\u0c2f\u0c3f \u0c26\u0c47\u0c36\u0c3e\u0c32\u0c41 \u0c15\u0c41 \u0c38\u0c4d\u0c25\u0c3e\u0c2f\u0c3f \u0c26\u0c47\u0c36\u0c3e\u0c32\u0c41 \ufffd",
+      "expected": "\u0c15\u0c4a\u0c02\u0c24\u0c2e\u0c02\u0c26\u0c3f \u0c07\u0c24\u0c30 \u0c28\u0c3f\u0c2a\u0c41\u0c23\u0c41\u0c32 \u0c2e\u0c3e\u0c26\u0c3f\u0c30\u0c3f\u0c17\u0c3e\u0c28\u0c47, \u0c2e\u0c27\u0c41\u0c2e\u0c47\u0c39\u0c02\u200c\u0c28\u0c41 \u0c28\u0c2f\u0c02 \u0c1a\u0c47\u0c2f\u0c17\u0c32\u0c2e\u0c3e \u0c05\u0c28\u0c47 \u0c26\u0c3e\u0c28\u0c3f\u0c2a\u0c48 \u0c06\u0c2f\u0c28\u0c15\u0c41 \u0c05\u0c28\u0c41\u0c2e\u0c3e\u0c28\u0c02 \u0c09\u0c02\u0c26\u0c3f, \u0c08 \u0c2a\u0c30\u0c3f\u0c36\u0c4b\u0c27\u0c28\u0c32\u0c24\u0c4b \u0c07\u0c02\u0c15\u0c3e \u0c07\u0c2a\u0c4d\u0c2a\u0c1f\u0c3f\u0c15\u0c47 \u0c1f\u0c48\u0c2a\u0c4d 1 \u0c2e\u0c27\u0c41\u0c2e\u0c47\u0c39\u0c02\u0c24\u0c4b \u0c2c\u0c3e\u0c27\u0c2a\u0c21\u0c41\u0c24\u0c41\u0c28\u0c4d\u0c28 \u0c35\u0c3e\u0c30\u0c3f\u0c15\u0c40 \u0c0e\u0c1f\u0c41\u0c35\u0c02\u0c1f\u0c3f \u0c38\u0c02\u0c2c\u0c02\u0c27\u0c02 \u0c32\u0c47\u0c26\u0c28\u0c3f \u0c05\u0c24\u0c28\u0c41 \u0c2a\u0c47\u0c30\u0c4d\u0c15\u0c4a\u0c28\u0c4d\u0c28\u0c3e\u0c21\u0c41.",
+      "correct": false,
+      "score": 2.1938936848339277e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 2.1938936848339277e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.1701235860250545,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tel_Telu",
+      "sample_id": "flores200-devtest-tel_Telu-3",
+      "prompt": "Translate the following English sentence into Telugu. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0c30\u0c3e\u0c2e\u0c4d \u0c26\u0c3f\u0c28\u0c4d\u0c28\u0c3f, \u0c38\u0c48\u0c28\u0c4d\u0c38\u0c4d \u0c38\u0c4d\u0c35\u0c3e\u0c2e\u0c3f \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02\u0c32\u0c4b \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02 \u0c32\u0c47\u0c26\u0c3e \u0c28\u0c47\u0c2a\u0c3e\u0c32\u0c40 \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02\u0c32\u0c4b \u0c2a\u0c4d\u0c30",
+      "parsed_answer": "\u0c30\u0c3e\u0c2e\u0c4d \u0c26\u0c3f\u0c28\u0c4d\u0c28\u0c3f, \u0c38\u0c48\u0c28\u0c4d\u0c38\u0c4d \u0c38\u0c4d\u0c35\u0c3e\u0c2e\u0c3f \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02\u0c32\u0c4b \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02 \u0c32\u0c47\u0c26\u0c3e \u0c28\u0c47\u0c2a\u0c3e\u0c32\u0c40 \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35\u0c02\u0c32\u0c4b \u0c2a\u0c4d\u0c30",
+      "expected": "\u0c38\u0c4d\u0c35\u0c40\u0c21\u0c28\u0c4d \u0c32\u0c4b \u0c38\u0c4d\u0c35\u0c40\u0c21\u0c46\u0c28\u0c4d \u0c32\u0c4b \u0c38\u0c4d\u0c35\u0c46\u0c30\u0c3f\u0c1c\u0c46\u0c38\u0c4d \u0c30\u0c47\u0c21\u0c3f\u0c2f\u0c4b\u0c32\u0c4b \u0c1c\u0c30\u0c3f\u0c17\u0c3f\u0c28 \u0c12\u0c15 \u0c30\u0c47\u0c21\u0c3f\u0c2f\u0c4b \u0c15\u0c3e\u0c30\u0c4d\u0c2f\u0c15\u0c4d\u0c30\u0c2e\u0c02\u0c32\u0c4b \u0c2c\u0c39\u0c3f\u0c30\u0c02\u0c17\u0c02\u0c17\u0c3e \u0c2a\u0c4d\u0c30\u0c15\u0c1f\u0c3f\u0c02\u0c1a\u0c3f\u0c28 \u0c38\u0c3e\u0c30\u0c3e \u0c21\u0c3e\u0c28\u0c3f\u0c2f\u0c38\u0c4d, \u0c38\u0c4b\u0c2e\u0c35\u0c3e\u0c30\u0c02 \u0c28\u0c3e\u0c21\u0c41, \u0c38\u0c3e\u0c39\u0c3f\u0c24\u0c4d\u0c2f\u0c30\u0c02\u0c17\u0c02\u0c32\u0c4b 2016 \u0c28\u0c4b\u0c2c\u0c46\u0c32\u0c4d \u0c2c\u0c39\u0c41\u0c2e\u0c24\u0c3f\u0c28\u0c3f \u0c17\u0c46\u0c32\u0c41\u0c1a\u0c41\u0c15\u0c4b\u0c35\u0c21\u0c02 \u0c17\u0c41\u0c30\u0c3f\u0c02\u0c1a\u0c3f \u0c2c\u0c3e\u0c2c\u0c4d \u0c21\u0c3f\u0c32\u0c3e\u0c28\u0c4d \u0c28\u0c41 \u0c28\u0c47\u0c30\u0c41\u0c17\u0c3e \u0c1a\u0c47\u0c30\u0c41\u0c15\u0c4b\u0c32\u0c47\u0c15, \u0c05\u0c24\u0c28\u0c3f\u0c28\u0c3f \u0c1a\u0c47\u0c30\u0c41\u0c15\u0c4b\u0c35\u0c1f\u0c3e\u0c28\u0c3f\u0c15\u0c3f \u0c24\u0c28 \u0c2a\u0c4d\u0c30\u0c2f\u0c24\u0c4d\u0c28\u0c3e\u0c32\u0c28\u0c41 \u0c35\u0c3f\u0c30\u0c2e\u0c3f\u0c02\u0c1a\u0c41\u0c15\u0c41\u0c02\u0c26\u0c3f.",
+      "correct": false,
+      "score": 1.482150663375203e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.482150663375203e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.13284890784348594,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "tel_Telu",
+      "sample_id": "flores200-devtest-tel_Telu-4",
+      "prompt": "Translate the following English sentence into Telugu. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0c26\u0c3f\u0c02\u0c1f\u0c41\u0c02\u0c26\u0c3f, \"\u0c2a\u0c4d\u0c30\u0c2f\u0c24\u0c4d\u0c28\u0c3f\u0c02\u0c1a\u0c3e\u0c32\u0c28\u0c41\u0c15\u0c41\u0c02\u0c26\u0c3f. \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c3e\u0c32\u0c28\u0c41 \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c3e \u0c38\u0c2e\u0c40\u0c15\u0c30\u0c23\u0c02\u0c32",
+      "parsed_answer": "\u0c26\u0c3f\u0c02\u0c1f\u0c41\u0c02\u0c26\u0c3f, \"\u0c2a\u0c4d\u0c30\u0c2f\u0c24\u0c4d\u0c28\u0c3f\u0c02\u0c1a\u0c3e\u0c32\u0c28\u0c41\u0c15\u0c41\u0c02\u0c26\u0c3f. \u0c2e\u0c41\u0c02\u0c26\u0c41 \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c3e\u0c32\u0c28\u0c41 \u0c2a\u0c4d\u0c30\u0c3e\u0c25\u0c2e\u0c3f\u0c15 \u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c3e \u0c38\u0c2e\u0c40\u0c15\u0c30\u0c23\u0c02\u0c32",
+      "expected": "\"\"\"\u0c2a\u0c4d\u0c30\u0c38\u0c4d\u0c24\u0c41\u0c24\u0c02 \u0c2e\u0c28\u0c02 \u0c0f \u0c2a\u0c28\u0c3f \u0c1a\u0c47\u0c2f\u0c21\u0c02 \u0c32\u0c47\u0c26\u0c41. \u0c28\u0c47\u0c28\u0c41 \u0c05\u0c24\u0c28\u0c3f \u0c38\u0c28\u0c4d\u0c28\u0c3f\u0c39\u0c3f\u0c24 \u0c38\u0c39\u0c15\u0c3e\u0c30\u0c41\u0c32\u0c15\u0c3f \u0c15\u0c3e\u0c32\u0c4d \u0c1a\u0c47\u0c38\u0c3f \u0c08\u0c2e\u0c46\u0c2f\u0c3f\u0c32\u0c4d\u0c38\u0c4d  \u0c2a\u0c02\u0c2a\u0c3f\u0c02\u0c1a\u0c3e\u0c28\u0c41, \u0c35\u0c3e\u0c30\u0c3f \u0c28\u0c41\u0c02\u0c21\u0c3f \u0c38\u0c3e\u0c28\u0c41\u0c15\u0c42\u0c32 \u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c3e\u0c32\u0c41 \u0c35\u0c1a\u0c4d\u0c1a\u0c3e\u0c2f\u0c3f. \u0c07\u0c2a\u0c4d\u0c2a\u0c1f\u0c3f\u0c15\u0c3f \u0c05\u0c26\u0c3f \u0c38\u0c30\u0c3f\u0c2a\u0c4b\u0c24\u0c41\u0c02\u0c26\u0c3f \"\" \u0c05\u0c28\u0c3f \u0c21\u0c47\u0c28\u0c3f\u0c2f\u0c38\u0c4d \u0c1a\u0c46\u0c2a\u0c4d\u0c2a\u0c3e\u0c30\u0c41.\"",
+      "correct": false,
+      "score": 1.0539922456186444e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.0539922456186444e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.18933774574867734,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mar_Deva",
+      "sample_id": "flores200-devtest-mar_Deva-0",
+      "prompt": "Translate the following English sentence into Marathi. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\"\u092e\u0932\u093e \u0924\u094d\u092f\u093e\u091a\u0947 4 \u092e\u093e\u0939\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0928\u0948\u0926\u0940\u0915\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u092e\u0932\u093e \u0906\u0939\u0947.\"",
+      "parsed_answer": "\"\u092e\u0932\u093e \u0924\u094d\u092f\u093e\u091a\u0947 4 \u092e\u093e\u0939\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0928\u0948\u0926\u0940\u0915\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0935\u093e\u0922\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u092e\u0932\u093e \u0906\u0939\u0947.\"",
+      "expected": "\u0924\u0947 \u092e\u094d\u0939\u0923\u093e\u0932\u0947, \u201c\u0906\u092e\u091a\u094d\u092f\u093e\u0915\u0921\u0947 \u0906\u0924\u093e 4 \u092e\u0939\u093f\u0928\u094d\u092f\u093e\u0902\u091a\u093e \u0909\u0902\u0926\u0940\u0930 \u0906\u0939\u0947 \u091c\u094d\u092f\u093e\u0932\u093e \u092e\u0927\u0941\u092e\u0947\u0939 \u0928\u093e\u0939\u0940 \u091c\u094d\u092f\u093e\u0932\u093e \u092e\u0927\u0941\u092e\u0947\u0939\u0940 \u0939\u094b\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0935\u093e\u092a\u0930\u0932\u0947 \u091c\u093e\u0908\u0932.",
+      "correct": false,
+      "score": 3.0861946272099826e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.0861946272099826e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.07692307692307693,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.25024840025578415,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mar_Deva",
+      "sample_id": "flores200-devtest-mar_Deva-1",
+      "prompt": "Translate the following English sentence into Marathi. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0921\u0949. \u090f\u0939\u0941\u0921 \u0909\u0930, \u0926\u0932\u0939\u0949\u0938\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u092e\u093e\u0930\u094d\u0915\u094d\u0938\u0928\u091a \u0928\u0949\u0935\u0947\u0938\u093f\u092f\u0928 \u0921\u0947\u0928\u093f\u0938\u093f\u092f\u0928 \u0905\u0928\u0941\u0938\u0902\u0927\u093e\u0928 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u093e\u091a\u094d\u092f\u093e \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u092e\u093e\u0930\u094d\u0915\u094d\u0938\u0928\u091a \u0928\u0949\u0935",
+      "parsed_answer": "\u0921\u0949. \u090f\u0939\u0941\u0921 \u0909\u0930, \u0926\u0932\u0939\u0949\u0938\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u092e\u093e\u0930\u094d\u0915\u094d\u0938\u0928\u091a \u0928\u0949\u0935\u0947\u0938\u093f\u092f\u0928 \u0921\u0947\u0928\u093f\u0938\u093f\u092f\u0928 \u0905\u0928\u0941\u0938\u0902\u0927\u093e\u0928 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u093e\u091a\u094d\u092f\u093e \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u092e\u093e\u0930\u094d\u0915\u094d\u0938\u0928\u091a \u0928\u0949\u0935",
+      "expected": "\u0921\u0949. \u090f\u0939\u0942\u0926 \u0909\u0930, \u0939\u0949\u0932\u093f\u092b\u0945\u0915\u094d\u0938\u092e\u0927\u0940\u0932 \u0921\u0932\u0939\u094c\u0938\u0940 \u092f\u0941\u0928\u093f\u0935\u094d\u0939\u0930\u094d\u0938\u093f\u091f\u0940 \u0911\u092b \u092e\u0947\u0921\u093f\u0938\u093f\u0928\u091a\u0947 \u092a\u094d\u0930\u094b\u092b\u0947\u0938\u0930 \u0928\u094b\u0935\u094d\u0939\u093e \u0938\u094d\u0915\u0949\u0936\u093f\u092f\u093e \u0906\u0923\u093f \u0915\u0945\u0928\u0947\u0921\u093f\u092f\u0928 \u0921\u093e\u092f\u092c\u0947\u091f\u093f\u0938 \u0905\u0938\u094b\u0938\u093f\u090f\u0936\u0928\u091a\u094d\u092f\u093e \u0915\u094d\u0932\u093f\u0928\u093f\u0915\u0932 \u0906\u0923\u093f \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915 \u0935\u093f\u092d\u093e\u0917\u093e\u091a\u0947 \u0905\u0927\u094d\u092f\u0915\u094d\u0937 \u092f\u093e\u0902\u0928\u0940 \u0938\u093e\u0902\u0917\u093f\u0924\u0932\u0947 \u0915\u0940 \u0938\u0902\u0936\u094b\u0927\u0928 \u0939\u0947 \u0905\u0926\u094d\u092f\u093e\u092a \u0938\u0941\u0930\u0941\u0935\u093e\u0924\u0940\u091a\u094d\u092f\u093e \u0915\u093e\u0933\u093e\u0924\u0940\u0932 \u0938\u094d\u0925\u093f\u0924\u0940\u0924 \u0906\u0939\u0947.",
+      "correct": false,
+      "score": 1.960599733412507e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.960599733412507e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.09090909090909091,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.2191454675518686,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mar_Deva",
+      "sample_id": "flores200-devtest-mar_Deva-2",
+      "prompt": "Translate the following English sentence into Marathi. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0924\u094d\u092f\u093e\u091a\u0947 \u090f\u0915 \u0935\u093f\u0937\u092f\u093e\u091a\u0947 \u090f\u0915 \u0935\u093f\u0936\u0947\u0937 \u092a\u0930\u093f\u0935\u0930\u094d\u0924\u0928 \u0939\u0947 \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0935\u093f\u091a\u093e\u0930 \u0905\u0928\u094d\u092f \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0924\u0930\u093f\u0924 \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0928\u093e \u0905\u0938\u0924\u0947, \u0924\u094d\u092f\u093e\u092e\u0941\u0933\u0947 \u0924\u094d\u092f\u093e\u091a\u0947 \u0935\u093f\u091a\u093e\u0930 \u0924\u094d\u092f\u093e\u091a\u094d\u092f\u093e \u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \ufffd",
+      "parsed_answer": "\u0924\u094d\u092f\u093e\u091a\u0947 \u090f\u0915 \u0935\u093f\u0937\u092f\u093e\u091a\u0947 \u090f\u0915 \u0935\u093f\u0936\u0947\u0937 \u092a\u0930\u093f\u0935\u0930\u094d\u0924\u0928 \u0939\u0947 \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0935\u093f\u091a\u093e\u0930 \u0905\u0928\u094d\u092f \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0924\u0930\u093f\u0924 \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0928\u093e \u0905\u0938\u0924\u0947, \u0924\u094d\u092f\u093e\u092e\u0941\u0933\u0947 \u0924\u094d\u092f\u093e\u091a\u0947 \u0935\u093f\u091a\u093e\u0930 \u0924\u094d\u092f\u093e\u091a\u094d\u092f\u093e \u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \ufffd",
+      "expected": "\u0907\u0924\u0930 \u0915\u093e\u0939\u0940 \u0924\u091c\u094d\u091e\u093e\u0902\u092a\u094d\u0930\u092e\u093e\u0923\u0947\u091a , \u092e\u0927\u0941\u092e\u0947\u0939 \u092c\u0930\u093e \u0939\u094b\u0924\u094b \u0915\u0940 \u0928\u093e\u0939\u0940 \u092f\u093e\u0935\u093f\u0937\u092f\u0940 \u0924\u094b \u0938\u093e\u0936\u0902\u0915 \u0906\u0939\u0947, \u092f\u093e \u0936\u094b\u0927\u093e\u091a\u093e \u0906\u0927\u0940\u091a \u092a\u094d\u0930\u0915\u093e\u0930 \u0967 \u092e\u0927\u0941\u092e\u0947\u0939 \u0905\u0938\u0923\u093e\u0931\u094d\u092f\u093e \u0932\u094b\u0915\u093e\u0902\u0936\u0940 \u0915\u093e\u0939\u0940 \u0938\u0902\u092c\u0927 \u0928\u093e\u0939\u0940. ",
+      "correct": false,
+      "score": 7.686205265937365e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 7.686205265937365e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.15090026153502095,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mar_Deva",
+      "sample_id": "flores200-devtest-mar_Deva-3",
+      "prompt": "Translate the following English sentence into Marathi. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0938\u094b\u092e\u0935\u093e\u0930, \u0938\u094d\u0935\u0947\u091f\u093f\u0938\u094d\u0935\u093e\u0930\u094d\u0921\u0940\u091a\u094d\u092f\u093e \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940 \u092f\u0941\u0928\u093f\u0915\u094b\u0938\u094d\u091f \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940\u091a\u094d\u092f\u093e \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+      "parsed_answer": "\u0938\u094b\u092e\u0935\u093e\u0930, \u0938\u094d\u0935\u0947\u091f\u093f\u0938\u094d\u0935\u093e\u0930\u094d\u0921\u0940\u091a\u094d\u092f\u093e \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940 \u092f\u0941\u0928\u093f\u0915\u094b\u0938\u094d\u091f \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0928\u094b\u092c\u0947\u0932 \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930 \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0905\u0915\u093e\u0926\u092e\u0940\u091a\u094d\u092f\u093e \u0932\u093f\u0902\u0917\u0947\u0936\u093e\u0938\u0942\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+      "expected": "\u0938\u094b\u092e\u0935\u093e\u0930\u0940, \u0938\u093e\u0930\u093e \u0921\u0945\u0928\u093f\u0905\u0938, \u0938\u094d\u0935\u093f\u0921\u093f\u0936 \u0905\u0915\u093e\u0926\u092e\u0940 \u092f\u0947\u0925\u0940\u0932 \u0938\u093e\u0939\u093f\u0924\u094d\u092f\u093e\u091a\u094d\u092f\u093e \u0928\u094b\u092c\u0947\u0932 \u0915\u092e\u093f\u091f\u0940\u091a\u094d\u092f\u093e \u0915\u093e\u092f\u092e\u0938\u094d\u0935\u0930\u0942\u092a\u0940 \u0938\u091a\u093f\u0935 \u092f\u093e\u0902\u0928\u0940 \u0938\u094d\u0935\u093f\u0921\u0928\u092e\u0927\u0940\u0932 \u0938\u094d\u0935\u0947\u0930\u0940\u091c (\u0938\u094d\u0935\u093f\u0921\u093f\u0936) \u0930\u0947\u0921\u093f\u0913\u0935\u0930\u0940\u0932 \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e\u093e\u0926\u0930\u092e\u094d\u092f\u093e\u0928 \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915\u0930\u0940\u0924\u094d\u092f\u093e \u0918\u094b\u0937\u0923\u093e \u0915\u0947\u0932\u0940 \u0915\u0940, \u0915\u092e\u093f\u091f\u0940\u0928\u0947 \u092c\u0949\u092c \u0921\u093e\u092f\u0932\u0928 \u092f\u093e\u0902\u091a\u094d\u092f\u093e\u0936\u0940 \u0968\u0966\u0967\u096c \u0938\u093e\u0932\u091a\u0947 \u0938\u093e\u0939\u093f\u0924\u094d\u092f\u093e\u0924\u0940\u0932 \u0928\u094b\u092c\u0947\u0932 \u092a\u093e\u0930\u093f\u0924\u094b\u0937\u093f\u0915 \u092e\u093f\u0933\u093e\u0932\u094d\u092f\u093e\u092c\u0926\u094d\u0926\u0932 \u0925\u0947\u091f \u0938\u0902\u092a\u0930\u094d\u0915 \u0938\u093e\u0927\u0942 \u0928 \u0936\u0915\u0932\u094d\u092f\u093e\u092e\u0941\u0933\u0947, \u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e\u092a\u0930\u094d\u092f\u0902\u0924 \u092a\u094b\u0939\u094b\u091a\u0923\u094d\u092f\u093e\u091a\u093e \u092a\u094d\u0930\u092f\u0924\u094d\u0928 \u0938\u094b\u0921\u0942\u0928 \u0926\u093f\u0932\u093e. ",
+      "correct": false,
+      "score": 7.267217550217893e-11,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 7.267217550217893e-11,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.07407407407407408,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.18593895499481128,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mar_Deva",
+      "sample_id": "flores200-devtest-mar_Deva-4",
+      "prompt": "Translate the following English sentence into Marathi. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0926\u093e\u0928\u0942\u0938\u093e\u0920\u0940, \"\u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0924\u0941\u092e\u094d\u0939\u093e\u0932\u093e \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0938\u0930\u094d\u0935\u093e\u0924 \u091c\u093e\u0917\u0924\u093f\u0915 \u0935\u093f\u0915\u093e\u0938 \u0906\u0923\u093f \u0935\u093f\u0935\u093f\u0927 \u0935\u094d\u092f\u093e\u0916\u094d\u092f\u093e\u0902\u091a\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0906\u0923\u093f \u0906\u092a\u0932\u094d\u092f\u093e \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0938",
+      "parsed_answer": "\u0926\u093e\u0928\u0942\u0938\u093e\u0920\u0940, \"\u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0924\u0941\u092e\u094d\u0939\u093e\u0932\u093e \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0938\u0930\u094d\u0935\u093e\u0924 \u091c\u093e\u0917\u0924\u093f\u0915 \u0935\u093f\u0915\u093e\u0938 \u0906\u0923\u093f \u0935\u093f\u0935\u093f\u0927 \u0935\u094d\u092f\u093e\u0916\u094d\u092f\u093e\u0902\u091a\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0906\u0923\u093f \u0906\u092a\u0932\u094d\u092f\u093e \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u0940\u091a\u093e \u0938",
+      "expected": "\"\u0921\u0945\u0928\u0940\u092f\u0938 \u092e\u094d\u0939\u0923\u093e\u0932\u0947, \"\"\u0906\u0924\u094d\u0924\u093e \u0938\u0927\u094d\u092f\u093e \u0906\u092e\u094d\u0939\u0940 \u0915\u093e\u0939\u0940\u0939\u0940 \u0915\u0930\u0924 \u0928\u093e\u0939\u0940. \u092e\u0940 \u0924\u094d\u092f\u093e\u091a\u094d\u092f\u093e \u0938\u0930\u094d\u0935\u093e\u0924 \u091c\u0935\u0933\u091a\u094d\u092f\u093e \u0938\u092e\u0928\u094d\u0935\u092f\u0915\u093e\u0938 \u092b\u094b\u0928 \u0915\u0947\u0932\u093e \u0906\u0923\u093f \u092e\u0947\u0932 \u092a\u093e\u0920\u0935\u0932\u0947 \u0905\u0924\u093f\u0936\u092f \u092e\u0948\u0924\u094d\u0930\u0940\u092a\u0942\u0930\u094d\u0923 \u0909\u0924\u094d\u0924\u0930 \u092e\u093f\u0933\u093e\u0932\u0947. \u0906\u0924\u094d\u0924\u093e\u0938\u093e\u0920\u0940 \u0924\u0930\u0940 \u0924\u0947 \u0928\u0915\u094d\u0915\u0940 \u092a\u0941\u0930\u0947\u0938\u0947 \u0906\u0939\u0947.\"\"\"",
+      "correct": false,
+      "score": 3.066416845334168e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.066416845334168e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.08888888888888889,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.23716140468508534,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "guj_Gujr",
+      "sample_id": "flores200-devtest-guj_Gujr-0",
+      "prompt": "Translate the following English sentence into Gujarati. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0a85\u0ab9\u0ac0\u0a82 \u0a86\u0aaa\u0aa3\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0a8f\u0a95 \u0ab8\u0a82\u0a96\u0acd\u0aaf\u0abe \u0a86\u0aaa\u0ac0 \u0a9b\u0ac7: \u0a86 \u0aae\u0ac1\u0ab6\u0acd\u0a95\u0ac7\u0ab2\u0acb \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0ab8\u0acd\u0aa5\u0ab3\u0ac0 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\ufffd",
+      "parsed_answer": "\u0a85\u0ab9\u0ac0\u0a82 \u0a86\u0aaa\u0aa3\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0a8f\u0a95 \u0ab8\u0a82\u0a96\u0acd\u0aaf\u0abe \u0a86\u0aaa\u0ac0 \u0a9b\u0ac7: \u0a86 \u0aae\u0ac1\u0ab6\u0acd\u0a95\u0ac7\u0ab2\u0acb \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0ab8\u0acd\u0aa5\u0ab3\u0ac0 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\u0a9f\u0ac7 \u0aae\u0abe\ufffd",
+      "expected": "\"\u0aa4\u0ac7\u0aae\u0aa3\u0ac7 \u0a89\u0aae\u0ac7\u0ab0\u0acd\u0aaf\u0ac1\u0a82, \"\"\u0ab9\u0ab5\u0ac7 \u0a85\u0aae\u0abe\u0ab0\u0ac0 \u0aaa\u0abe\u0ab8\u0ac7 4 \u0aae\u0ab9\u0abf\u0aa8\u0abe \u0aaa\u0ab9\u0ac7\u0ab2\u0abe \u0a9c\u0aa8\u0acd\u0aae\u0ac7\u0ab2\u0abe \u0a89\u0a82\u0aa6\u0ab0\u0acb \u0a9b\u0ac7 \u0a9c\u0ac7\u0a93 \u0aaa\u0ab9\u0ac7\u0ab2\u0abe \u0aa1\u0abe\u0aaf\u0abe\u0aac\u0abf\u0a9f\u0ac0\u0ab8\u0aa5\u0ac0 \u0aaa\u0ac0\u0aa1\u0abe\u0aa4\u0abe \u0ab9\u0aa4\u0abe \u0aaa\u0ab0\u0a82\u0aa4\u0ac1 \u0ab9\u0ab5\u0ac7 \u0aa4\u0ac7\u0a93\u0aa8\u0ac7 \u0aa1\u0abe\u0aaf\u0abe\u0aac\u0abf\u0a9f\u0ac0\u0ab8 \u0aa8\u0aa5\u0ac0.\"\"\"",
+      "correct": false,
+      "score": 8.464817248906149e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 8.464817248906149e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.12996202675534352,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "guj_Gujr",
+      "sample_id": "flores200-devtest-guj_Gujr-1",
+      "prompt": "Translate the following English sentence into Gujarati. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0a8f\u0ab9\u0ac7\u0aa1 \u0a89\u0ab0 \u0aa6\u0ab2\u0acd\u0ab9\u0acb\u0ab8\u0ac0\u0aaf \u0a89\u0ab2\u0abf\u0aaf\u0aae \u0ab8\u0abe\u0aa5\u0ac7 \u0aa6\u0abe\u0ab2\u0acd\u0ab2\u0abe\u0aa8\u0ac0 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0aae\u0ac7\u0aa1\u0abf\u0aaf\u0abe \u0a85\u0aa8\u0ac7 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0a95\u0abf\u0a82\u0a97\u0ab2 \u0aa1",
+      "parsed_answer": "\u0a8f\u0ab9\u0ac7\u0aa1 \u0a89\u0ab0 \u0aa6\u0ab2\u0acd\u0ab9\u0acb\u0ab8\u0ac0\u0aaf \u0a89\u0ab2\u0abf\u0aaf\u0aae \u0ab8\u0abe\u0aa5\u0ac7 \u0aa6\u0abe\u0ab2\u0acd\u0ab2\u0abe\u0aa8\u0ac0 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0aae\u0ac7\u0aa1\u0abf\u0aaf\u0abe \u0a85\u0aa8\u0ac7 \u0aa8\u0ac7\u0a9f\u0ab2\u0abe\u0aa8\u0ac0 \u0a95\u0abf\u0a82\u0a97\u0ab2 \u0aa1",
+      "expected": "\u0aa4\u0aac\u0ac0\u0aac\u0ac0 \u0aaa\u0acd\u0ab0\u0abe\u0aa7\u0acd\u0aaf\u0abe\u0aaa\u0a95, \u0aa1\u0ac7\u0ab2\u0ab9\u0abe\u0a89\u0ab8\u0ac0 \u0aaf\u0ac1\u0aa8\u0abf\u0ab5\u0ab0\u0acd\u0ab8\u0abf\u0a9f\u0ac0, \u0ab9\u0ac7\u0ab2\u0ac0\u0aab\u0ac7\u0a95\u0acd\u0ab8, \u0aa8\u0acb\u0ab5\u0abe \u0ab8\u0acd\u0a95\u0acb\u0a9f\u0abf\u0aaf\u0abe \u0a85\u0aa8\u0ac7 \u0a95\u0ac7\u0aa8\u0ac7\u0aa1\u0ac0\u0aaf\u0aa8  \u0aa1\u0abe\u0aaf\u0abe\u0aac\u0abf\u0a9f\u0ac0\u0ab8 \u0a8f\u0ab8\u0acb\u0ab8\u0abf\u0a8f\u0ab6\u0aa8 \u0aa8\u0abe \u0a95\u0acd\u0ab2\u0abf\u0aa8\u0abf\u0a95\u0ab2 \u0a85\u0aa8\u0ac7 \u0ab8\u0abe\u0aaf\u0aa8\u0acd\u0a9f\u0abf\u0aab\u0abf\u0a95 \u0aa1\u0abf\u0ab5\u0abf\u0a9d\u0aa8 \u0aa8\u0abe \u0a9a\u0ac7\u0ab0, \u0aa1\u0acb. \u0a88\u0ab9\u0ac1\u0aa6 \u0a89\u0ab0 \u0a8f \u0a9a\u0ac7\u0aa4\u0ab5\u0aa3\u0ac0 \u0a86\u0aaa\u0ac0 \u0a95\u0ac7 \u0ab8\u0a82\u0ab6\u0acb\u0aa7\u0aa8 \u0ab9\u0a9c\u0ac0 \u0aaa\u0aa3 \u0aa4\u0ac7\u0aa8\u0abe \u0aaa\u0acd\u0ab0\u0abe\u0aa5\u0aae\u0abf\u0a95 \u0aa4\u0aac\u0a95\u0acd\u0a95\u0abe \u0aae\u0abe\u0a82 \u0a9b\u0ac7.",
+      "correct": false,
+      "score": 1.3447027841496668e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.3447027841496668e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.043478260869565216,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.151943908204479,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "guj_Gujr",
+      "sample_id": "flores200-devtest-guj_Gujr-2",
+      "prompt": "Translate the following English sentence into Gujarati. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0a85\u0aa8\u0ac7 \u0a85\u0aa8\u0acd\u0aaf \u0aaa\u0acd\u0ab0\u0ab6\u0aa8\u0acb\u0aa8\u0ac0 \u0ab8\u0acd\u0a9f\u0ac7\u0a9f\u0acd\u0ab8 \u0aa8\u0ac7 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \ufffd",
+      "parsed_answer": "\u0a85\u0aa8\u0ac7 \u0a85\u0aa8\u0acd\u0aaf \u0aaa\u0acd\u0ab0\u0ab6\u0aa8\u0acb\u0aa8\u0ac0 \u0ab8\u0acd\u0a9f\u0ac7\u0a9f\u0acd\u0ab8 \u0aa8\u0ac7 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \u0ab8\u0abe\u0aa7\u0aa8\u0ac0 \ufffd",
+      "expected": "\u0a95\u0ac7\u0a9f\u0ab2\u0abe\u0a95 \u0a85\u0aa8\u0acd\u0aaf \u0aa8\u0abf\u0ab7\u0acd\u0aa3\u0abe\u0aa4\u0acb\u0aa8\u0ac0 \u0a9c\u0ac7\u0aae \u0aa4\u0ac7\u0a93 \u0aaa\u0aa3 \u0aa1\u0abe\u0aaf\u0abe\u0aac\u0abf\u0a9f\u0ac0\u0ab8 \u0aae\u0a9f\u0ac0 \u0ab6\u0a95\u0ac7 \u0a95\u0ac7 \u0a95\u0ac7\u0aae \u0a8f \u0a85\u0a82\u0a97\u0ac7 \u0ab6\u0a82\u0a95\u0abe \u0aa7\u0ab0\u0abe\u0ab5\u0ac7 \u0a9b\u0ac7, \u0a8f \u0aa7\u0acd\u0aaf\u0abe\u0aa8\u0aae\u0abe\u0a82 \u0ab2\u0ac7\u0aa4\u0abe \u0a95\u0ac7 \u0a86 \u0aa4\u0abe\u0ab0\u0aa3\u0acb\u0aa8\u0ac7 \u0a9f\u0abe\u0a88\u0aaa 1 \u0aa1\u0abe\u0aaf\u0abe\u0aac\u0abf\u0a9f\u0ac0\u0ab8 \u0aa7\u0ab0\u0abe\u0ab5\u0aa4\u0abe \u0ab2\u0acb\u0a95\u0acb \u0ab8\u0abe\u0aa5\u0ac7 \u0a95\u0acb\u0a88 \u0aa8\u0abf\u0ab8\u0acd\u0aac\u0aa4 \u0aa8\u0aa5\u0ac0.",
+      "correct": false,
+      "score": 1.5350071611990284e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.5350071611990284e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.044444444444444446,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.12731072875592303,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "guj_Gujr",
+      "sample_id": "flores200-devtest-guj_Gujr-3",
+      "prompt": "Translate the following English sentence into Gujarati. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0aaa\u0acd\u0ab0\u0aa7\u0abe\u0aa8, \u0ab8\u0acd\u0ab5\u0abe\u0aa8\u0ac0\u0ab8\u0ac7\u0ab8\u0acd\u0a9f\u0acd\u0ab8 \u0ab0\u0abf\u0ab8\u0acd\u0a9f\u0ab0\u0aa8\u0acd\u0a9f \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\ufffd",
+      "parsed_answer": "\u0aaa\u0acd\u0ab0\u0aa7\u0abe\u0aa8, \u0ab8\u0acd\u0ab5\u0abe\u0aa8\u0ac0\u0ab8\u0ac7\u0ab8\u0acd\u0a9f\u0acd\u0ab8 \u0ab0\u0abf\u0ab8\u0acd\u0a9f\u0ab0\u0aa8\u0acd\u0a9f \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0ac7\u0a9f\u0ab2\ufffd",
+      "expected": "\u0ab8\u0acb\u0aae\u0ab5\u0abe\u0ab0\u0ac7, \u0ab8\u0acd\u0ab5\u0abf\u0aa1\u0abf\u0ab6 \u0a8f\u0a95\u0ac7\u0aa1\u0ac7\u0aae\u0ac0 \u0aa8\u0ac0 \u0aa8\u0acb\u0aac\u0ac7\u0ab2 \u0a95\u0aae\u0abf\u0a9f\u0ac0 \u0aab\u0acb\u0ab0 \u0ab2\u0abf\u0a9f\u0ab0\u0ac7\u0a9a\u0ab0 \u0aa8\u0abe \u0a95\u0abe\u0aaf\u0aae\u0ac0 \u0ab8\u0a9a\u0abf\u0ab5, \u0ab8\u0abe\u0ab0\u0abe \u0aa1\u0ac7\u0aa8\u0abf\u0aaf\u0ab8\u0ac7, \u0ab8\u0acd\u0ab5\u0abf\u0aa1\u0aa8 \u0aae\u0abe\u0a82 \u0ab8\u0acd\u0ab5\u0ac7\u0ab0\u0abf\u0a97\u0ab8 \u0ab0\u0ac7\u0aa1\u0abf\u0aaf\u0acb\u0aa8\u0abe \u0a8f\u0a95 \u0ab0\u0ac7\u0aa1\u0abf\u0aaf\u0acb \u0a95\u0abe\u0ab0\u0acd\u0aaf\u0a95\u0acd\u0ab0\u0aae \u0aae\u0abe\u0a82 \u0a9c\u0abe\u0ab9\u0ac7\u0ab0\u0abe\u0aa4 \u0a95\u0ab0\u0ac0 \u0a95\u0ac7, \u0a95\u0aae\u0abf\u0a9f\u0ac0 \u0aac\u0acb\u0aac \u0aa1\u0abe\u0aaf\u0ab2\u0aa8 \u0aa8\u0ac7 \u0ab8\u0abe\u0ab9\u0abf\u0aa4\u0acd\u0aaf \u0aae\u0abe\u0a82 \u0ab5\u0ab0\u0acd\u0ab7 2016 \u0aa8\u0ac1\u0a82 \u0aa8\u0acb\u0aac\u0ac7\u0ab2 \u0aaa\u0ac1\u0ab0\u0ab8\u0acd\u0a95\u0abe\u0ab0 \u0aae\u0ab3\u0ab5\u0abe \u0aac\u0aa6\u0ab2 \u0ab8\u0ac0\u0aa7\u0acb \u0ab8\u0a82\u0aaa\u0ab0\u0acd\u0a95 \u0a95\u0ab0\u0ab5\u0abe \u0a85\u0ab8\u0aae\u0ab0\u0acd\u0aa5 \u0ab9\u0aa4\u0ac0 \u0a85\u0aa8\u0ac7 \u0aa4\u0ac7\u0aa8\u0abe \u0ab8\u0ac1\u0aa7\u0ac0 \u0aaa\u0ab9\u0acb\u0a82\u0a9a\u0ab5\u0abe\u0aa8\u0abe \u0aaa\u0acd\u0ab0\u0aaf\u0abe\u0ab8\u0acb \u0aa8\u0ac7 \u0aa4\u0acd\u0aaf\u0a9c\u0ac0 \u0aa6\u0ac0\u0aa7\u0abe \u0ab9\u0aa4\u0abe.",
+      "correct": false,
+      "score": 1.657267540176127e-14,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.657267540176127e-14,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.09511607136586694,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "guj_Gujr",
+      "sample_id": "flores200-devtest-guj_Gujr-4",
+      "prompt": "Translate the following English sentence into Gujarati. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0aa6\u0abf\u0aa8\u0ac0 \u0aae\u0abe\u0ab0\u0ac0 \u0a95\u0ab9\u0acd\u0aaf\u0ac1\u0a82, \"\u0a86 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0a95\u0acd\u0aaf\u0abe\u0ab0\u0ac7 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0acd\u0ab7\u0ac7\u0aa4\u0acd\u0ab0\u0ac0\u0a93 \u0a86\u0aaa\u0ac7 \u0a9b\u0ac7. \u0a86 \u0aae\u0abe\u0ab0\u0ac0 \u0a95\u0abe\u0ab0\u0aa3\u0ac7 \u0a86 \u0a95\u0abe\u0ab0\u0aa3\u0ac7 \u0a86",
+      "parsed_answer": "\u0aa6\u0abf\u0aa8\u0ac0 \u0aae\u0abe\u0ab0\u0ac0 \u0a95\u0ab9\u0acd\u0aaf\u0ac1\u0a82, \"\u0a86 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0aae\u0abe\u0a9f\u0ac7 \u0a86 \u0a95\u0acd\u0aaf\u0abe\u0ab0\u0ac7 \u0a95\u0ac7\u0a9f\u0ab2\u0ac0\u0a95 \u0a95\u0acd\u0ab7\u0ac7\u0aa4\u0acd\u0ab0\u0ac0\u0a93 \u0a86\u0aaa\u0ac7 \u0a9b\u0ac7. \u0a86 \u0aae\u0abe\u0ab0\u0ac0 \u0a95\u0abe\u0ab0\u0aa3\u0ac7 \u0a86 \u0a95\u0abe\u0ab0\u0aa3\u0ac7 \u0a86",
+      "expected": "\"\"\"\u0a85\u0aae\u0ac7 \u0a85\u0aa4\u0acd\u0aaf\u0abe\u0ab0\u0ac7 \u0a95\u0ab6\u0ac1\u0a82 \u0a9c \u0a95\u0ab0\u0ac0 \u0ab0\u0ab9\u0acd\u0aaf\u0abe \u0aa8\u0aa5\u0ac0, \u0aa1\u0ac7\u0aa8\u0abf\u0ab8\u0ac7 \u0a95\u0ab9\u0acd\u0aaf\u0ac1\u0a82. \u0aae\u0ac7\u0a82 \u0aa4\u0ac7\u0aa8\u0abe \u0aa8\u0a9c\u0ac0\u0a95\u0aa8\u0abe \u0ab8\u0abe\u0aa5\u0ac0\u0aa8\u0ac7 \u0aab\u0acb\u0aa8 \u0a95\u0ab0\u0acd\u0aaf\u0acb \u0a9b\u0ac7 \u0a85\u0aa8\u0ac7 \u0a88-\u0aae\u0ac7\u0a88\u0ab2 \u0a95\u0ab0\u0acd\u0aaf\u0acb \u0a9b\u0ac7 \u0a85\u0aa8\u0ac7 \u0aa4\u0aae\u0abe\u0aae \u0aae\u0ac8\u0aa4\u0acd\u0ab0\u0ac0\u0aaa\u0ac2\u0ab0\u0acd\u0aa3 \u0aaa\u0acd\u0ab0\u0aa4\u0abf\u0aad\u0abe\u0ab5\u0acb \u0aae\u0ab3\u0acd\u0aaf\u0abe \u0a9b\u0ac7. \u0a85\u0aa4\u0acd\u0aaf\u0abe\u0ab0\u0ac7 \u0aa4\u0acb \u0a86 \u0a9f\u0ab2\u0ac1\u0a82 \u0a9c.\"\"\"",
+      "correct": false,
+      "score": 3.0288505647269424e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.0288505647269424e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.07999999999999999,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.19822117660756788,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "kan_Knda",
+      "sample_id": "flores200-devtest-kan_Knda-0",
+      "prompt": "Translate the following English sentence into Kannada. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0ca8\u0cbe\u0ca8\u0cc1 \u0c8e\u0c82\u0ca6\u0cc1 \u0cae\u0cca\u0cac\u0ccd\u0cac\u0cc1 \u0cae\u0cc1\u0c82\u0ca6\u0cc6 4 \u0cae\u0cc8\u0cb8\u0cc2\u0cb0\u0cc1 \u0cae\u0cbe\u0ca8\u0cbe\u0caf\u0cbf\u0ca4\u0cc1 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cae\u0cc1\u0c82\u0ca6\u0cc6 \u0ca6\u0cbf\u0c95\u0ccd\u0c95\u0cbe\u0cb0\u0ca6 \u0cae\u0cbe\u0ca8\u0cbe\u0caf\u0cbf\u0ca4\u0cc1.",
+      "parsed_answer": "\u0ca8\u0cbe\u0ca8\u0cc1 \u0c8e\u0c82\u0ca6\u0cc1 \u0cae\u0cca\u0cac\u0ccd\u0cac\u0cc1 \u0cae\u0cc1\u0c82\u0ca6\u0cc6 4 \u0cae\u0cc8\u0cb8\u0cc2\u0cb0\u0cc1 \u0cae\u0cbe\u0ca8\u0cbe\u0caf\u0cbf\u0ca4\u0cc1 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cae\u0cc1\u0c82\u0ca6\u0cc6 \u0ca6\u0cbf\u0c95\u0ccd\u0c95\u0cbe\u0cb0\u0ca6 \u0cae\u0cbe\u0ca8\u0cbe\u0caf\u0cbf\u0ca4\u0cc1.",
+      "expected": "\" \u0c88 \u0cae\u0cca\u0ca6\u0cb2\u0cc1 \u0ca1\u0caf\u0cbe\u0cac\u0cc6\u0c9f\u0cbf\u0c95\u0ccd \u0c86\u0c97\u0cbf\u0ca6\u0ccd\u0ca6 \u0c86\u0ca6\u0cb0\u0cc6 \u0c88\u0c97  \u0ca1\u0caf\u0cbe\u0cac\u0cc6\u0c9f\u0cbf\u0c95\u0ccd \u0c85\u0cb2\u0ccd\u0cb2\u0ca6 4 \u0ca4\u0cbf\u0c82\u0c97\u0cb3 \u0c87\u0cb2\u0cbf\u0c97\u0cb3\u0cc1 \u0ca8\u0cae\u0ccd\u0cae  \u0cac\u0cb3\u0cbf \u0c87\u0cb5\u0cc6,\" \u0c8e\u0c82\u0ca6\u0cc1 \u0c85\u0cb5\u0ca8\u0cc1 \u0cb9\u0cc7\u0cb3\u0cbf\u0ca6.",
+      "correct": false,
+      "score": 3.4557324559222245e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.4557324559222245e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.06896551724137931,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.15620898977425446,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "kan_Knda",
+      "sample_id": "flores200-devtest-kan_Knda-1",
+      "prompt": "Translate the following English sentence into Kannada. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "Dr. Ehud Ur, \u0ca6\u0cb2\u0ccd\u0cb9\u0ccb\u0cb8\u0cc0\u0cb7\u0ccd \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0ccd\u0caf\u0cbe\u0cb5\u0ccd\u0caf\u0cbe\u0caa\u0ca3\u0ccd\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0ccd\u0ca6 \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cbf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca6\u0cb2\u0ccd\u0cb9\u0ccb\u0cb8\u0cc0\u0cb7\u0ccd \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0ccd\u0caf\u0cbe\u0cb5\u0ccd\u0caf\u0cbe\u0caa\u0ca3\u0ccd\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0ccd\u0ca6 \u0cae\u0cc1",
+      "parsed_answer": "Dr. Ehud Ur, \u0ca6\u0cb2\u0ccd\u0cb9\u0ccb\u0cb8\u0cc0\u0cb7\u0ccd \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0ccd\u0caf\u0cbe\u0cb5\u0ccd\u0caf\u0cbe\u0caa\u0ca3\u0ccd\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0ccd\u0ca6 \u0cae\u0cc1\u0c82\u0ca6\u0cc1\u0cb5\u0cbf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca6\u0cb2\u0ccd\u0cb9\u0ccb\u0cb8\u0cc0\u0cb7\u0ccd \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0ccd\u0caf\u0cbe\u0cb5\u0ccd\u0caf\u0cbe\u0caa\u0ca3\u0ccd\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0ccd\u0ca6 \u0cae\u0cc1",
+      "expected": "\u0ca8\u0ccb\u0cb5\u0cbe \u0cb8\u0ccd\u0c95\u0cbe\u0c9f\u0cbf\u0caf\u0cbe\u0ca6 \u0cb9\u0ccd\u0caf\u0cbe\u0cb2\u0cbf\u0cab\u0ccd\u0caf\u0cbe\u0c95\u0ccd\u0cb8\u0ccd\u200c\u0ca8 \u0ca1\u0cbe\u0cb2\u0ccd\u200c\u0cb9\u0ccc\u0cb8\u0cbf \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0cb2\u0caf\u0ca6 \u0cb5\u0cc8\u0ca6\u0ccd\u0caf\u0c95\u0cc0\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca7\u0ccd\u0caf\u0cbe\u0caa\u0c95 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0c95\u0cc6\u0ca8\u0ca1\u0cbf\u0caf\u0ca8\u0ccd \u0ca1\u0caf\u0cbe\u0cac\u0cbf\u0c9f\u0cbf\u0cb8\u0ccd \u0c85\u0cb8\u0ccb\u0cb8\u0cbf\u0caf\u0cc7\u0cb7\u0ca8\u0ccd\u200c\u0ca8 \u0c95\u0ccd\u0cb2\u0cbf\u0ca8\u0cbf\u0c95\u0cb2\u0ccd \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cb5\u0cc8\u0c9c\u0ccd\u0c9e\u0cbe\u0ca8\u0cbf\u0c95 \u0cb5\u0cbf\u0cad\u0cbe\u0c97\u0ca6 \u0c85\u0ca7\u0ccd\u0caf\u0c95\u0ccd\u0cb7\u0cb0\u0cbe\u0ca6 \u0ca1\u0cbe. \u0c8e\u0cb9\u0cc1\u0ca6\u0ccd \u0c89\u0cb0\u0ccd \u0c85\u0cb5\u0cb0\u0cc1 \u0cb8\u0c82\u0cb6\u0ccb\u0ca7\u0ca8\u0cc6\u0caf\u0cc1 \u0c87\u0ca8\u0ccd\u0ca8\u0cc2 \u0c86\u0cb0\u0c82\u0cad\u0cbf\u0c95 \u0ca6\u0cbf\u0ca8\u0c97\u0cb3\u0cb2\u0ccd\u0cb2\u0cbf\u0ca6\u0cc6 \u0c8e\u0c82\u0ca6\u0cc1 \u0cae\u0cbe\u0cb0\u0ccd\u0cae\u0cbf\u0c95\u0cb5\u0cbe\u0c97\u0cbf \u0c8e\u0c9a\u0ccd\u0c9a\u0cb0\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6.",
+      "correct": false,
+      "score": 1.3533528323661284e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.3533528323661284e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.15561050987127958,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "kan_Knda",
+      "sample_id": "flores200-devtest-kan_Knda-2",
+      "prompt": "Translate the following English sentence into Kannada. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0ca8\u0cbe\u0cb5\u0cc1 \u0c95\u0cca\u0ca1\u0cc1 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0cb0\u0cc1\u0cb5 \u0caa\u0ccd\u0cb0\u0cb6\u0ccd\u0ca8\u0cc6\u0c97\u0cb3\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cc1\u0c82\u0ca6\u0cb0 \u0cb8\u0ccd\u0ca5\u0cb3\u0cb5\u0cbe\u0c97\u0cbf \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1, \u0c87\u0ca6\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0caf\u0cbe\u0c97\u0cbf\u0cb8\u0cbf\u0ca6 \u0caa\u0ccd\u0cb0\u0cbe\u0caf\u0cbe\u0c97\u0cbf\u0cb8\u0cbf\u0ca6 \u0caa\u0ccd\u0cb0\ufffd",
+      "parsed_answer": "\u0ca8\u0cbe\u0cb5\u0cc1 \u0c95\u0cca\u0ca1\u0cc1 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0cb0\u0cc1\u0cb5 \u0caa\u0ccd\u0cb0\u0cb6\u0ccd\u0ca8\u0cc6\u0c97\u0cb3\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cc1\u0c82\u0ca6\u0cb0 \u0cb8\u0ccd\u0ca5\u0cb3\u0cb5\u0cbe\u0c97\u0cbf \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1, \u0c87\u0ca6\u0cc1 \u0caa\u0ccd\u0cb0\u0cbe\u0caf\u0cbe\u0c97\u0cbf\u0cb8\u0cbf\u0ca6 \u0caa\u0ccd\u0cb0\u0cbe\u0caf\u0cbe\u0c97\u0cbf\u0cb8\u0cbf\u0ca6 \u0caa\u0ccd\u0cb0\ufffd",
+      "expected": "\u0cae\u0ca7\u0cc1\u0cae\u0cc7\u0cb9\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c97\u0cc1\u0ca3\u0caa\u0ca1\u0cbf\u0cb8\u0cb2\u0cc1 \u0cb8\u0cbe\u0ca7\u0ccd\u0caf\u0cb5\u0cc7 \u0c8e\u0c82\u0cac \u0cac\u0c97\u0ccd\u0c97\u0cc6 \u0c87\u0ca4\u0cb0\u0cc6 \u0c87\u0ca4\u0cb0 \u0c95\u0cc6\u0cb2\u0cb5\u0cc1 \u0ca4\u0c9c\u0ccd\u0c9e\u0cb0\u0c82\u0ca4\u0cc6 \u0c85\u0cb5\u0cb0\u0cc1 \u0c95\u0cc2\u0ca1 \u0cb8\u0c82\u0cb6\u0caf \u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0caa\u0ca1\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0cbe\u0cb0\u0cc6, \u0c88 \u0cb8\u0c82\u0cb6\u0ccb\u0ca7\u0ca8\u0cc6\u0c97\u0cb3\u0cc1 \u0c88\u0c97\u0cbe\u0c97\u0cb2\u0cc7 \u0c9f\u0cc8\u0caa\u0ccd 1 \u0cae\u0ca7\u0cc1\u0cae\u0cc7\u0cb9 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0cb0\u0cc1\u0cb5 \u0c9c\u0ca8\u0cb0\u0cbf\u0c97\u0cc6 \u0caf\u0cbe\u0cb5\u0cc1\u0ca6\u0cc7 \u0caa\u0ccd\u0cb0\u0caf\u0ccb\u0c9c\u0ca8\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc0\u0ca1\u0cbf\u0cb2\u0ccd\u0cb2.",
+      "correct": false,
+      "score": 1.684204074695283e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.684204074695283e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05714285714285715,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.18488899301987846,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "kan_Knda",
+      "sample_id": "flores200-devtest-kan_Knda-3",
+      "prompt": "Translate the following English sentence into Kannada. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0ca8\u0c82\u0ca6\u0cbf\u0ca8\u0ccd\u0ca8\u0cc6, \u0cb8\u0cbe\u0cb0\u0cbe \u0ca6\u0cbf\u0ca8\u0cc6\u0c82\u0ca6\u0cc1, \u0cb8\u0ccd\u0cb5\u0cbe\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cbf\u0caf \u0c85\u0c95\u0ccd\u0cb0\u0cae \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0ca8\u0ccd\u0caf\u0cbe\u0cb2\u0ccd\u0c9f\u0ccd\u0cb0\u0cc0 \u0cb8\u0ccd\u0cb5\ufffd",
+      "parsed_answer": "\u0ca8\u0c82\u0ca6\u0cbf\u0ca8\u0ccd\u0ca8\u0cc6, \u0cb8\u0cbe\u0cb0\u0cbe \u0ca6\u0cbf\u0ca8\u0cc6\u0c82\u0ca6\u0cc1, \u0cb8\u0ccd\u0cb5\u0cbe\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cbf\u0caf \u0c85\u0c95\u0ccd\u0cb0\u0cae \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0cb8\u0ccd\u0cb5\u0cbe\u0c82\u0ca4\u0cbe\u0c82\u0ca4\u0cb0 \u0ca8\u0ccd\u0caf\u0cbe\u0cb2\u0ccd\u0c9f\u0ccd\u0cb0\u0cc0 \u0cb8\u0ccd\u0cb5\ufffd",
+      "expected": "\u0cb8\u0ccb\u0cae\u0cb5\u0cbe\u0cb0, \u0cb8\u0ccd\u0cb5\u0cc0\u0ca1\u0cbf\u0cb7\u0ccd \u0c85\u0c95\u0cbe\u0ca1\u0cc6\u0cae\u0cbf\u0caf \u0cb8\u0cbe\u0cb9\u0cbf\u0ca4\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cbe\u0c97\u0cbf \u0ca8\u0cca\u0cac\u0cc6\u0cb2\u0ccd \u0cb8\u0cae\u0cbf\u0ca4\u0cbf\u0caf \u0c96\u0cbe\u0caf\u0c82 \u0c95\u0cbe\u0cb0\u0ccd\u0caf\u0ca6\u0cb0\u0ccd\u0cb6\u0cbf\u0caf\u0cbe\u0ca6 \u0cb8\u0cbe\u0cb0\u0cbe \u0ca1\u0cc7\u0ca8\u0cbf\u0caf\u0cb8\u0ccd \u0c85\u0cb5\u0cb0\u0cc1, 2016 \u0cb0 \u0cb8\u0cbe\u0cb9\u0cbf\u0ca4\u0ccd\u0caf\u0ca6 \u0ca8\u0cca\u0cac\u0cc6\u0cb2\u0ccd \u0caa\u0ccd\u0cb0\u0cb6\u0cb8\u0ccd\u0ca4\u0cbf \u0c97\u0cc6\u0cb2\u0ccd\u0cb2\u0cc1\u0cb5 \u0cac\u0c97\u0ccd\u0c97\u0cc6 \u0cac\u0cbe\u0cac\u0ccd \u0ca1\u0cc8\u0cb2\u0ca8\u0ccd \u0c85\u0cb5\u0cb0\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc7\u0cb0\u0cb5\u0cbe\u0c97\u0cbf \u0cb8\u0c82\u0caa\u0cb0\u0ccd\u0c95\u0cbf\u0cb8\u0cb2\u0cc1 \u0cb8\u0cbe\u0ca7\u0ccd\u0caf\u0cb5\u0cbe\u0c97\u0cb2\u0cbf\u0cb2\u0ccd\u0cb2, \u0c86\u0ca4\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0c82\u0caa\u0cb0\u0ccd\u0c95\u0cbf\u0cb8\u0cc1\u0cb5 \u0c8e\u0cb2\u0ccd\u0cb2\u0cbe \u0caa\u0ccd\u0cb0\u0caf\u0ca4\u0ccd\u0ca8\u0c97\u0cb3\u0cc1 \u0cb5\u0cbf\u0cab\u0cb2\u0cb5\u0cbe\u0ca6\u0cb5\u0cc1 \u0c8e\u0c82\u0ca6\u0cc1 \u0cb8\u0ccd\u0cb5\u0cc0\u0ca1\u0ca8\u0ccd\u200c\u0ca8 \u0cb8\u0ccd\u0cb5\u0cc6\u0cb0\u0cbf\u0c9c\u0cb8\u0ccd \u0cb0\u0cc7\u0ca1\u0cbf\u0caf\u0cca\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb0\u0cc7\u0ca1\u0cbf\u0caf\u0cca \u0c95\u0cbe\u0cb0\u0ccd\u0caf\u0c95\u0ccd\u0cb0\u0cae\u0cb5\u0cca\u0c82\u0ca6\u0cb0\u0cb2\u0ccd\u0cb2\u0cbf \u0cb8\u0cbe\u0cb0\u0ccd\u0cb5\u0c9c\u0ca8\u0cbf\u0c95\u0cb5\u0cbe\u0c97\u0cbf \u0c98\u0ccb\u0cb7\u0cbf\u0cb8\u0cbf\u0ca6\u0cb0\u0cc1.",
+      "correct": false,
+      "score": 3.7792437094167744e-11,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.7792437094167744e-11,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0425531914893617,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.131740621143033,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "kan_Knda",
+      "sample_id": "flores200-devtest-kan_Knda-4",
+      "prompt": "Translate the following English sentence into Kannada. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0ca6\u0cbf\u0ca8\u0ccd\u0caf\u0cbe\u0cb8\u0ccd \u0c8e\u0c82\u0ca6\u0cc1 \u0ca8\u0ccd\u0caf\u0cbe\u0cb8\u0cb5\u0cbe\u0c97\u0cbf\u0ca6\u0cc6, \"\u0ca4\u0cbf\u0c82\u0ca6\u0cc1 \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cbe\u0ca6\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1. \u0cae\u0cc1\u0ca6\u0ccd\u0ca6\u0cbf\u0ca8 \u0cae\u0cc1\u0c82\u0ca6\u0cc1 \u0cb8\u0ccd\u0cb5\u0cbe\u0cad\u0cbe\u0cb5\u0cbf\u0ca4 \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cbe\u0ca6\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1",
+      "parsed_answer": "\u0ca6\u0cbf\u0ca8\u0ccd\u0caf\u0cbe\u0cb8\u0ccd \u0c8e\u0c82\u0ca6\u0cc1 \u0ca8\u0ccd\u0caf\u0cbe\u0cb8\u0cb5\u0cbe\u0c97\u0cbf\u0ca6\u0cc6, \"\u0ca4\u0cbf\u0c82\u0ca6\u0cc1 \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cbe\u0ca6\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1. \u0cae\u0cc1\u0ca6\u0ccd\u0ca6\u0cbf\u0ca8 \u0cae\u0cc1\u0c82\u0ca6\u0cc1 \u0cb8\u0ccd\u0cb5\u0cbe\u0cad\u0cbe\u0cb5\u0cbf\u0ca4 \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cbe\u0ca6\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc1",
+      "expected": "\u0ca1\u0cc7\u0ca8\u0cbf\u0caf\u0cb8\u0ccd, \" \u0cb8\u0ca7\u0ccd\u0caf\u0c95\u0ccd\u0c95\u0cc6 \u0ca8\u0cbe\u0cb5\u0cc7\u0ca8\u0cc2 \u0cae\u0cbe\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0cb2\u0ccd\u0cb2. \u0ca8\u0cbe\u0ca8\u0cc1 \u0c85\u0cb5\u0cb0 \u0c85\u0ca4\u0ccd\u0caf\u0c82\u0ca4 \u0ca8\u0cbf\u0c95\u0c9f \u0cb8\u0cb9\u0caf\u0ccb\u0c97\u0cbf\u0c97\u0cc6 \u0ca6\u0cc2\u0cb0\u0cb5\u0cbe\u0ca3\u0cbf \u0c95\u0cb0\u0cc6 \u0cae\u0cbe\u0ca1\u0cbf\u0ca6\u0ccd\u0ca1\u0cc7\u0ca8\u0cc6 \u0cb9\u0cbe\u0c97\u0cc2 \u0c88\u0cae\u0cc7\u0cb2\u0ccd\u200c\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cb3\u0cbf\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cc7\u0ca8\u0cc6 \u0cb9\u0cbe\u0c97\u0cc2 \u0c85\u0cb5\u0cb0\u0cbf\u0c82\u0ca6 \u0cb8\u0ccd\u0ca8\u0cc7\u0cb9\u0caa\u0cc2\u0cb0\u0ccd\u0ca3 \u0c89\u0ca4\u0ccd\u0ca4\u0cb0\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ca1\u0cc6\u0ca6\u0cbf\u0ca6\u0ccd\u0ca6\u0cc7\u0ca8\u0cc6. \u0c88\u0c97\u0cbf\u0ca8 \u0cae\u0c9f\u0ccd\u0c9f\u0c95\u0ccd\u0c95\u0cc6 \u0c87\u0ca6\u0cc1 \u0ca8\u0cbf\u0c9c\u0cb5\u0cbe\u0c97\u0cbf\u0caf\u0cc2 \u0cb8\u0cbe\u0c95\u0cc1\" \u0c8e\u0c82\u0ca6\u0cc1 \u0cb9\u0cc7\u0cb3\u0cbf\u0ca6.",
+      "correct": false,
+      "score": 6.991904155647242e-11,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 6.991904155647242e-11,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05405405405405406,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.18512467296151316,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mal_Mlym",
+      "sample_id": "flores200-devtest-mal_Mlym-0",
+      "prompt": "Translate the following English sentence into Malayalam. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0d05\u0d35\u0d7b \u0d0e\u0d28\u0d4d\u0d28\u0d3f\u0d35\u0d3f\u0d1f\u0d46 4 \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\ufffd",
+      "parsed_answer": "\u0d05\u0d35\u0d7b \u0d0e\u0d28\u0d4d\u0d28\u0d3f\u0d35\u0d3f\u0d1f\u0d46 4 \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\ufffd",
+      "expected": "\u0d2a\u0d4d\u0d30\u0d2e\u0d47\u0d39\u0d2e\u0d41\u0d23\u0d4d\u0d1f\u0d3e\u0d2f\u0d3f\u0d30\u0d41\u0d28\u0d4d\u0d28, \u0d07\u0d2a\u0d4d\u0d2a\u0d4b\u0d7e \u0d2a\u0d4d\u0d30\u0d2e\u0d47\u0d39\u0d2e\u0d3f\u0d32\u0d4d\u0d32\u0d3e\u0d24\u0d4d\u0d24 4 \u0d2e\u0d3e\u0d38\u0d02 \u0d2a\u0d4d\u0d30\u0d3e\u0d2f\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d0e\u0d32\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d \u0d1e\u0d19\u0d4d\u0d19\u0d33\u0d41\u0d1f\u0d46 \u0d2a\u0d15\u0d4d\u0d15\u0d32\u0d41\u0d33\u0d4d\u0d33\u0d24\u0d4d.",
+      "correct": false,
+      "score": 4.789736254435757e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 4.789736254435757e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.07142857142857142,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.08329947216778845,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mal_Mlym",
+      "sample_id": "flores200-devtest-mal_Mlym-1",
+      "prompt": "Translate the following English sentence into Malayalam. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "Dr. Ehud Ur, profesor klinik dan ilmiah di Universiti Dalhousie di Halifax, Nova Scotia, dan ketua divisi klinik dan ilmiah dari Asosiasi Diabetes Kanada, mengingatkan bahawa penelitian ini masih dalam tahap awal.",
+      "parsed_answer": "Dr. Ehud Ur, profesor klinik dan ilmiah di Universiti Dalhousie di Halifax, Nova Scotia, dan ketua divisi klinik dan ilmiah dari Asosiasi Diabetes Kanada, mengingatkan bahawa penelitian ini masih dalam tahap awal.",
+      "expected": "\u0d28\u0d4b\u0d35 \u0d38\u0d4d\u200c\u0d15\u0d4b\u0d1f\u0d4d\u0d1f\u0d3f\u0d2f\u0d2f\u0d3f\u0d32\u0d46, \u0d39\u0d3e\u0d32\u0d3f\u0d2b\u0d3e\u0d15\u0d4d\u0d38\u0d3f\u0d32\u0d46 \u0d21\u0d46\u0d7d\u0d39\u0d4c\u0d38\u0d3f \u0d38\u0d7c\u0d35\u0d15\u0d32\u0d3e\u0d36\u0d3e\u0d32\u0d2f\u0d3f\u0d32\u0d46 \u0d2e\u0d46\u0d21\u0d3f\u0d38\u0d3f\u0d7b \u0d2a\u0d4d\u0d30\u0d4a\u0d2b\u0d38\u0d4d\u0d38\u0d31\u0d3e\u0d2f \u0d21\u0d4b\u0d15\u0d4d\u200c\u0d1f\u0d7c \u0d0e\u0d39\u0d42\u0d26\u0d4d \u0d09\u0d31\u0d41\u0d02 \u0d15\u0d28\u0d47\u0d21\u0d3f\u0d2f\u0d7b \u0d21\u0d2f\u0d2c\u0d31\u0d4d\u0d31\u0d3f\u0d38\u0d4d \u0d05\u0d38\u0d4b\u0d38\u0d3f\u0d2f\u0d47\u0d37\u0d28\u0d4d\u0d31\u0d46 \u0d15\u0d4d\u0d32\u0d3f\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d7d, \u0d38\u0d2f\u0d28\u0d4d\u0d31\u0d3f\u0d2b\u0d3f\u0d15\u0d4d\u0d15\u0d4d \u0d21\u0d3f\u0d35\u0d3f\u0d37\u0d7b \u0d1a\u0d46\u0d2f\u0d7c\u0d2e\u0d3e\u0d28\u0d41\u0d02 \u0d17\u0d35\u0d47\u0d37\u0d23\u0d02 \u0d07\u0d2a\u0d4d\u0d2a\u0d4b\u0d34\u0d41\u0d02 \u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d06\u0d26\u0d4d\u0d2f \u0d26\u0d3f\u0d35\u0d38\u0d19\u0d4d\u0d19\u0d33\u0d3f\u0d32\u0d3e\u0d23\u0d46\u0d28\u0d4d\u0d28\u0d4d \u0d2e\u0d41\u0d28\u0d4d\u0d28\u0d31\u0d3f\u0d2f\u0d3f\u0d2a\u0d4d\u0d2a\u0d4d \u0d28\u0d7d\u0d15\u0d3f.",
+      "correct": false,
+      "score": 1.000000000000001e-12,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.000000000000001e-12,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.020933489600340895,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mal_Mlym",
+      "sample_id": "flores200-devtest-mal_Mlym-2",
+      "prompt": "Translate the following English sentence into Malayalam. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d12\u0d30\u0d41 \u0d05\u0d28\u0d4d\u0d24\u0d30\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d2a\u0d47\u0d30\u0d3f\u0d32\u0d46 \u0d38\u0d57\u0d15\u0d30\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d7e \u0d05\u0d28\u0d41\u0d2d\u0d35\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d41\u0d28\u0d4d\u0d28\u0d41, \u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d2a\u0d4d\u0d30\u0d24\u0d3f\u0d38\u0d28\u0d4d\u0d27\u0d3f\u0d15\u0d33\u0d41\u0d02 \u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d2a\u0d47\u0d30\ufffd",
+      "parsed_answer": "\u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d12\u0d30\u0d41 \u0d05\u0d28\u0d4d\u0d24\u0d30\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d2a\u0d47\u0d30\u0d3f\u0d32\u0d46 \u0d38\u0d57\u0d15\u0d30\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d7e \u0d05\u0d28\u0d41\u0d2d\u0d35\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d41\u0d28\u0d4d\u0d28\u0d41, \u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d2a\u0d4d\u0d30\u0d24\u0d3f\u0d38\u0d28\u0d4d\u0d27\u0d3f\u0d15\u0d33\u0d41\u0d02 \u0d05\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d2a\u0d47\u0d30\ufffd",
+      "expected": "\u0d2e\u0d31\u0d4d\u0d31\u0d4d \u0d1a\u0d3f\u0d32 \u0d35\u0d3f\u0d26\u0d17\u0d4d\u0d26\u0d4d\u0d27\u0d30\u0d46 \u0d2a\u0d4b\u0d32\u0d46, \u0d2a\u0d4d\u0d30\u0d2e\u0d47\u0d39\u0d30\u0d4b\u0d17\u0d3f\u0d15\u0d33\u0d46 \u0d38\u0d41\u0d16\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d3e\u0d7b \u0d15\u0d34\u0d3f\u0d2f\u0d41\u0d2e\u0d4b \u0d0e\u0d28\u0d4d\u0d28 \u0d15\u0d3e\u0d30\u0d4d\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d05\u0d26\u0d4d\u0d26\u0d47\u0d39\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d \u0d38\u0d02\u0d36\u0d2f\u0d2e\u0d41\u0d23\u0d4d\u0d1f\u0d4d, \u0d15\u0d3e\u0d30\u0d23\u0d02 \u0d28\u0d3f\u0d32\u0d35\u0d3f\u0d7d \u0d1f\u0d48\u0d2a\u0d4d\u0d2a\u0d4d 1 \u0d2a\u0d4d\u0d30\u0d2e\u0d47\u0d39\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d06\u0d33\u0d41\u0d15\u0d7e\u0d15\u0d4d\u0d15\u0d4d \u0d08 \u0d15\u0d23\u0d4d\u0d1f\u0d46\u0d24\u0d4d\u0d24\u0d32\u0d41\u0d15\u0d33\u0d3f\u0d7d \u0d2a\u0d4d\u0d30\u0d38\u0d15\u0d4d\u0d24\u0d3f \u0d07\u0d32\u0d4d\u0d32.",
+      "correct": false,
+      "score": 3.328710836980799e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.328710836980799e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.17486590877138045,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mal_Mlym",
+      "sample_id": "flores200-devtest-mal_Mlym-3",
+      "prompt": "Translate the following English sentence into Malayalam. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0d28\u0d3e\u0d23\u0d3f\u0d15\u0d3f\u0d2f\u0d3e\u0d2f\u0d3f\u0d30\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d2e\u0d41\u0d24\u0d7d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d02, \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \ufffd",
+      "parsed_answer": "\u0d28\u0d3e\u0d23\u0d3f\u0d15\u0d3f\u0d2f\u0d3e\u0d2f\u0d3f\u0d30\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d2e\u0d41\u0d24\u0d7d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d02, \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \u0d05\u0d15\u0d4d\u0d30\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d38\u0d48\u0d28\u0d4d\u0d2f \ufffd",
+      "expected": "\u0d24\u0d3f\u0d19\u0d4d\u0d15\u0d33\u0d3e\u0d34\u0d4d\u0d1a, \u0d38\u0d4d\u0d35\u0d40\u0d21\u0d3f\u0d37\u0d4d \u0d05\u0d15\u0d4d\u0d15\u0d3e\u0d21\u0d2e\u0d3f\u0d2f\u0d3f\u0d32\u0d46 \u0d28\u0d4b\u0d2c\u0d46\u0d7d \u0d15\u0d2e\u0d4d\u0d2e\u0d3f\u0d31\u0d4d\u0d31\u0d3f \u0d38\u0d3e\u0d39\u0d3f\u0d24\u0d4d\u0d2f \u0d35\u0d3f\u0d2d\u0d3e\u0d17 \u0d38\u0d4d\u0d25\u0d3f\u0d30\u0d02 \u0d38\u0d46\u0d15\u0d4d\u0d30\u0d1f\u0d4d\u0d1f\u0d31\u0d3f\u0d2f\u0d3e\u0d2f \u0d38\u0d3e\u0d31 \u0d21\u0d3e\u0d28\u0d3f\u0d2f\u0d38\u0d4d,\u0d38\u0d4d\u0d35\u0d40\u0d21\u0d28\u0d3f\u0d32\u0d46 \u0d38\u0d4d\u0d35\u0d31\u0d3f\u0d1c\u0d38\u0d4d \u0d31\u0d47\u0d21\u0d3f\u0d2f\u0d4b\u0d2f\u0d3f\u0d7d \u0d12\u0d30\u0d41 \u0d2a\u0d4d\u0d30\u0d4b\u0d17\u0d4d\u0d30\u0d3e\u0d2e\u0d3f\u0d28\u0d3f\u0d1f\u0d2f\u0d3f\u0d7d \u0d2a\u0d30\u0d38\u0d4d\u0d2f\u0d2e\u0d3e\u0d2f\u0d3f \u0d07\u0d19\u0d4d\u0d19\u0d28\u0d46 \u0d2a\u0d4d\u0d30\u0d16\u0d4d\u0d2f\u0d3e\u0d2a\u0d3f\u0d1a\u0d4d\u0d1a\u0d41,2016 \u0d32\u0d46 \u0d38\u0d3e\u0d39\u0d3f\u0d24\u0d4d\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d28\u0d4b\u0d2c\u0d46\u0d7d \u0d2a\u0d41\u0d30\u0d38\u0d4d\u0d15\u0d4d\u0d15\u0d3e\u0d30 \u0d38\u0d02\u0d2c\u0d28\u0d4d\u0d27\u0d2e\u0d3e\u0d2f\u0d3f \u0d2c\u0d4b\u0d2c\u0d4d \u0d21\u0d48\u0d32\u0d28\u0d46 \u0d2c\u0d28\u0d4d\u0d27\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d41\u0d35\u0d3e\u0d7b \u0d15\u0d2e\u0d4d\u0d2e\u0d3f\u0d31\u0d4d\u0d31\u0d3f\u0d15\u0d4d\u0d15\u0d4d \u0d15\u0d34\u0d3f\u0d1e\u0d4d\u0d1e\u0d3f\u0d32\u0d4d\u0d32,\u0d05\u0d19\u0d4d\u0d19\u0d28\u0d46 \u0d05\u0d26\u0d4d\u0d26\u0d47\u0d39\u0d24\u0d4d\u0d24\u0d46 \u0d2c\u0d28\u0d4d\u0d27\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d3e\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d36\u0d4d\u0d30\u0d2e\u0d19\u0d4d\u0d19\u0d7e \u0d05\u0d35\u0d7c\u0d15\u0d4d\u0d15\u0d4d \u0d09\u0d2a\u0d47\u0d15\u0d4d\u0d37\u0d3f\u0d15\u0d4d\u0d15\u0d47\u0d23\u0d4d\u0d1f\u0d3f\u0d35\u0d28\u0d4d\u0d28\u0d41.",
+      "correct": false,
+      "score": 1.3533528323661284e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.3533528323661284e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.1517958058892848,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "mal_Mlym",
+      "sample_id": "flores200-devtest-mal_Mlym-4",
+      "prompt": "Translate the following English sentence into Malayalam. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0d21\u0d3e\u0d23\u0d40\u0d38\u0d4d \u0d15\u0d41\u0d31\u0d3f\u0d1a\u0d4d\u0d1a\u0d41, \"\u0d28\u0d3f\u0d19\u0d4d\u0d19\u0d7e \u0d0e\u0d32\u0d4d\u0d32\u0d3e\u0d35\u0d7c \u0d28\u0d3f\u0d7c\u0d2e\u0d4d\u0d2e\u0d3e\u0d23\u0d36\u0d3e\u0d32\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d41\u0d31\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d38\u0d3e\u0d2e\u0d4d\u0d2a\u0d24\u0d4d\u0d24\u0d3f\u0d15 \u0d38\u0d3e\u0d2e\u0d4d\u0d2a\u0d24\u0d4d\u0d24\u0d3f\u0d15\u0d2e\u0d3e\u0d2f \u0d2a\u0d4d\u0d30\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d28\u0d19\u0d4d\u0d19\u0d7e \ufffd",
+      "parsed_answer": "\u0d21\u0d3e\u0d23\u0d40\u0d38\u0d4d \u0d15\u0d41\u0d31\u0d3f\u0d1a\u0d4d\u0d1a\u0d41, \"\u0d28\u0d3f\u0d19\u0d4d\u0d19\u0d7e \u0d0e\u0d32\u0d4d\u0d32\u0d3e\u0d35\u0d7c \u0d28\u0d3f\u0d7c\u0d2e\u0d4d\u0d2e\u0d3e\u0d23\u0d36\u0d3e\u0d32\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d41\u0d31\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d38\u0d3e\u0d2e\u0d4d\u0d2a\u0d24\u0d4d\u0d24\u0d3f\u0d15 \u0d38\u0d3e\u0d2e\u0d4d\u0d2a\u0d24\u0d4d\u0d24\u0d3f\u0d15\u0d2e\u0d3e\u0d2f \u0d2a\u0d4d\u0d30\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d28\u0d19\u0d4d\u0d19\u0d7e \ufffd",
+      "expected": "\"\u0d21\u0d3e\u0d28\u0d3f\u0d2f\u0d38\u0d4d \u0d2a\u0d31\u0d1e\u0d4d\u0d1e\u0d41, \"\"\u0d07\u0d2a\u0d4d\u0d2a\u0d4b\u0d7e \u0d1e\u0d19\u0d4d\u0d19\u0d7e \u0d12\u0d28\u0d4d\u0d28\u0d41\u0d02 \u0d1a\u0d46\u0d2f\u0d4d\u0d2f\u0d41\u0d28\u0d4d\u0d28\u0d3f\u0d32\u0d4d\u0d32. \u0d1e\u0d3e\u0d7b \u0d05\u0d26\u0d4d\u0d26\u0d47\u0d39\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d0f\u0d31\u0d4d\u0d31\u0d35\u0d41\u0d02 \u0d05\u0d1f\u0d41\u0d24\u0d4d\u0d24 \u0d15\u0d4a\u0d33\u0d3e\u0d2c\u0d4a\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d7c\u0d15\u0d4d\u0d15\u0d4d \u0d07\u0d2e\u0d46\u0d2f\u0d3f\u0d32\u0d41\u0d15\u0d7e \u0d05\u0d2f\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d41\u0d15\u0d2f\u0d41\u0d02 \u0d35\u0d33\u0d30\u0d46 \u0d38\u0d57\u0d39\u0d3e\u0d7c\u0d26\u0d4d\u0d26\u0d2a\u0d30\u0d2e\u0d3e\u0d2f \u0d2e\u0d31\u0d41\u0d2a\u0d1f\u0d3f\u0d15\u0d7e \u0d32\u0d2d\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15\u0d2f\u0d41\u0d02 \u0d1a\u0d46\u0d2f\u0d4d\u0d24\u0d41. \u0d07\u0d2a\u0d4d\u0d2a\u0d4b\u0d34\u0d24\u0d4d\u0d24\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d24\u0d40\u0d7c\u0d1a\u0d4d\u0d1a\u0d2f\u0d3e\u0d2f\u0d41\u0d02 \u0d05\u0d24\u0d4d \u0d2e\u0d24\u0d3f.\"\"\"",
+      "correct": false,
+      "score": 3.011942119122023e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 3.011942119122023e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.16518721361427977,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "pan_Guru",
+      "sample_id": "flores200-devtest-pan_Guru-0",
+      "prompt": "Translate the following English sentence into Punjabi. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u0a26\u0a4b\u0a38\u0a24 \u0a28\u0a47 \u0a05\u0a38\u0a40\u0a02 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\u0a70 \u0a28\u0a3e\u0a32 \u0a38\u0a70\u0a2d\u0a3e\u0a32\u0a40 \u0a39\u0a4b\u0a35\u0a47\u0a17\u0a3e \u0a1c\u0a3e\u0a02 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\u0a70 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\ufffd",
+      "parsed_answer": "\u0a26\u0a4b\u0a38\u0a24 \u0a28\u0a47 \u0a05\u0a38\u0a40\u0a02 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\u0a70 \u0a28\u0a3e\u0a32 \u0a38\u0a70\u0a2d\u0a3e\u0a32\u0a40 \u0a39\u0a4b\u0a35\u0a47\u0a17\u0a3e \u0a1c\u0a3e\u0a02 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\u0a70 \u0a26\u0a4b \u0a2e\u0a48\u0a02\u0a21\u0a30\u0a3f\u0a1f\u0a40 \u0a28\u0a42\ufffd",
+      "expected": "\u201c\u0a39\u0a41\u0a23 \u0a38\u0a3e\u0a21\u0a47 \u0a15\u0a4b\u0a32 4 \u0a2e\u0a39\u0a40\u0a28\u0a3f\u0a06\u0a02 \u0a26\u0a3e \u0a1a\u0a42\u0a39\u0a47 \u0a39\u0a28 \u0a1c\u0a4b \u0a17\u0a48\u0a30-\u0a36\u0a41\u0a17\u0a30 \u0a30\u0a4b\u0a17\u0a40 \u0a39\u0a28 \u0a1c\u0a4b \u0a36\u0a41\u0a17\u0a30 \u0a30\u0a4b\u0a17\u0a40\u0a06\u0a02 \u0a32\u0a08 \u0a35\u0a30\u0a24\u0a47 \u0a1c\u0a3e\u0a02\u0a26\u0a47 \u0a39\u0a28\u201d, \u0a09\u0a38\u0a28\u0a47 \u0a1c\u0a4b\u0a5c\u0a3f\u0a06\u0964",
+      "correct": false,
+      "score": 7.316156289466425e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 7.316156289466425e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.14345104694189087,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "pan_Guru",
+      "sample_id": "flores200-devtest-pan_Guru-1",
+      "prompt": "Translate the following English sentence into Punjabi. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u0a07\u0a71\u0a15 \u0a26\u0a3e\u0a07\u0a26\u0a3e \u0a26\u0a47 \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a47\u0a35\u0a47\u0a02 \u0a2e\u0a70\u0a21\u0a32 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a47\u0a38\u0a1f\u0a30 \u0a05\u0a24\u0a47 \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a47\u0a35",
+      "parsed_answer": "\u0a07\u0a71\u0a15 \u0a26\u0a3e\u0a07\u0a26\u0a3e \u0a26\u0a47 \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a47\u0a35\u0a47\u0a02 \u0a2e\u0a70\u0a21\u0a32 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a47\u0a38\u0a1f\u0a30 \u0a05\u0a24\u0a47 \u0a26\u0a3f\u0a32\u0a3e\u0a09\u0a02\u0a38\u0a3c \u0a35\u0a3f\u0a1a \u0a26\u0a47\u0a35",
+      "expected": "\u0a39\u0a48\u0a32\u0a40\u0a2b\u0a3c\u0a48\u0a15\u0a38, \u0a28\u0a4b\u0a35\u0a3e \u0a38\u0a15\u0a4b\u0a38\u0a3c\u0a40\u0a06 \u0a35\u0a3f\u0a71\u0a1a \u0a21\u0a32\u0a39\u0a4c\u0a1c\u0a3c\u0a40 \u0a2f\u0a42\u0a28\u0a40\u0a35\u0a30\u0a38\u0a3f\u0a1f\u0a40 \u0a35\u0a3f\u0a16\u0a47 \u0a26\u0a35\u0a3e\u0a08 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a4b\u0a2b\u0a48\u0a38\u0a30 \u0a05\u0a24\u0a47 \u0a15\u0a48\u0a28\u0a47\u0a21\u0a40\u0a05\u0a28 \u0a21\u0a3e\u0a07\u0a2c\u0a1f\u0a40\u0a1c\u0a3c \u0a10\u0a38\u0a4b\u0a38\u0a40\u0a0f\u0a38\u0a3c\u0a28 \u0a26\u0a47 \u0a15\u0a32\u0a40\u0a28\u0a3f\u0a15\u0a32 \u0a05\u0a24\u0a47 \u0a35\u0a3f\u0a17\u0a3f\u0a06\u0a28\u0a15 \u0a35\u0a3f\u0a2d\u0a3e\u0a17 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a2e\u0a41\u0a71\u0a16 \u0a21\u0a3e: \u0a0f\u0a39\u0a42\u0a26 \u0a2f\u0a42\u0a06\u0a30 \u0a28\u0a47 \u0a1a\u0a3f\u0a24\u0a3e\u0a35\u0a28\u0a40 \u0a26\u0a3f\u0a71\u0a24\u0a40 \u0a15\u0a3f \u0a16\u0a4b\u0a1c \u0a05\u0a1c\u0a47 \u0a38\u0a3c\u0a41\u0a30\u0a42\u0a06\u0a24\u0a40 \u0a26\u0a3f\u0a28\u0a3e\u0a02 \u0a35\u0a3f\u0a71\u0a1a \u0a39\u0a48\u0964",
+      "correct": false,
+      "score": 1.8843048032235209e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.8843048032235209e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.12244897959183675,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.167766054998343,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "pan_Guru",
+      "sample_id": "flores200-devtest-pan_Guru-2",
+      "prompt": "Translate the following English sentence into Punjabi. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u0a07\u0a38 \u0a15\u0a3e\u0a30\u0a15 \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a4b\u0a08 \u0a05\u0a39\u0a70\u0a15\u0a3e\u0a30\u0a40\u0a06\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a24\u0a40\u0a15\u0a24 \u0a15\u0a30\u0a28\u0a40 \u0a39\u0a3e\u0a02, \u0a1c\u0a3f\u0a38 \u0a26\u0a47 \u0a38\u0a70\u0a2d\u0a35\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a24\u0a40\u0a15\u0a24 \u0a15\u0a30\u0a28\u0a40 \u0a39\u0a3e\u0a02, \ufffd",
+      "parsed_answer": "\u0a07\u0a38 \u0a15\u0a3e\u0a30\u0a15 \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a4b\u0a08 \u0a05\u0a39\u0a70\u0a15\u0a3e\u0a30\u0a40\u0a06\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a24\u0a40\u0a15\u0a24 \u0a15\u0a30\u0a28\u0a40 \u0a39\u0a3e\u0a02, \u0a1c\u0a3f\u0a38 \u0a26\u0a47 \u0a38\u0a70\u0a2d\u0a35\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a24\u0a40\u0a15\u0a24 \u0a15\u0a30\u0a28\u0a40 \u0a39\u0a3e\u0a02, \ufffd",
+      "expected": "\u0a15\u0a41\u0a1d \u0a39\u0a4b\u0a30 \u0a2e\u0a3e\u0a39\u0a30\u0a3e\u0a02 \u0a26\u0a40 \u0a24\u0a30\u0a4d\u0a39\u0a3e\u0a02, \u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a35\u0a40 \u0a07\u0a38 \u0a2c\u0a3e\u0a30\u0a47 \u0a38\u0a3c\u0a70\u0a15\u0a3e \u0a39\u0a48 \u0a15\u0a3f \u0a15\u0a40 \u0a38\u0a3c\u0a42\u0a17\u0a30 \u0a30\u0a4b\u0a17 \u0a20\u0a40\u0a15 \u0a39\u0a4b \u0a38\u0a15\u0a26\u0a40 \u0a39\u0a48, \u0a07\u0a39 \u0a27\u0a3f\u0a06\u0a28 \u0a35\u0a3f\u0a71\u0a1a \u0a30\u0a71\u0a16\u0a26\u0a47 \u0a39\u0a4b\u0a0f \u0a15\u0a3f \u0a1c\u0a3f\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a32\u0a4b\u0a15\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a39\u0a3f\u0a32\u0a3e\u0a02 \u0a24\u0a4b\u0a02 \u0a39\u0a40 \u0a1f\u0a3e\u0a08\u0a2a 1 \u0a38\u0a3c\u0a42\u0a17\u0a30 \u0a30\u0a4b\u0a17 \u0a39\u0a48 \u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a32\u0a4b\u0a15\u0a3e\u0a02 \u0a32\u0a08 \u0a07\u0a39\u0a28\u0a3e\u0a02 \u0a16\u0a4b\u0a1c\u0a3e\u0a02 \u0a26\u0a3e \u0a15\u0a4b\u0a08 \u0a2e\u0a39\u0a71\u0a24\u0a35 \u0a28\u0a39\u0a40\u0a02\u0964",
+      "correct": false,
+      "score": 1.337442063910422e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.337442063910422e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.09523809523809525,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.21152036811756203,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "pan_Guru",
+      "sample_id": "flores200-devtest-pan_Guru-3",
+      "prompt": "Translate the following English sentence into Punjabi. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u0a07\u0a71\u0a15 \u0a2e\u0a4c\u0a15\u0a3e\u0a30, \u0a38\u0a30\u0a3e \u0a26\u0a3f\u0a06\u0a08, \u0a38\u0a3c\u0a48\u0a32\u0a47\u0a1f\u0a30\u0a40 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24",
+      "parsed_answer": "\u0a07\u0a71\u0a15 \u0a2e\u0a4c\u0a15\u0a3e\u0a30, \u0a38\u0a30\u0a3e \u0a26\u0a3f\u0a06\u0a08, \u0a38\u0a3c\u0a48\u0a32\u0a47\u0a1f\u0a30\u0a40 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24 \u0a26\u0a47 \u0a38\u0a70\u0a17\u0a24",
+      "expected": "\u0a38\u0a4b\u0a2e\u0a35\u0a3e\u0a30 \u0a28\u0a42\u0a70, \u0a38\u0a35\u0a40\u0a21\u0a3f\u0a38\u0a3c \u0a05\u0a15\u0a3e\u0a26\u0a2e\u0a40 \u0a35\u0a3f\u0a16\u0a47 \u0a38\u0a3e\u0a39\u0a3f\u0a24 \u0a32\u0a08 \u0a28\u0a4b\u0a2c\u0a32 \u0a15\u0a2e\u0a47\u0a1f\u0a40 \u0a26\u0a40 \u0a38\u0a25\u0a3e\u0a08 \u0a38\u0a48\u0a15\u0a1f\u0a30\u0a40, \u0a38\u0a3e\u0a30\u0a3e \u0a21\u0a48\u0a28\u0a40\u0a05\u0a38, \u0a28\u0a47 \u0a38\u0a35\u0a40\u0a21\u0a28 \u0a35\u0a3f\u0a71\u0a1a \u0a38\u0a47\u0a35\u0a47\u0a30\u0a40\u0a1c \u0a30\u0a47\u0a21\u0a40\u0a13 \u0a26\u0a47 \u0a07\u0a15 \u0a30\u0a47\u0a21\u0a40\u0a13 \u0a2a\u0a4d\u0a30\u0a4b\u0a17\u0a30\u0a3e\u0a2e \u0a26\u0a4c\u0a30\u0a3e\u0a28 \u0a1c\u0a28\u0a24\u0a15 \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a18\u0a4b\u0a38\u0a3c\u0a23\u0a3e \u0a15\u0a40\u0a24\u0a40 \u0a15\u0a3f \u0a15\u0a2e\u0a47\u0a1f\u0a40, \u0a38\u0a3e\u0a39\u0a3f\u0a24 \u0a35\u0a3f\u0a71\u0a1a 2016 \u0a26\u0a47 \u0a28\u0a4b\u0a2c\u0a32 \u0a2a\u0a41\u0a30\u0a38\u0a15\u0a3e\u0a30 \u0a35\u0a3f\u0a1c\u0a47\u0a24\u0a3e \u0a2c\u0a4c\u0a2c \u0a21\u0a3f\u0a32\u0a28 \u0a24\u0a71\u0a15 \u0a2a\u0a39\u0a41\u0a70\u0a1a\u0a23 \u0a35\u0a3f\u0a71\u0a1a \u0a05\u0a38\u0a2e\u0a30\u0a25 \u0a38\u0a40, \u0a28\u0a47 \u0a09\u0a38 \u0a24\u0a71\u0a15 \u0a2a\u0a39\u0a41\u0a70\u0a1a\u0a23 \u0a26\u0a40\u0a06\u0a02 \u0a15\u0a4b\u0a36\u0a3f\u0a36\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2c\u0a70\u0a26 \u0a15\u0a30 \u0a26\u0a3f\u0a71\u0a24\u0a3e \u0a38\u0a40\u0964",
+      "correct": false,
+      "score": 8.125268836875265e-11,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 8.125268836875265e-11,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.05333333333333334,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.11613007636060414,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "pan_Guru",
+      "sample_id": "flores200-devtest-pan_Guru-4",
+      "prompt": "Translate the following English sentence into Punjabi. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u0a26\u0a3e\u0a28\u0a40\u0a38 \u0a28\u0a42\u0a70 \u0a15\u0a3f\u0a39\u0a3e \u0a15\u0a3f \"\u0a39\u0a3f\u0a38\u0a3c\u0a3e \u0a26\u0a47 \u0a38\u0a39\u0a40 \u0a38\u0a3e\u0a32\u0a40\u0a15 \u0a15\u0a4c\u0a15\u0a40\u0a05\u0a32\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a26\u0a3e\u0a28 \u0a15\u0a30\u0a28\u0a3e \u0a05\u0a24\u0a47 \u0a07\u0a39 \u0a38\u0a70\u0a2d\u0a35\u0a3e\u0a02 \u0a26\u0a47 \u0a2a\u0a4d\u0a30",
+      "parsed_answer": "\u0a26\u0a3e\u0a28\u0a40\u0a38 \u0a28\u0a42\u0a70 \u0a15\u0a3f\u0a39\u0a3e \u0a15\u0a3f \"\u0a39\u0a3f\u0a38\u0a3c\u0a3e \u0a26\u0a47 \u0a38\u0a39\u0a40 \u0a38\u0a3e\u0a32\u0a40\u0a15 \u0a15\u0a4c\u0a15\u0a40\u0a05\u0a32\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a26\u0a3e\u0a28 \u0a15\u0a30\u0a28\u0a3e \u0a05\u0a24\u0a47 \u0a07\u0a39 \u0a38\u0a70\u0a2d\u0a35\u0a3e\u0a02 \u0a26\u0a47 \u0a2a\u0a4d\u0a30",
+      "expected": "\u0a21\u0a47\u0a28\u0a3f\u0a05\u0a38 \u0a28\u0a47 \u0a15\u0a3f\u0a39\u0a3e, \u201c\u0a07\u0a38 \u0a35\u0a47\u0a32\u0a47 \u0a05\u0a38\u0a40\u0a02 \u0a15\u0a41\u0a1d \u0a28\u0a39\u0a40\u0a02 \u0a15\u0a30 \u0a30\u0a39\u0a47 \u0a39\u0a3e\u0a02\u0964 \u0a2e\u0a48\u0a02 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a28\u0a5b\u0a26\u0a40\u0a15\u0a40 \u0a38\u0a39\u0a3f\u0a2f\u0a4b\u0a17\u0a40 \u0a28\u0a42\u0a70 \u0a15\u0a3e\u0a32 \u0a15\u0a40\u0a24\u0a40 \u0a05\u0a24\u0a47 \u0a08\u0a2e\u0a47\u0a32\u0a3e\u0a02 \u0a2d\u0a47\u0a1c\u0a40\u0a06\u0a02 \u0a05\u0a24\u0a47 \u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a35\u0a32\u0a4b\u0a02 \u0a2c\u0a39\u0a41\u0a24 \u0a28\u0a3f\u0a71\u0a18\u0a47 \u0a1c\u0a35\u0a3e\u0a2c \u0a2e\u0a3f\u0a32\u0a47\u0964 \u0a39\u0a41\u0a23 \u0a32\u0a08, \u0a2f\u0a15\u0a40\u0a28\u0a28 \u0a07\u0a39 \u0a15\u0a3e\u0a5e\u0a40 \u0a39\u0a48\u0964\u201c",
+      "correct": false,
+      "score": 2.2481581921639076e-10,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 2.2481581921639076e-10,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.11538461538461539,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.1877006039432777,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ory_Orya",
+      "sample_id": "flores200-devtest-ory_Orya-0",
+      "prompt": "Translate the following English sentence into Odia. Return only the translation.\n\n\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+      "raw_output": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0985\u0982\u09b6 \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7\u0964\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0985\u0982\u09b6 \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7\u0964",
+      "parsed_answer": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0985\u0982\u09b6 \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7\u0964\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0985\u0982\u09b6 \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b7\u09be\u09af\u09bc \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7\u0964",
+      "expected": "\u0b38\u0b47 \u0b06\u0b39\u0b41\u0b30\u0b3f \u0b2e\u0b27\u0b4d\u0b5f \u0b15\u0b39\u0b3f\u0b1b\u0b28\u0b4d\u0b24\u0b3f \u0b2f\u0b47, \u2018\u2018\u0b06\u0b2e\u0b30 \u0b2c\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b2e\u0b3e\u0b28 4 \u0b2e\u0b3e\u0b38\u0b30 \u0b2e\u0b42\u0b37\u0b3e \u0b05\u0b1b\u0b3f, \u0b2f\u0b3f\u0b0f \u0b2e\u0b27\u0b41\u0b2e\u0b47\u0b39 \u0b06\u0b15\u0b4d\u0b30\u0b3e\u0b28\u0b4d\u0b24 \u0b28\u0b41\u0b39\u0b47\u0b01, \u0b2f\u0b3f\u0b0f \u0b2a\u0b42\u0b30\u0b4d\u0b2c\u0b30\u0b41 \u0b2e\u0b27\u0b41\u0b2e\u0b47\u0b39\u0b30\u0b47 \u0b06\u0b15\u0b4d\u0b30\u0b3e\u0b28\u0b4d\u0b24 \u0b25\u0b3f\u0b32\u0b3e\u0964\"",
+      "correct": false,
+      "score": 6.514390575310562e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 6.514390575310562e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.02053712480252765,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ory_Orya",
+      "sample_id": "flores200-devtest-ory_Orya-1",
+      "prompt": "Translate the following English sentence into Odia. Return only the translation.\n\nDr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+      "raw_output": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7:\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7:\n\nDr. Ehud Ur, \u09a1\u09be\u09b2\u09b9\u09cb\u09b8\u09bf\u09af\u09bc\u09be \u0989\u09a8\u09bf\u09af",
+      "parsed_answer": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7:\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09be \u09b9\u09ac\u09c7:\n\nDr. Ehud Ur, \u09a1\u09be\u09b2\u09b9\u09cb\u09b8\u09bf\u09af\u09bc\u09be \u0989\u09a8\u09bf\u09af",
+      "expected": "\u0b28\u0b4b\u0b2d\u0b3e \u0b38\u0b4d\u0b15\u0b4b\u0b36\u0b3f\u0b06\u0b30 \u0b39\u0b3e\u0b32\u0b3f\u0b2b\u0b4d\u0b5f\u0b3e\u0b15\u0b4d\u0b38\u0b30 \u0b21\u0b32\u0b39\u0b3e\u0b09\u0b38\u0b40 \u0b2c\u0b3f\u0b36\u0b4d\u0b71\u0b2c\u0b3f\u0b26\u0b4d\u0b5f\u0b3e\u0b33\u0b5f\u0b30 \u0b2e\u0b47\u0b21\u0b3f\u0b38\u0b3f\u0b28\u0b4d \u0b2a\u0b4d\u0b30\u0b2b\u0b47\u0b38\u0b30 \u0b24\u0b25\u0b3e \u0b15\u0b3e\u0b28\u0b3e\u0b21\u0b40\u0b5f \u0b21\u0b3e\u0b07\u0b2c\u0b47\u0b1f\u0b3f\u0b38\u0b4d \u0b06\u0b38\u0b4b\u0b38\u0b3f\u0b0f\u0b36\u0b28\u0b4d\u200c\u0b30 \u0b15\u0b4d\u0b32\u0b3f\u0b28\u0b3f\u0b15\u0b32\u0b4d \u0b0f\u0b2c\u0b02 \u0b2c\u0b48\u0b1c\u0b4d\u0b1e\u0b3e\u0b28\u0b3f\u0b15 \u0b2c\u0b3f\u0b2d\u0b3e\u0b17\u0b30 \u0b05\u0b27\u0b4d\u0b5f\u0b15\u0b4d\u0b37 \u0b21\u0b03. \u0b0f\u0b39\u0b41\u0b26\u0b4d \u0b09\u0b30\u0b4d \u0b38\u0b24\u0b30\u0b4d\u0b15 \u0b15\u0b30\u0b3f\u0b1b\u0b28\u0b4d\u0b24\u0b3f \u0b15\u0b3f, \u0b17\u0b2c\u0b47\u0b37\u0b23\u0b3e \u0b24\u0b25\u0b3e\u0b2a\u0b3f \u0b0f\u0b39\u0b3e\u0b30 \u0b2a\u0b4d\u0b30\u0b3e\u0b30\u0b2e\u0b4d\u0b2d\u0b3f\u0b15 \u0b26\u0b3f\u0b28\u0b30\u0b47 \u0b05\u0b1b\u0b3f\u0964",
+      "correct": false,
+      "score": 6.227038648477507e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 6.227038648477507e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.019391181634359204,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ory_Orya",
+      "sample_id": "flores200-devtest-ory_Orya-2",
+      "prompt": "Translate the following English sentence into Odia. Return only the translation.\n\nLike some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+      "raw_output": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09c1\u09a8\u0964\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0 \u0989\u09a4\u09cd\u09a4\u09b0 \u09a8\u09c7\u0987\u0964",
+      "parsed_answer": "\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u0987\u0982\u09b0\u09c7\u099c\u09bf \u09ac\u09be\u0995\u09cd\u09af\u099f\u09bf \u0993\u09a1\u09bf\u09af\u09bc\u09be\u09a8\u09c7 \u09ac\u09b0\u09cd\u09a3\u09a8\u09be \u0995\u09b0\u09c1\u09a8\u0964\n\n\u09a8\u09bf\u09ae\u09cd\u09a8\u09b2\u09bf\u0996\u09bf\u09a4 \u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0 \u0989\u09a4\u09cd\u09a4\u09b0 \u09a8\u09c7\u0987\u0964",
+      "expected": "\u0b05\u0b28\u0b4d\u0b5f \u0b15\u0b47\u0b24\u0b47\u0b15 \u0b2c\u0b3f\u0b36\u0b47\u0b37\u0b1c\u0b4d\u0b1e\u0b19\u0b4d\u0b15 \u0b2a\u0b30\u0b3f, \u0b2a\u0b42\u0b30\u0b4d\u0b2c\u0b30\u0b41 \u0b1f\u0b3e\u0b07\u0b2a\u0b4d 1 \u0b21\u0b3e\u0b07\u0b2c\u0b47\u0b1f\u0b3f\u0b38\u0b4d \u0b25\u0b3f\u0b2c\u0b3e \u0b32\u0b4b\u0b15\u0b19\u0b4d\u0b15 \u0b2a\u0b3e\u0b07\u0b01 \u0b0f\u0b39\u0b3f \u0b06\u0b2c\u0b3f\u0b37\u0b4d\u0b15\u0b3e\u0b30\u0b17\u0b41\u0b21\u0b3c\u0b3f\u0b15\u0b30 \u0b15\u0b4c\u0b23\u0b38\u0b3f \u0b2a\u0b4d\u0b30\u0b3e\u0b38\u0b19\u0b4d\u0b17\u0b3f\u0b15\u0b24\u0b3e \u0b28\u0b25\u0b3f\u0b2c\u0b3e \u0b15\u0b25\u0b3e \u0b09\u0b32\u0b4d\u0b32\u0b47\u0b16 \u0b15\u0b30\u0b3f \u0b38\u0b47 \u0b2e\u0b27\u0b4d\u0b5f \u0b21\u0b3e\u0b07\u0b2c\u0b47\u0b1f\u0b3f\u0b38\u0b30 \u0b06\u0b30\u0b4b\u0b17\u0b4d\u0b5f\u0b38\u0b3f\u0b26\u0b4d\u0b27\u0b24\u0b3e\u0b15\u0b41 \u0b28\u0b47\u0b07 \u0b38\u0b28\u0b4d\u0b26\u0b47\u0b39 \u0b2a\u0b4d\u0b30\u0b15\u0b3e\u0b36 \u0b15\u0b30\u0b3f\u0b1b\u0b28\u0b4d\u0b24\u0b3f\u0964",
+      "correct": false,
+      "score": 1.826835240527348e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.826835240527348e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.01107011070110701,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ory_Orya",
+      "sample_id": "flores200-devtest-ory_Orya-3",
+      "prompt": "Translate the following English sentence into Odia. Return only the translation.\n\nOn Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+      "raw_output": "\u09b8\u09cb\u09a8\u09be\u09b0 \u09a6\u09bf\u09a8, \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5\u09be \u09b8\u09cd\u09b2\u09bf\u09ab \u09b2\u09bf\u099f\u09be\u09b0\u09c7\u099f\u09cb\u09b0\u09bf \u09a8\u09c7\u09a4\u09c3\u09a4\u09cd\u09ac\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09a6\u09cd\u09ac\u09be\u09b0\u09be \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09bf\u09a4 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5",
+      "parsed_answer": "\u09b8\u09cb\u09a8\u09be\u09b0 \u09a6\u09bf\u09a8, \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5\u09be \u09b8\u09cd\u09b2\u09bf\u09ab \u09b2\u09bf\u099f\u09be\u09b0\u09c7\u099f\u09cb\u09b0\u09bf \u09a8\u09c7\u09a4\u09c3\u09a4\u09cd\u09ac\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u09a6\u09cd\u09ac\u09be\u09b0\u09be \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09bf\u09a4 \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09bf\u0995 \u0985\u09ac\u0995\u09be\u09b6 \u09b8\u0982\u09b8\u09cd\u09a5",
+      "expected": "\u0b38\u0b4b\u0b2e\u0b2c\u0b3e\u0b30\u0b15\u0b41, \u0b38\u0b4d\u0b71\u0b47\u0b21\u0b3f\u0b36\u0b4d \u0b0f\u0b15\u0b3e\u0b21\u0b47\u0b2e\u0b40\u0b30 \u0b38\u0b3e\u0b39\u0b3f\u0b24\u0b4d\u0b5f \u0b2a\u0b3e\u0b07\u0b01 \u0b28\u0b4b\u0b2c\u0b47\u0b32 \u0b15\u0b2e\u0b3f\u0b1f\u0b40\u0b30 \u0b38\u0b4d\u0b25\u0b3e\u0b5f\u0b40 \u0b38\u0b1a\u0b3f\u0b2c, \u0b38\u0b3e\u0b30\u0b3e \u0b21\u0b3e\u0b28\u0b3f\u0b5f\u0b38\u0b4d, \u0b38\u0b4d\u0b71\u0b3f\u0b21\u0b47\u0b28\u0b4d\u200c\u0b30 \u0b38\u0b47\u0b2d\u0b47\u0b30\u0b3f\u0b1c\u0b4d \u0b30\u0b47\u0b21\u0b3f\u0b13\u0b30\u0b47 \u0b0f\u0b15 \u0b2a\u0b4d\u0b30\u0b4b\u0b17\u0b4d\u0b30\u0b3e\u0b2e\u0b4d\u200d \u0b2c\u0b47\u0b33\u0b47 \u0b38\u0b3e\u0b30\u0b4d\u0b2c\u0b1c\u0b28\u0b40\u0b28 \u0b18\u0b4b\u0b37\u0b23\u0b3e \u0b15\u0b30\u0b3f\u0b1b\u0b28\u0b4d\u0b24\u0b3f \u0b15\u0b3f, \u0b38\u0b3e\u0b39\u0b3f\u0b24\u0b4d\u0b5f\u0b30\u0b47 2016 \u0b28\u0b4b\u0b2c\u0b47\u0b32 \u0b2a\u0b41\u0b30\u0b38\u0b4d\u0b15\u0b3e\u0b30 \u0b1c\u0b3f\u0b24\u0b3f\u0b2c\u0b3e\u0b15\u0b41 \u0b28\u0b47\u0b07 \u0b2c\u0b2c\u0b4d \u0b21\u0b3e\u0b07\u0b32\u0b3e\u0b28\u0b4d\u200c\u0b19\u0b4d\u0b15\u0b41 \u0b2a\u0b4d\u0b30\u0b24\u0b4d\u0b5f\u0b15\u0b4d\u0b37 \u0b2d\u0b3e\u0b2c\u0b47 \u0b2f\u0b4b\u0b17\u0b3e\u0b2f\u0b4b\u0b17 \u0b15\u0b30\u0b3f\u0b2a\u0b3e\u0b30\u0b3f\u0b28\u0b25\u0b3f\u0b32\u0b47, \u0b24\u0b3e\u0b19\u0b4d\u0b15 \u0b2a\u0b3e\u0b16\u0b30\u0b47 \u0b2a\u0b39\u0b1e\u0b4d\u0b1a\u0b3f\u0b2c\u0b3e \u0b2a\u0b3e\u0b07\u0b01 \u0b0f\u0b39\u0b3e\u0b30 \u0b2a\u0b4d\u0b30\u0b5f\u0b3e\u0b38\u0b15\u0b41 \u0b38\u0b47 \u0b2a\u0b30\u0b3f\u0b24\u0b4d\u0b5f\u0b3e\u0b17 \u0b15\u0b30\u0b3f\u0b26\u0b47\u0b07\u0b25\u0b3f\u0b32\u0b47\u0964",
+      "correct": false,
+      "score": 1.9691167520419426e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 1.9691167520419426e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.012911603388121421,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    },
+    {
+      "run_id": "63ffce8b1ef53e53",
+      "task": "ory_Orya",
+      "sample_id": "flores200-devtest-ory_Orya-4",
+      "prompt": "Translate the following English sentence into Odia. Return only the translation.\n\nDanius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+      "raw_output": "\u09a6\u09be\u09a8\u09c0 \u09ac\u09b2\u09c7\u09a8, \"\u0986\u099c \u0986\u09ae\u09b0\u09be \u0995\u09bf\u099b\u09c1 \u0995\u09b0\u099b\u09bf \u09a8\u09be\u0964 \u0986\u09ae\u09bf \u09a4\u09be\u09b0 \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09ac\u09a1\u09bc \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995\u09bf\u09a4 \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \u09b8\u09be\u09a5\u09c7 \u09ae\u09c7\u09b8\u09c7\u099c \u098f\u09ac\u0982 \u0995\u09a8\u09ab\u09be\u09b0\u09c7\u09a8\u09cd\u09b8 \u0995\u09b0\u09c7\u099b\u09bf \u098f\u09ac\u0982 \u09b8\u09cd\u09ac\u09aa\u09cd\u09a8 \u0995\u09b0\u09c7 \u09a6\u09c7",
+      "parsed_answer": "\u09a6\u09be\u09a8\u09c0 \u09ac\u09b2\u09c7\u09a8, \"\u0986\u099c \u0986\u09ae\u09b0\u09be \u0995\u09bf\u099b\u09c1 \u0995\u09b0\u099b\u09bf \u09a8\u09be\u0964 \u0986\u09ae\u09bf \u09a4\u09be\u09b0 \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09ac\u09a1\u09bc \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995\u09bf\u09a4 \u0995\u09b0\u09cd\u09ae\u0995\u09b0\u09cd\u09a4\u09be\u09b0 \u09b8\u09be\u09a5\u09c7 \u09ae\u09c7\u09b8\u09c7\u099c \u098f\u09ac\u0982 \u0995\u09a8\u09ab\u09be\u09b0\u09c7\u09a8\u09cd\u09b8 \u0995\u09b0\u09c7\u099b\u09bf \u098f\u09ac\u0982 \u09b8\u09cd\u09ac\u09aa\u09cd\u09a8 \u0995\u09b0\u09c7 \u09a6\u09c7",
+      "expected": "\u0b21\u0b3e\u0b28\u0b3f\u0b5f\u0b38\u0b4d\u200d \u0b15\u0b39\u0b3f\u0b32\u0b47, \"\u0b2c\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b2e\u0b3e\u0b28 \u0b06\u0b2e\u0b47 \u0b15\u0b3f\u0b1b\u0b3f \u0b15\u0b30\u0b41\u0b28\u0b3e\u0b39\u0b41\u0b01\u0964\" \u0b2e\u0b41\u0b01 \u0b24\u0b3e\u0b19\u0b4d\u0b15\u0b30 \u0b15\u0b4d\u0b32\u0b4b\u0b1c\u0b47\u0b1f\u0b4d\u200d \u0b15\u0b4b\u0b32\u0b3e\u0b2c\u0b30\u0b47\u0b1f\u0b30\u0b19\u0b4d\u0b15\u0b41 \u0b15\u0b32\u0b4d\u200d \u0b15\u0b30\u0b3f\u0b1b\u0b3f \u0b13 \u0b2e\u0b47\u0b32\u0b4d\u200d \u0b2a\u0b20\u0b3e\u0b07\u0b1b\u0b3f \u0b0f\u0b2c\u0b02 \u0b2c\u0b39\u0b41\u0b24 \u0b2c\u0b28\u0b4d\u0b27\u0b41\u0b24\u0b4d\u0b71\u0b2a\u0b42\u0b30\u0b4d\u0b23\u0b4d\u0b23 \u0b09\u0b24\u0b4d\u0b24\u0b30 \u0b2a\u0b3e\u0b07\u0b1b\u0b3f\u0964 \u0b2c\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b2e\u0b3e\u0b28 \u0b2a\u0b3e\u0b07\u0b01, \u0b0f\u0b39\u0b3e \u0b28\u0b3f\u0b36\u0b4d\u0b1a\u0b5f \u0b2f\u0b25\u0b47\u0b37\u0b4d\u0b1f\u0964\"",
+      "correct": false,
+      "score": 8.725252928694246e-13,
+      "choice_likelihoods": null,
+      "context": {},
+      "metadata": {
+        "scores": [
+          {
+            "name": "bleu",
+            "value": 8.725252928694246e-13,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "rouge_l",
+            "value": 0.0,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          },
+          {
+            "name": "chrf",
+            "value": 0.030738170159672666,
+            "kind": "benchmark",
+            "data_type": "numeric",
+            "direction": "maximize",
+            "weight": 1.0,
+            "source": "sdk"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "num_fewshot": null,
+    "limit": null,
+    "seed": 42,
+    "trials": 1,
+    "batch_size": "auto",
+    "concurrency": 1,
+    "split": null,
+    "temperature": 0,
+    "top_p": null,
+    "top_k": null,
+    "max_tokens": 128,
+    "stop_sequences": null,
+    "presence_penalty": null,
+    "frequency_penalty": null,
+    "num_completions": null,
+    "best_of": null,
+    "timeout": 120,
+    "max_retries": 0,
+    "retry_delay": 1.0,
+    "judge_model": null,
+    "judge_prompt_version": null,
+    "track_performance": true,
+    "chat_template_kwargs": null,
+    "extra": {}
+  },
+  "model_spec": "<local_evaluation.evaluation_model.<locals>.CheckpointModel object at 0x7f6e5581f860>",
+  "errors": [],
+  "unscored": {},
+  "failed_count": 0,
+  "experiment_name": null,
+  "tags": [],
+  "perf": {
+    "latency_ms": {
+      "count": 50,
+      "mean": 3309.912824520004,
+      "min": 1777.9427149999947,
+      "max": 4085.862169000052,
+      "p50": 3345.3538029999663,
+      "p95": 3788.9697499999784,
+      "p99": 3919.6463040000253,
+      "std": 414.5193740485348
+    },
+    "throughput": {
+      "rps": 0.30211413146250815,
+      "total_requests": 50,
+      "total_time_ms": 165500.36821499997,
+      "output_tokens_per_sec": 37.1358690393715,
+      "total_tokens_per_sec": 62.030073471882176
+    }
+  },
+  "model_size": {
+    "is_local": false,
+    "model_name": "local-llm"
+  },
+  "token_usage": {
+    "prompt_tokens": 4120,
+    "completion_tokens": 6146,
+    "total_tokens": 10266
+  },
+  "metadata": {
+    "inputs": [
+      {
+        "kind": "model",
+        "ref": "local-llm",
+        "provenance": null
+      }
+    ],
+    "api_server": {
+      "kind": "sglang",
+      "source": "declared"
+    },
+    "loaded_model_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "checkpoint_identity": {
+      "loaded_model_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "weights_sha256": {
+        "model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+      }
+    }
+  }
+}

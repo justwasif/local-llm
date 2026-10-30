@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "checks": {
+    "pytest": {
+      "exit_code": 0,
+      "output": ".......................                                                  [100%]\n23 passed in 6.69s"
+    },
+    "compile": {
+      "exit_code": 0,
+      "output": ""
+    },
+    "python_lint": {
+      "exit_code": 0,
+      "output": "All checks passed!"
+    },
+    "setup": {
+      "exit_code": 0,
+      "output": "Python: 3.12.3\nOK directory: data\nOK directory: configs\nOK directory: scripts\nOK directory: src/gui\nOK directory: outputs\nOK directory: results\nOK directory: memory\nOK dependency: yaml 6.0.3\nOK dependency: requests 2.34.2\nGPU: {'available': True, 'device_count': 1, 'device_name': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'total_memory_gb': 8.59}\nOK package: curatorkit 0.1.22\nOK package: aligntune 0.1.28\nOK package: auditkit 1.1.3\nOK package: gradio 6.30.0\nOK package: transformers 5.20.2\nOK package: trl 1.7.1\nOK package: peft 0.21.2\nOK package: bitsandbytes 0.50.2\n\nSetup structure is valid."
+    },
+    "jsonl_files": {
+      "exit_code": 0,
+      "output": "data/raw\n  data/raw/aya_cache/ben.jsonl: 32\n  data/raw/aya_cache/guj.jsonl: 32\n  data/raw/aya_cache/hin.jsonl: 32\n  data/raw/aya_cache/kan.jsonl: 32\n  data/raw/aya_cache/mal.jsonl: 32\n  data/raw/aya_cache/mar.jsonl: 32\n  data/raw/aya_cache/pan.jsonl: 32\n  data/raw/aya_cache/tam.jsonl: 32\n  data/raw/aya_cache/tel.jsonl: 32\n  data/raw/seeds/all_seeds.jsonl: 6\n  data/raw/seeds/preference_seeds.jsonl: 8\n  data/raw/seeds/seeds_agriculture.jsonl: 1\n  data/raw/seeds/seeds_education.jsonl: 2\n  data/raw/seeds/seeds_healthcare.jsonl: 1\n  data/raw/seeds/seeds_public_services.jsonl: 2\n  data/raw/sft/indic_aya_train.jsonl: 216\n\ndata/curated\n  data/curated/cleaned_sft/rejected.jsonl: 0\n  data/curated/cleaned_sft/sft_messages.jsonl: 216\n  data/curated/final_sft_train.jsonl: 220\n  data/curated/multiturn_generation/rejected.jsonl: 2\n  data/curated/multiturn_generation/sft_messages.jsonl: 4\n  data/curated/preference_generation/dpo.jsonl: 8\n  data/curated/preference_generation/rejected.jsonl: 0\n  data/curated/qa_generation/rejected.jsonl: 8\n  data/curated/qa_generation/sft_messages.jsonl: 2\n  data/curated/reviewed_preferences/dpo.jsonl: 7\n  data/curated/reviewed_preferences/rejected.jsonl: 0\n  data/curated/sft_messages_train.jsonl: 220\n\ndata/preference\n  data/preference/multilingual_pref.jsonl: 7\n  data/preference/source_anchored_pairs.jsonl: 7\n\ndata/eval\n  data/eval/aya_test.jsonl: 36\n  data/eval/aya_validation.jsonl: 36\n  data/eval/flores200.jsonl: 50\n\nSerialized rows across sources, caches and exports (not unique training examples): 1347\nRow language metadata across those files: {'ben_Beng': 5, 'bn': 115, 'gu': 114, 'guj_Gujr': 5, 'hi': 118, 'hi-en': 4, 'hin_Deva': 5, 'kan_Knda': 5, 'kn': 112, 'mal_Mlym': 5, 'mar_Deva': 5, 'ml': 112, 'mr': 114, 'ory_Orya': 5, 'pa': 114, 'pan_Guru': 5, 'ta': 116, 'tam_Taml': 5, 'te': 116, 'tel_Telu': 5, 'unknown': 262}"
+    },
+    "dependencies_train": {
+      "exit_code": 0,
+      "output": "Using Python 3.12.3 environment at: /mnt/d/local-llm-runtime/train\nChecked 291 packages in 913ms\nAll installed packages are compatible"
+    },
+    "dependencies_serve": {
+      "exit_code": 0,
+      "output": "Using Python 3.12.3 environment at: /mnt/d/local-llm-runtime/serve\nChecked 174 packages in 569ms\nAll installed packages are compatible"
+    },
+    "sft_training": {
+      "global_steps": 55,
+      "dataset_count": 220,
+      "validated_dataset_sha256": "e504f9724bb205fa69bd994b6c30843b6a3c11a38195fe1d8c4662ddeb37d975"
+    },
+    "dpo_training": {
+      "global_steps": 2,
+      "dataset_count": 7,
+      "validated_dataset_sha256": "5b9abffe878e47ef65221c1adef3fb80008c1397e8bf7473210b230826e9ac2b"
+    },
+    "baseline_evaluation": {
+      "quality_predictions": 86,
+      "safety_predictions": 6,
+      "checkpoint_identity": {
+        "loaded_model_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "weights_sha256": {
+          "model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+        }
+      }
+    },
+    "sft_evaluation": {
+      "quality_predictions": 86,
+      "safety_predictions": 6,
+      "checkpoint_identity": {
+        "loaded_model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_sft_merged",
+        "weights_sha256": {
+          "model.safetensors": "9c02f4be6e93088016ae2b4d59439f9ac3e313a7f30bd2fd1139870b417466e4"
+        }
+      }
+    },
+    "dpo_evaluation": {
+      "quality_predictions": 86,
+      "safety_predictions": 6,
+      "checkpoint_identity": {
+        "loaded_model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_dpo_merged",
+        "weights_sha256": {
+          "model.safetensors": "a1deb30b310994759b2e414fa2f11905f5fa37963e3e899f3406f75c95aa5ff0"
+        }
+      }
+    },
+    "data_leakage": "No normalized SFT/DPO user prompt matches the 86 frozen quality-evaluation prompts or 36 validation prompts"
+  },
+  "limitations": "Technical local-pipeline checks. Full benchmarks, independent safety/language review and 7B training are not completed. Browser visual verification was blocked by computer-use access."
+}

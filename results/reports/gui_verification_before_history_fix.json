@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:7860",
+  "loaded_model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_dpo_merged",
+  "checks": [
+    "HTTP page",
+    "real queued streaming",
+    "Unicode input preserved",
+    "Hindi-script response",
+    "follow-up history",
+    "empty message",
+    "clear"
+  ],
+  "stream_updates": 34,
+  "prompt": "नमस्ते! दो और दो कितने होते हैं? केवल एक छोटा वाक्य लिखें।",
+  "response": "दो और दो होते हैं, तीन छोटा वाक्य लिखें।",
+  "followup_response": "[{'text': 'दो और दो = 4', 'type': 'number'}]",
+  "visual_browser_check": "blocked: no browser connector; computer-use tool rejected Chrome access as not approved",
+  "limitations": "Functional API smoke test; not independent language-quality or visual-layout verification."
+}

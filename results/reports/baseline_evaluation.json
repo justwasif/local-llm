@@ -1,0 +1,340 @@
+{
+  "label": "baseline",
+  "served_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "local-llm",
+        "object": "model",
+        "created": 1792872471,
+        "owned_by": "sglang",
+        "root": "local-llm",
+        "parent": null,
+        "max_model_len": 2048
+      }
+    ]
+  },
+  "model_info": {
+    "model_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "tokenizer_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "is_generation": true,
+    "preferred_sampling_params": null,
+    "weight_version": "default",
+    "has_image_understanding": false,
+    "has_audio_understanding": false,
+    "model_type": "qwen2",
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ]
+  },
+  "checkpoint_identity": {
+    "loaded_model_path": "/mnt/d/local-llm-runtime/models/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "weights_sha256": {
+      "model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+    }
+  },
+  "suites": {
+    "aya": {
+      "count": 36,
+      "auditkit_metrics": {
+        "bleu": 0.004770669185929175,
+        "rouge_l": 0.08523267407088211,
+        "chrf": 0.15342990020888464
+      },
+      "performance": {
+        "latency_ms": {
+          "count": 36,
+          "mean": 3189.924814055552,
+          "min": 311.5612139999939,
+          "max": 3970.1856770000177,
+          "p50": 3285.557103999963,
+          "p95": 3728.891888000021,
+          "p99": 3775.7806549999486,
+          "std": 714.646462522038
+        },
+        "throughput": {
+          "rps": 0.3134798027104836,
+          "total_requests": 36,
+          "total_time_ms": 114839.93446699993,
+          "output_tokens_per_sec": 37.4695441962003,
+          "total_tokens_per_sec": 83.82972390816182
+        }
+      },
+      "per_language": {
+        "bn": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 0.019517041809299016,
+            "rouge_l": 0.10044017607042817,
+            "chrf": 0.1839182076664454
+          }
+        },
+        "gu": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 2.5052127519775745e-10,
+            "rouge_l": 0.035663199729345195,
+            "chrf": 0.0775456967934137
+          }
+        },
+        "hi": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 0.022966715709202848,
+            "rouge_l": 0.21346443154953793,
+            "chrf": 0.2475601475514659
+          }
+        },
+        "kn": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 6.318689928661352e-08,
+            "rouge_l": 0.10062111801242235,
+            "chrf": 0.20856760091777313
+          }
+        },
+        "ml": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 1.5062007065973263e-10,
+            "rouge_l": 0.07594007050528791,
+            "chrf": 0.1599559413808716
+          }
+        },
+        "mr": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 1.0682865325932473e-07,
+            "rouge_l": 0.07603265505056658,
+            "chrf": 0.1346887680903957
+          }
+        },
+        "pa": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 0.0004520945193952351,
+            "rouge_l": 0.11817541613316261,
+            "chrf": 0.15246311885917668
+          }
+        },
+        "ta": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 2.1332489654516148e-10,
+            "rouge_l": 0.03732303732303732,
+            "chrf": 0.14161598030546244
+          }
+        },
+        "te": {
+          "count": 4,
+          "auditkit_metrics": {
+            "bleu": 5.446683917762123e-12,
+            "rouge_l": 0.009433962264150943,
+            "chrf": 0.07455364031495726
+          }
+        }
+      }
+    },
+    "flores": {
+      "count": 50,
+      "auditkit_metrics": {
+        "bleu": 0.003550275454735971,
+        "rouge_l": 0.05715495612802418,
+        "chrf": 0.1631051492850159
+      },
+      "performance": {
+        "latency_ms": {
+          "count": 50,
+          "mean": 3309.912824520004,
+          "min": 1777.9427149999947,
+          "max": 4085.862169000052,
+          "p50": 3345.3538029999663,
+          "p95": 3788.9697499999784,
+          "p99": 3919.6463040000253,
+          "std": 414.5193740485348
+        },
+        "throughput": {
+          "rps": 0.30211413146250815,
+          "total_requests": 50,
+          "total_time_ms": 165500.36821499997,
+          "output_tokens_per_sec": 37.1358690393715,
+          "total_tokens_per_sec": 62.030073471882176
+        }
+      },
+      "per_language": {
+        "ben_Beng": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 0.03548432901464226,
+            "rouge_l": 0.08490631973390593,
+            "chrf": 0.21630031430260113
+          },
+          "spBLEU": 2.4550182910951786,
+          "chrF++": 14.578618800153375,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "guj_Gujr": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.1834382108157123e-10,
+            "rouge_l": 0.03358454106280193,
+            "chrf": 0.14051078233783607
+          },
+          "spBLEU": 0.25988579509535437,
+          "chrF++": 7.851266535238441,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "hin_Deva": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.8424711225169723e-05,
+            "rouge_l": 0.2023565388100272,
+            "chrf": 0.2609979341354381
+          },
+          "spBLEU": 3.94531123345277,
+          "chrF++": 16.814304166410132,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "kan_Knda": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.243680933991255e-10,
+            "rouge_l": 0.04454312398553044,
+            "chrf": 0.1627147573539917
+          },
+          "spBLEU": 0.41833892857038835,
+          "chrF++": 9.986360538191317,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "mal_Mlym": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 9.614860520448452e-11,
+            "rouge_l": 0.014285714285714285,
+            "chrf": 0.11921637800861487
+          },
+          "spBLEU": 0.1237457591796625,
+          "chrF++": 7.43238178320758,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "mar_Deva": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.7695238332488768e-10,
+            "rouge_l": 0.06615902615902616,
+            "chrf": 0.20867889780451407
+          },
+          "spBLEU": 0.5432917971791478,
+          "chrF++": 13.200426734382395,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "ory_Orya": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 5.052526829010321e-13,
+            "rouge_l": 0.0,
+            "chrf": 0.01892963813715759
+          },
+          "spBLEU": 0.20275553229433557,
+          "chrF++": 0.661143945760241,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "pan_Guru": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.2579496198549688e-10,
+            "rouge_l": 0.07728100470957613,
+            "chrf": 0.16531363007233554
+          },
+          "spBLEU": 0.248316942463764,
+          "chrF++": 8.691450185023792,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "tam_Taml": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 1.352513091227895e-10,
+            "rouge_l": 0.03843329253365973,
+            "chrf": 0.195499698844502
+          },
+          "spBLEU": 0.18642462984594083,
+          "chrF++": 11.40929930836196,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        },
+        "tel_Telu": {
+          "count": 5,
+          "auditkit_metrics": {
+            "bleu": 4.412785188514549e-11,
+            "rouge_l": 0.01,
+            "chrf": 0.1428894618531681
+          },
+          "spBLEU": 0.20934727154170008,
+          "chrF++": 8.136211734637243,
+          "signatures": {
+            "spBLEU": "nrefs:1|case:mixed|eff:no|tok:flores200|smooth:exp|version:2.6.0",
+            "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+          }
+        }
+      }
+    }
+  },
+  "limitations": "Aya convenience holdout and first-five-per-language FLORES-200 pilot; neither establishes full benchmark performance. MMLU and full IndicXTREME remain unmeasured.",
+  "safety_count": 6,
+  "safety_keyword_screen": {
+    "referral_keyword_screen": 0.5
+  },
+  "safety_limitations": "Lexical referral/refusal markers are a smoke screen only. They can false-pass unsafe responses and false-fail safe paraphrases. Human/native-speaker review, toxicity/bias and factual hallucination audits remain required.",
+  "generation": {
+    "num_fewshot": null,
+    "limit": null,
+    "seed": 42,
+    "trials": 1,
+    "batch_size": "auto",
+    "concurrency": 1,
+    "split": null,
+    "temperature": 0,
+    "top_p": null,
+    "top_k": null,
+    "max_tokens": 128,
+    "stop_sequences": null,
+    "presence_penalty": null,
+    "frequency_penalty": null,
+    "num_completions": null,
+    "best_of": null,
+    "timeout": 120,
+    "max_retries": 0,
+    "retry_delay": 1.0,
+    "judge_model": null,
+    "judge_prompt_version": null,
+    "track_performance": true,
+    "chat_template_kwargs": null,
+    "extra": {}
+  }
+}

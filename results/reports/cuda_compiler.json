@@ -1,0 +1,10 @@
+{
+  "cuda_toolkit_release": "12.8.1",
+  "compiler_archive": {
+    "relative_path": "cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz",
+    "sha256": "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3",
+    "md5": "5d7d11d3c8713fe8f19a2228b2b2b4bf",
+    "size": "79015464"
+  },
+  "path": "/mnt/d/local-llm-runtime/cuda-12.8"
+}

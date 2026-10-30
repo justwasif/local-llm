@@ -1,0 +1,11 @@
+{
+  "dataset": "original FLORES-200 (not FLORES+)",
+  "url": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+  "archive_sha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6",
+  "license": "CC-BY-SA-4.0",
+  "split": "devtest",
+  "count": 50,
+  "per_language": 5,
+  "selection": "First five aligned devtest rows, fixed before model evaluation",
+  "limitations": "Small pilot only; not full-benchmark performance. Never used for training."
+}

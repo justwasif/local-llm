@@ -21,3 +21,9 @@ results/**/*.csv
 *.pt
 wandb/
 .pytest_cache/
+.ruff_cache/
+# Local authentication and conversation state (back up privately).
+/data/auth-secret
+/data/schedules.json
+/data/server.lock
+/data/sessions.sqlite3*

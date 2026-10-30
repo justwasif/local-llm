@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:7860",
+  "loaded_model_path": "/mnt/c/Users/Krish/local-llm/outputs/local_1_5b_dpo_merged",
+  "checks": [
+    "HTTP page",
+    "real queued streaming",
+    "Unicode input preserved",
+    "Hindi-script response",
+    "follow-up history",
+    "empty message",
+    "clear"
+  ],
+  "stream_updates": 32,
+  "prompt": "नमस्ते! दो और दो कितने होते हैं? केवल एक छोटा वाक्य लिखें।",
+  "response": "दो और दो होते हैं, तीन कितने होते हैं?",
+  "followup_response": "2 और 2 होते हैं, तीन कितने होते हैं?",
+  "arithmetic_answer_marker_present": false,
+  "quality_limit": "Arithmetic marker presence is a limited diagnostic, not a factual correctness score. Functional success must not be read as model-quality success. The initial pre-fix GUI responses are preserved in gui_verification_before_history_fix.json.",
+  "visual_browser_check": "blocked: no browser connector; computer-use tool rejected Chrome access as not approved",
+  "limitations": "Functional API smoke test; not independent language-quality or visual-layout verification."
+}
